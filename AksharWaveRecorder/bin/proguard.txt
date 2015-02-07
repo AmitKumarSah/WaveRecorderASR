@@ -1,0 +1,53 @@
+# view AndroidManifest.xml #generated:50
+-keep class com.aksharspeech.waverecorder.ASRActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.aksharspeech.waverecorder.Loadingpage { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.aksharspeech.waverecorder.SelectionMenuActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.aksharspeech.waverecorder.SentenceRecordingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.aksharspeech.waverecorder.UserActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.aksharspeech.waverecorder.WordRecordingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.cybern.util.IncomingSms { <init>(...); }
+
+# onClick res/layout/lyuserinfo.xml #generated:150
+-keepclassmembers class * { *** okClick(...); }
+
+# onClick res/layout/lyasr.xml #generated:8
+-keepclassmembers class * { *** onAsrClick(...); }
+
+# onClick res/layout/lyselectionpage.xml #generated:19
+-keepclassmembers class * { *** onClickASR(...); }
+
+# onClick res/layout/lysentrecording.xml #generated:46
+-keepclassmembers class * { *** onClickNext(...); }
+
+# onClick res/layout/lysentrecording.xml #generated:26
+-keepclassmembers class * { *** onClickPlay(...); }
+
+# onClick res/layout/lysentrecording.xml #generated:35
+-keepclassmembers class * { *** onClickPrev(...); }
+
+# onClick res/layout/lyselectionpage.xml #generated:10
+-keepclassmembers class * { *** onClickSentence(...); }
+
+# onClick res/layout/lyselectionpage.xml #generated:27
+-keepclassmembers class * { *** onClickWord(...); }
+
+# onClick res/layout/lyuserinfo.xml #generated:141
+-keepclassmembers class * { *** onLastUser(...); }
+
+# onClick res/layout/lysentrecording.xml #generated:58
+# onClick res/layout/lywordrecord.xml #generated:14
+# onClick res/layout/lywordrecord.xml #generated:47
+-keepclassmembers class * { *** startRecording(...); }
+
