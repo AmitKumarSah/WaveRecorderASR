@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/back_green"
+	android:padding="30sp"
+	style="@android:attr/buttonBarStyle"
+	android:orientation="vertical" >
+	
+	<Button
+		style="@android:attr/buttonBarButtonStyle"
+		android:id="@+id/SpbtnSentence"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="30sp"
+		android:onClick="onClickSentence"
+		android:text="@string/sentence" />
+	
+	<Button
+		style="@android:attr/buttonBarButtonStyle"
+		android:id="@+id/SpbtnASR"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="30sp"
+		android:onClick="onClickASR"
+		android:text="@string/speech" />
+	<Button
+		style="@android:attr/buttonBarButtonStyle"
+		android:id="@+id/SpbtnWord"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:onClick="onClickWord"
+		android:text="@string/word" />
+</LinearLayout>

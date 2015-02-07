@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Akshar Wave Recorder</string>
+    <string name="button1">Open</string>
+    <string name="button2">Record</string>
+    <string name="button4">Previous</string>
+    <string name="button5">Play</string>
+    <string name="button6">Next</string>
+    <string name="end">End reached</string>
+    <string name="start">Starting reached</string>
+    <string name="filearea">Please open a file </string>
+    <string name="action_samplerate">Set Samplerate</string>
+    <string name="front_image">Front page image</string>
+    <string name="action_alwaysplay">Always Play</string>
+    <string name="action_alwaysrecord">Always Record</string>
+    <string name="action_audioencoding">Select Audio Incoding</string>
+    <string name="action_gain">Set Gain</string>
+    <string name="gain">Gain: </string>
+    <string name="name">UserName</string>
+    <string name="age">Age</string>
+    <string name="environment">Environment</string>
+    <string-array name="environment_array">
+        <item>In-house Hall</item>
+        <item>In-houe Bed Room</item>
+        <item>In-house Kitchen</item>
+        <item>Outside house</item>
+        <item>In traffic</item>
+    </string-array>
+    
+    <string name="os">Phone Model</string>
+    <string-array name="os_array">
+        <item>Android-low end</item>
+        <item>Android-high end</item>
+        <item>Android-medium end</item>
+        <item>IOS</item>
+        <item>Others</item>
+    </string-array>
+    <string name="u_time">Time and Date</string>
+    <string name="language">Native Language</string>
+    <string-array name="language_array">
+        <item>Telugu</item>
+        <item>Tamil</item>
+        <item>Kannada</item>
+        <item>Malayalam</item>
+        <item>Marathi</item>
+        <item>Bengali</item>
+        <item>North-east</item>
+        <item>Punjabi</item>
+        <item>UP Hindi</item>
+        <item>Gujarati</item>
+        <item>Others</item>
+    </string-array>
+    <string name="place">Native Place</string>
+    <string name="education">Education</string>
+    <string-array name="education_array">
+        <item>10th and below</item>
+        <item>Intermediate</item>
+        <item>Graduate</item>
+        <item>Post-Graduate</item>
+    </string-array>
+    <string name="gender">Gender</string>
+    <string-array name="gender_array">
+        <item >Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="type">Recording Type</string>
+    <string-array name="type_array">
+        <item>Bluetooth</item>
+        <item>EarPhones</item>
+        <item>Distance</item>
+    </string-array>
+    <string name="send">Proceed</string>
+    <string name="usersend">Send</string>
+    <string name="time"> 00\' 00" </string>
+    <string name="goto_root">..</string>
+    <string name="save">Save</string>
+    <string name="word">Word Record</string>
+	<string name="sentence">Sentence Record</string> 
+	<string name="status">Not Recording</string> 
+	<string name="personname">Name</string> 
+	<string name="last_user">Last User</string> 
+	<string name="chronometer">Chronometer</string> 
+	<string name="speech">Speech</string> 
+	<string name="record_button">Record Button</string> 
+	<string name="asrtextdata">Kindly Press Button and Say the Command</string>      
+
+</resources>

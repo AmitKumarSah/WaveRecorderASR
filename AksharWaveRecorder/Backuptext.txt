@@ -1,0 +1,320 @@
+// private void startPlayingAudio(String audioplayfile) {
+// if (!mIsRecording) {
+// if (!mIsPlaying) {
+// mIsPlaying = true;
+// mPlayer = new MediaPlayer();
+// try {
+// mPlayer.setDataSource(audioplayfile);
+// mPlayer.prepare();
+// mPlayer.start();
+// resetTimer();
+// cnMeter.start();
+// play.setImageResource(R.drawable.stop);
+// mPlayer.setOnCompletionListener(new OnCompletionListener() {
+//
+// public void onCompletion(MediaPlayer mPlayer) {
+// stopPlayingAudio();
+// }
+// });
+//
+// } catch (IOException e) {
+// Log.e(Tag, "prepare() failed");
+// }
+// } else
+// stopPlayingAudio();
+//
+// } else
+// Log.i(Tag, "Recording is still going on");
+// }
+//
+// private void stopPlayingAudio() {
+// if (mPlayer.isPlaying()) {
+// mPlayer.release();
+// mPlayer = null;
+// }
+// cnMeter.stop();
+// play.setImageResource(R.drawable.play_button);
+// mIsPlaying = false;
+// }
+
+// private void writeAudioDataToFile() {// TODO: remove after testing
+// AudioRecordtemp();
+// AudioRecordTest();
+// short data[] = new short[bufferSize];
+//
+// FileOutputStream os = null;
+// try {
+// os = new FileOutputStream(mTempAudioFileName);
+// } catch (FileNotFoundException e) {
+// e.printStackTrace();
+// }
+// int noByte;
+// if (null != os) {
+// while (mRecording) {
+// // gets the voice output from microphone to byte format
+// noByte = mAKRecorder.read(data, 0, bufferSize);
+// if (AudioRecord.ERROR_INVALID_OPERATION != noByte) {
+// try {
+// os.write(waveRecorder.gainAudio(data, noByte, gain), 0,
+// bufferSize * BytesPerElement);
+// } catch (IOException e) {
+// e.printStackTrace();
+// }
+// }
+// }
+//
+// try {
+// os.close();
+// } catch (IOException e) {
+// e.printStackTrace();
+// }
+// }
+// }
+//
+// }
+
+// private void startPlayingFile(String audioplayfile) {
+// this.startPlayingAudio(audioplayfile);
+// }
+
+// public void startPlayingFile_backup(String audioplayfile) {
+// if (!mRecording) {
+// if (mPlaying) {
+// isPlaying = true;
+// mPlayer = new MediaPlayer();
+// try {
+// mPlaying = !mPlaying;
+// mPlayer.setDataSource(audioplayfile);
+// mPlayer.prepare();
+// mPlayer.start();
+// cnMeter.start();
+// play.setImageResource(R.drawable.stop);
+// mPlayer.setOnCompletionListener(new OnCompletionListener() {
+//
+// public void onCompletion(MediaPlayer mPlayer) {
+// stopPlaying();
+// }
+// });
+// } catch (IOException e) {
+// Log.e(Tag, "prepare() failed");
+// }
+// } else {
+// stopPlaying();
+// }
+//
+// }
+// }
+//
+// private void stopPlaying() {
+// mPlayer.release();
+// cnMeter.stop();
+// mPlayer = null;
+// play.setImageResource(R.drawable.play_button);
+// mPlaying = !mPlaying;
+// }
+//
+// private void writeAudioDataToFile_Change(float gain) {
+//
+// StringTokenizer tokens = new StringTokenizer(line[mIndex], ")");
+// mCurrentLineNumber = tokens.nextToken();
+//
+// CyberNWaveRecorder.setAUDIOFILENAME(senRecord
+// .genrateAudioFileName(mCurrentLineNumber));
+//
+// waveRecorder.writeAudioDataToFileWithGain(gain);
+// }
+
+// private void copyWaveFile_Changed() {// TODO: remove after testing and
+// // confirmation
+// FileInputStream in = null;
+// FileOutputStream out = null;
+// long totalAudioLen = 0;
+// long totalDataLen = totalAudioLen + 36;
+// long longSampleRate = RECORDER_SAMPLERATE;
+// int channels = 1; // use 2 if doesn't work
+// long byteRate = (RECORDER_BPP * RECORDER_SAMPLERATE * channels) / 8;
+//
+// byte[] data = new byte[bufferSize];
+//
+// try {
+// in = new FileInputStream(mTempAudioFileName);
+// out = new FileOutputStream(mAudioRecordedFile);
+// totalAudioLen = in.getChannel().size();
+// totalDataLen = totalAudioLen + 36;
+//
+// // AppLog.logString("File size: " + totalDataLen);
+//
+// waveRecorder.WriteWaveFileHeader(out, totalAudioLen, totalDataLen,
+// longSampleRate, channels, byteRate);
+//
+// while (in.read(data) != -1) {
+// out.write(data);
+// }
+//
+// in.close();
+// out.close();
+// } catch (FileNotFoundException e) {
+// e.printStackTrace();
+// } catch (IOException e) {
+// e.printStackTrace();
+// }
+// }
+
+// private void resetTimer() {
+//
+// cnMeter.setBase(0);
+// cnMeter.setBase(SystemClock.currentThreadTimeMillis()
+// - SystemClock.currentThreadTimeMillis());
+// Log.i(Tag, "BaseTime=" + cnMeter.getBase());
+// }
+
+// private void AudioRecordtemp() {
+// File folder = new File(Environment.getExternalStorageDirectory()
+// .getAbsolutePath() + "/AksharRecorder");
+// boolean success = true;
+//
+// if (!folder.exists()) {
+// success = folder.mkdir();
+// if (success) {
+// mTempAudioFileName = Environment.getExternalStorageDirectory()
+// .getAbsolutePath();
+// mTempAudioFileName += "/AksharRecorder/audiorecordtest.wav";
+// } else {
+// mTempAudioFileName = Environment.getExternalStorageDirectory()
+// .getAbsolutePath();
+// mTempAudioFileName += "/audiorecordtest.wav";
+// }
+// } else {
+// mTempAudioFileName = Environment.getExternalStorageDirectory()
+// .getAbsolutePath();
+// mTempAudioFileName += "/AksharRecorder/audiorecordtest.wav";
+// }
+// }
+
+// end of onCreate()
+
+// private void AudioRecordTest() {
+// int i = 0;
+// boolean success = true;
+// String filename = "";
+// StringTokenizer tokens = new StringTokenizer(line[mIndex], ")");
+// mCurrentLineNumber = tokens.nextToken();
+// StringTokenizer toke = new StringTokenizer(mTextFileName, "/");
+// while (toke.hasMoreTokens())
+// filename = toke.nextToken();
+// StringTokenizer token = new StringTokenizer(filename, ".");
+// String filename2 = token.nextToken();
+// File folder = new File(Environment.getExternalStorageDirectory()
+// .getAbsolutePath()
+// + "/AksharRecorder/"
+// + userInfo.sUserName
+// + "_"
+// + userInfo.sGender
+// + "_"
+// + userInfo.iAge
+// + "_"
+// + userInfo.sLang + "_" + userInfo.sType + "/" + filename2);
+// if (!folder.exists()) {
+// i = 0;
+// success = folder.mkdirs();
+// if (success) {
+// mAudioRecordedFile = Environment.getExternalStorageDirectory()
+// .getAbsolutePath();
+// mAudioRecordedFile += "/AksharRecorder/" + userInfo.sUserName
+// + "_" + userInfo.sGender + "_" + userInfo.iAge + "_"
+// + userInfo.sLang + "_" + userInfo.sType + "/"
+// + filename2 + "/" + mCurrentLineNumber + ".wav";
+// i += 1;
+// File q2 = new File(mAudioRecordedFile);
+// if (q2.exists())
+// q2.delete();
+// } else {
+// mAudioRecordedFile = Environment.getExternalStorageDirectory()
+// .getAbsolutePath();
+// mAudioRecordedFile += "/" + mCurrentLineNumber + ".wav";
+// i += 1;
+// File q2 = new File(mAudioRecordedFile);
+// if (q2.exists())
+// q2.delete();
+// }
+// } else {
+// mAudioRecordedFile = Environment.getExternalStorageDirectory()
+// .getAbsolutePath();
+// mAudioRecordedFile += "/AksharRecorder/" + userInfo.sUserName + "_"
+// + userInfo.sGender + "_" + userInfo.iAge + "_"
+// + userInfo.sLang + "_" + userInfo.sType + "/" + filename2
+// + "/" + mCurrentLineNumber + ".wav";
+// i += 1;
+// File q2 = new File(mAudioRecordedFile);
+// if (q2.exists())
+// q2.delete();
+// }
+// }
+
+/**
+ * copy wave file and save it
+ */
+// private void copyWaveFile() {
+// CyberNWaveRecorder.setAUDIOFILENAME(senRecord
+// .genrateAudioFileName(mCurrentLineNumber));
+// String tempFilename = waveRecorder.getTempFilename();
+// String outfilename = CyberNWaveRecorder.getAUDIOFILENAME();
+// Log.i(Tag, "copywaveFile_tempfile=" + tempFilename);
+// Log.i(Tag, "copywaveFile_outsavefile=" + outfilename);
+// waveRecorder.copyWaveFile(tempFilename, outfilename);
+//
+// }
+
+// private void initRecord() {
+// bufferSize = AudioRecord.getMinBufferSize(RECORDER_SAMPLERATE,
+// RECORDER_CHANNELS, RECORDER_AUDIO_ENCODING);
+// Log.i(Tag, "BufferSize=" + bufferSize);
+//
+// }
+//
+// private void startRecord() {
+// if (!mIsPlaying && !mIsRecording) {
+// mIsRecording = true;
+// findViewById(R.id.RcdBtnNext).setEnabled(false);
+// findViewById(R.id.RcdBtnPrev).setEnabled(false);
+// initRecord();
+// mAKRecorder = new AudioRecord(
+// MediaRecorder.AudioSource.VOICE_COMMUNICATION,
+// RECORDER_SAMPLERATE, RECORDER_CHANNELS,
+// RECORDER_AUDIO_ENCODING, bufferSize
+// * BytesPerElement);
+// cnMeter.start();
+// record.setImageResource(R.drawable.stop);
+// //int vb = mAKRecorder.getState();
+// if (mAKRecorder.getState() == 1) {
+// mAKRecorder.startRecording();
+// recordingThread = new Thread(new Runnable() {
+// @Override
+// public void run() {
+// writeAudioDataToFile();
+// // TODO:amit kumar
+// }
+// }, "AudioRecorder Thread");
+// recordingThread.start();
+// }
+//
+// } else
+// Log.i(Tag, "StartRecord_Player or record already on");
+//
+// }
+//
+ private void stopRecord(){
+	 if (null != mAKRecorder && mIsRecording) {
+		mAKRecorder.stop();
+		mAKRecorder.release();
+		mAKRecorder = null;
+ 		recordingThread = null;
+ 		findViewById(R.id.RcdBtnNext).setEnabled(true);
+ 		findViewById(R.id.RcdBtnPrev).setEnabled(true);
+ 		copyWaveFile();
+ 		waveRecorder.deleteTempFile();
+ 		record.setImageResource(R.drawable.record_button);
+ 		this.cnMeter.stop();
+ 		mIsRecording=false;
+ 	}
+ }

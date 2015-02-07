@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent" >
+	<TableLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:paddingLeft="10sp"
+		android:paddingRight="10sp" >
+		<TableRow>
+			<TextView
+				android:id="@+id/textView1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/name" />
+			<EditText
+				android:id="@+id/etUserName"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:inputType="text" />
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:id="@+id/infotvname"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/personname" />
+			<EditText
+				android:id="@+id/infoetFirstname"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:inputType="textPersonName" />
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:id="@+id/textView2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/age" />
+			<EditText
+				android:id="@+id/etAge"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:ems="5"
+				android:inputType="number" />
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:id="@+id/textView3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/environment" />
+			<Spinner
+				android:id="@+id/spEniv"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:entries="@array/environment_array" />
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:id="@+id/textView4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/os" />
+			<Spinner
+				android:id="@+id/spPhoneModel"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:entries="@array/os_array" />
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:id="@+id/textView6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/language" />
+			<Spinner
+				android:id="@+id/spLang"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:entries="@array/language_array" />
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:id="@+id/textView7"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/place" />
+			<EditText
+				android:id="@+id/etPlace"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:inputType="text" />
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:id="@+id/textView8"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/education" />
+			<Spinner
+				android:id="@+id/spEducation"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:entries="@array/education_array" />
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:id="@+id/textView9"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/gender" />
+			<Spinner
+				android:id="@+id/spGender"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:entries="@array/gender_array" />
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:id="@+id/textView10"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/type" />
+			<Spinner
+				android:id="@+id/spType"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:entries="@array/type_array" />
+		</TableRow>
+		<TableRow
+			style="@android:attr/borderlessButtonStyle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:focusable="true"
+			android:padding="10dp" >
+			<Button
+				android:id="@+id/infoBTNLastUser"
+				style="@android:attr/borderlessButtonStyle"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:onClick="onLastUser"
+				android:text="@string/last_user" >
+				<requestFocus />
+			</Button>
+			<Button
+				android:id="@+id/button111"
+				style="@android:attr/buttonBarStyle"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:onClick="okClick"
+				android:text="@string/send" />
+		</TableRow>
+	</TableLayout>
+</ScrollView>
