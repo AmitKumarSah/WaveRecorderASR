@@ -23,8 +23,8 @@ import com.cybern.net.FileUploader;
 import com.cybern.waverecorder.WaveRecorder;
 
 /**
- * RemoteASR
- * 	Its uses the remote ASR developed by Akshar Speech.
+ * RemoteASR Its uses the remote ASR developed by Akshar Speech.
+ * 
  * @author amitkumarsah
  * 
  */
@@ -42,7 +42,9 @@ public class RemoteASR {
 
 	/**
 	 * Default Constructor.
-	 * @param activity  Must pass the current activity refernce.
+	 * 
+	 * @param activity
+	 *            Must pass the current activity refernce.
 	 */
 	public RemoteASR(Activity activity) {
 		this.mAct = activity;
@@ -66,7 +68,8 @@ public class RemoteASR {
 	/**
 	 * It will upload the wave file to Akshar ASR Server
 	 * 
-	 * @param audiofilename audio file path
+	 * @param audiofilename
+	 *            audio file path
 	 */
 	public void uploadFile(final String audiofilename) {
 		Thread th = new Thread(new Runnable() {
@@ -79,6 +82,7 @@ public class RemoteASR {
 				if (response != null && response.contains("Error")) {
 					Log.e("UPLOADER", response);
 					doTost(response);
+					doPostError();
 					Looper.myLooper().quit();
 
 				} else {
@@ -97,7 +101,8 @@ public class RemoteASR {
 	/**
 	 * Its handler for Audio Uploaded to decode the audio file
 	 * 
-	 * @param response Message received from server
+	 * @param response
+	 *            Message received from server
 	 */
 	private void doPostUpload(String response) {
 		Log.i("doPostUpload", response);
@@ -110,6 +115,7 @@ public class RemoteASR {
 				if (response != null && response.contains("Error")) {
 					Log.e("doPostUpload_error", response);
 					doTost(response);
+					doPostError();
 					Looper.myLooper().quit();
 
 				} else {
@@ -126,7 +132,23 @@ public class RemoteASR {
 	}
 
 	/**
-	 * Its handler for Audio Decoder. It will show on the UI 
+	 * After the Error Message is over.
+	 */
+	private void doPostError() {
+		mAct.runOnUiThread(new Runnable() {
+			@Override
+			public void run() {
+				TextView tv = (TextView) mAct.findViewById(R.id.asrTVTextData);
+				tv.setText("Kindly Press the record button");
+
+			}
+		});
+
+	}
+
+	/**
+	 * Its handler for Audio Decoder. It will show on the UI
+	 * 
 	 * @param response
 	 */
 	private void doPostData(String response) {
@@ -166,7 +188,7 @@ public class RemoteASR {
 	}
 
 	/**
-	 * It will change or show the message and  update on UI Thread. 
+	 * It will change or show the message and update on UI Thread.
 	 * 
 	 * @param msg
 	 */
@@ -183,8 +205,8 @@ public class RemoteASR {
 	}
 
 	/**
-	 * Display message through toast message.  
-	 * It will do in UI thread
+	 * Display message through toast message. It will do in UI thread
+	 * 
 	 * @param msg
 	 */
 	private void doTost(final String msg) {
@@ -225,8 +247,6 @@ public class RemoteASR {
 
 	}
 
-	
-
 	/**
 	 * It will stop recording and will call the uploader to decode the audio
 	 */
@@ -250,14 +270,15 @@ public class RemoteASR {
 				uploadFile(WaveRecorder.getAudioFileName());
 
 			} else {
-				Toast.makeText(mAct, "Kindly say is again!", Toast.LENGTH_SHORT).show();
+				Toast.makeText(mAct, "Kindly say is again!", Toast.LENGTH_SHORT)
+						.show();
 			}
 		}
 
 	}
 
-	/** 
-	 * Start the recording 
+	/**
+	 * Start the recording
 	 */
 	private void startRecording() {
 		if (!mIsRecording)
