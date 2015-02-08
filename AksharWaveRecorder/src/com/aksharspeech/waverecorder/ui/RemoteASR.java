@@ -210,8 +210,11 @@ public class RemoteASR {
 
 	private void startRecording() {
 
+		float gain=80;
+		gain=gain/100;
+		WaveRecorder.outParameters();
 		if (!mIsRecording)
-			waveRecord.startRecord(80);
+			waveRecord.startRecord(gain);
 
 	}
 
@@ -222,6 +225,8 @@ public class RemoteASR {
 		WaveRecorder.setAudioFolder(Environment.getExternalStorageDirectory()
 				.getAbsolutePath() + RECORDER_FOLDER);
 		waveRecord.setTempFilename();
+		waveRecord.initRecording();
+		WaveRecorder.outParameters();
 
 	}
 

@@ -65,6 +65,15 @@ public class WaveRecorder {
 		RECORDER_BPP = bpp;
 		return true;
 	}
+	
+	public static void outParameters() {
+		Log.i("RECORDER_SAMPLERATE", ""+RECORDER_SAMPLERATE);
+		Log.i("RECORDER_CHANNELS", ""+RECORDER_CHANNELS);
+		Log.i("RECORDER_AUDIO_ENCODING", ""+RECORDER_AUDIO_ENCODING);
+		Log.i("RECORDER_BPP", ""+RECORDER_BPP);
+		
+		
+	}
 
 	/**
 	 * Basic Variables
