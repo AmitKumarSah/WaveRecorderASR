@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package com.cybern.util;
 
 import android.content.BroadcastReceiver;
@@ -46,13 +44,11 @@ public class IncomingSms extends BroadcastReceiver {
 					String senderNum = phoneNumber;
 					String message = currentMessage.getDisplayMessageBody();
 
-					Log.i("SmsReceiver", "senderNum: " + senderNum
-							+ "; message: " + message);
-
 					// Show Alert
 					int duration = Toast.LENGTH_LONG;
-					Toast toast = Toast.makeText(context, "senderNum: "
-							+ senderNum + ", message: " + message, duration);
+					// Receive 
+					Toast toast = Toast.makeText(context, "You Receive sms from "
+							+ senderNum + ", it says " + message, duration);
 					toast.show();
 
 				} // end for loop
