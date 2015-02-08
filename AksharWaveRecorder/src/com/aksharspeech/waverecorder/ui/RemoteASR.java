@@ -4,12 +4,12 @@
 package com.aksharspeech.waverecorder.ui;
 
 import java.io.File;
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
 import android.app.Activity;
+import android.content.Context;
 import android.media.AudioFormat;
 import android.os.Environment;
 import android.os.Looper;
@@ -20,71 +20,86 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.aksharspeech.waverecorder.R;
-import com.cybern.net.NetUploader;
+import com.cybern.net.FileUploader;
 import com.cybern.waverecorder.WaveRecorder;
 
 /**
+ * RemoteASR
+ * 	Its uses the remote ASR developed by Akshar Speech.
  * @author amitkumarsah
  * 
  */
 public class RemoteASR {
 	private Activity mAct = null;
-	private NetUploader mFileUpload = null;
+	private FileUploader mFileUpload = null;
+	private static final String RECORDER_FOLDER = "/AksharRecorder";
 	// private final String mBaseURL="http://ravi.iiit.ac.in/ASR/";
 	private final String mBaseURL = "http://msg2voice.com/ASR/";
 	private final String mUploadURL = mBaseURL + "uploader.php";
 	private final String mDecodeURL = mBaseURL + "decode.php";
 	private boolean mIsRecording = false;
 	private WaveRecorder waveRecord = null;
+	private static float mGain = 80;
 
 	/**
-	 * @param activity
+	 * Default Constructor.
+	 * @param activity  Must pass the current activity refernce.
 	 */
 	public RemoteASR(Activity activity) {
 		this.mAct = activity;
-		this.mFileUpload = new NetUploader(activity, mUploadURL);
+		this.mFileUpload = new FileUploader();
 		initRecorder();
+		mGain = 80;
+		mGain = mGain / 100;
 	}
 
+	/**
+	 * Its return the IEMI Number of the user phone
+	 * 
+	 * @return Its return the IEMI Number of the user phone.
+	 */
 	public String getEMINumber() {
-		String emiNumber = "MOBILEEMINO";
-
 		TelephonyManager telephonyManager = (TelephonyManager) mAct
-				.getSystemService(mAct.TELEPHONY_SERVICE);
-		emiNumber = telephonyManager.getDeviceId();
-		Log.i("EMI_NO", emiNumber);
-		return emiNumber;
-
+				.getSystemService(Context.TELEPHONY_SERVICE);
+		return telephonyManager.getDeviceId();
 	}
 
+	/**
+	 * It will upload the wave file to Akshar ASR Server
+	 * 
+	 * @param audiofilename audio file path
+	 */
 	public void uploadFile(final String audiofilename) {
 		Thread th = new Thread(new Runnable() {
 			@Override
 			public void run() {
 				Looper.prepare();
-				String response = mFileUpload.upLoadFile(mAct, mUploadURL,
+				doOnUI("Kindly wait..");
+				String response = mFileUpload.uploadFile(mUploadURL,
 						audiofilename, getEMINumber());
-
-				if (response != null && response.contains("CMD_ERROR")) {
-
+				if (response != null && response.contains("Error")) {
 					Log.e("UPLOADER", response);
-					doTost("Error=" + response);
+					doTost(response);
 					Looper.myLooper().quit();
 
 				} else {
 
 					doPostUpload(response);
-					doOnUI("Uploading done, Got Response=" + response);
+					doOnUI("Kindly wait processing...");
 					Looper.myLooper().quit();
 				}
 				Looper.loop();
 			}
 		}, "FileUploaderThread");
 		th.start();
-		Log.i("filte", "started");
 
 	}
 
+	/**
+	 * Its handler for Audio Uploaded to decode the audio file
+	 * 
+	 * @param response Message received from server
+	 */
 	private void doPostUpload(String response) {
 		Log.i("doPostUpload", response);
 		Thread th = new Thread(new Runnable() {
@@ -93,9 +108,9 @@ public class RemoteASR {
 				Looper.prepare();
 				String response = mFileUpload.getPostData(mDecodeURL,
 						getEMINumber());
-				if (response != null && response.contains("CMD_ERROR")) {
+				if (response != null && response.contains("Error")) {
 					Log.e("doPostUpload_error", response);
-					doTost("Error=" + response);
+					doTost(response);
 					Looper.myLooper().quit();
 
 				} else {
@@ -111,13 +126,20 @@ public class RemoteASR {
 
 	}
 
+	/**
+	 * Its handler for Audio Decoder. It will show on the UI 
+	 * @param response
+	 */
 	private void doPostData(String response) {
 		Log.i("doPostData", response);
-		doOnUI("Text=" + response);
+		doOnUI("You asked for " + response + ".");
 		resetText();
 
 	}
 
+	/**
+	 * It will reset the text The TextView UI
+	 */
 	private void resetText() {
 		Thread th = new Thread(new Runnable() {
 
@@ -126,40 +148,64 @@ public class RemoteASR {
 				try {
 					Thread.sleep(120 * 1000);
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 					return;
 				}
-				doOnUI("Kindly Press the record button");
+				mAct.runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						TextView tv = (TextView) mAct
+								.findViewById(R.id.asrTVTextData);
+						tv.setText("Kindly Press the record button");
+
+					}
+				});
 
 			}
 		}, "reset_thread");
 		th.start();
 	}
 
+	/**
+	 * It will change or show the message and  update on UI Thread. 
+	 * 
+	 * @param msg
+	 */
 	private void doOnUI(final String msg) {
 		mAct.runOnUiThread(new Runnable() {
 			@Override
 			public void run() {
 				TextView tv = (TextView) mAct.findViewById(R.id.asrTVTextData);
 				tv.setText(msg);
-				Toast.makeText(mAct, "MSG=" + msg, Toast.LENGTH_LONG).show();
+				Toast.makeText(mAct, msg, Toast.LENGTH_SHORT).show();
 
 			}
 		});
 	}
 
+	/**
+	 * Display message through toast message.  
+	 * It will do in UI thread
+	 * @param msg
+	 */
 	private void doTost(final String msg) {
 		mAct.runOnUiThread(new Runnable() {
 			@Override
 			public void run() {
-				Toast.makeText(mAct, "MSG=" + msg, Toast.LENGTH_LONG).show();
+				if (msg.contains("Error")) {
+					Toast.makeText(mAct, "Error(" + msg + ")",
+							Toast.LENGTH_SHORT).show();
+				} else
+					Toast.makeText(mAct, msg, Toast.LENGTH_SHORT).show();
 
 			}
 		});
 
 	}
 
+	/**
+	 * It will record the audio. It onClick function for Record button.
+	 */
 	public void onRecordClick() {
 		if (!mIsRecording) {
 			ImageButton btn = (ImageButton) mAct
@@ -180,8 +226,11 @@ public class RemoteASR {
 
 	}
 
-	private static final String RECORDER_FOLDER = "/AksharRecorder";
+	
 
+	/**
+	 * It will stop recording and will call the uploader to decode the audio
+	 */
 	private void stopRecording() {
 
 		if (mIsRecording) {
@@ -191,7 +240,7 @@ public class RemoteASR {
 			new File(filename).mkdirs();
 			String currentDate = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss",
 					Locale.getDefault()).format(new Date());
-			filename = filename + currentDate+".wav";
+			filename = filename + currentDate + ".wav";
 			WaveRecorder.setAudioFileName(filename);
 			waveRecord.stopRecord();
 			while (waveRecord.ismIsRecording()) {
@@ -202,22 +251,24 @@ public class RemoteASR {
 				uploadFile(WaveRecorder.getAudioFileName());
 
 			} else {
-				// TODO: handle error sitution
+				Toast.makeText(mAct, "Kindly say is again!", Toast.LENGTH_SHORT).show();
 			}
 		}
 
 	}
 
+	/** 
+	 * Start the recording 
+	 */
 	private void startRecording() {
-
-		float gain=80;
-		gain=gain/100;
-		WaveRecorder.outParameters();
 		if (!mIsRecording)
-			waveRecord.startRecord(gain);
+			waveRecord.startRecord(mGain);
 
 	}
 
+	/**
+	 * It init the recorder with basic settings
+	 */
 	private void initRecorder() {
 		waveRecord = new WaveRecorder();
 		WaveRecorder.setParameters(16000, AudioFormat.CHANNEL_IN_MONO,
@@ -226,7 +277,33 @@ public class RemoteASR {
 				.getAbsolutePath() + RECORDER_FOLDER);
 		waveRecord.setTempFilename();
 		waveRecord.initRecording();
-		WaveRecorder.outParameters();
+
+	}
+
+	/**
+	 * Call on destroy of the activity. It clean up all variables
+	 */
+	public void onDestory() {
+		if (waveRecord != null) {
+			waveRecord.cancelRecord();
+			waveRecord = null;
+		}
+		if (mFileUpload != null) {
+			mFileUpload = null;
+		}
+	}
+
+	/**
+	 * Not implemented
+	 */
+	public void onResume() {
+
+	}
+
+	/**
+	 * Not implemented
+	 */
+	public void onRestart() {
 
 	}
 

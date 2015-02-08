@@ -14,11 +14,10 @@
 		android:src="@drawable/ic_action_recordbutton" />
 	<TextView
 		android:id="@+id/asrTVTextData"
-		android:layout_width="match_parent"
+		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_margin="10sp"
-		android:layout_marginTop="20sp"
-		android:ems="10"
+		android:layout_marginTop="30sp"
 		android:text="@string/asrtextdata"
 		android:textColor="@android:color/tertiary_text_dark"
 		android:typeface="serif" />

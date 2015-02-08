@@ -161,8 +161,6 @@ public class NetUploader {
 	public String getPostData(String url, String emi) {
 		try {
 			return this.getData(url);
-			// NetUploader upload = new NetUploader(mAct, url, emi);
-			// return upload.publish(emi);
 		} catch (Exception e) {
 			e.printStackTrace();
 			return "ERROR_Failed_TO_GET_DATA";
