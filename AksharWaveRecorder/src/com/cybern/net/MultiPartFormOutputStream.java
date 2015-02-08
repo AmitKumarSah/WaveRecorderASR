@@ -2,17 +2,10 @@ package com.cybern.net;
 
 import java.io.*;
 import java.net.*;
+
+import android.util.Log;
  
-/**
- * @author Shirin Joshi
- * 
- *  http://forums.sun.com/thread.jspa?threadID=451245&forumID=31
- * 
- * MultiPartFormOutputStream is used to write 
- * "multipart/form-data" to a java.net.URLConnection for 
- * POSTing.  This is primarily for file uploading to HTTP servers.  
- * 
- **/
+
 public class MultiPartFormOutputStream {
  /**
   * The line end characters.  
@@ -377,6 +370,7 @@ public class MultiPartFormOutputStream {
   */
  public static URLConnection createConnection(String strUrl) 
    throws java.io.IOException {
+	Log.i("URL=",strUrl);
   URL url = new URL(strUrl);
   return createConnection(url);
  }

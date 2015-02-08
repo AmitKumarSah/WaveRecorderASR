@@ -1,9 +1,13 @@
-package com.cybern.test;
+package com.cybern.net;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
@@ -11,9 +15,10 @@ import java.util.Locale;
 import java.util.Properties;
 
 import android.app.Activity;
+import android.app.backup.FileBackupHelper;
 import android.util.Log;
 
-public class NewUploader {
+public class NetUploader {
 
 	private String url;
 	private String mobileEMI;
@@ -29,7 +34,7 @@ public class NewUploader {
 	 * @param url
 	 * @param emino
 	 */
-	public NewUploader(Activity act, String url, String emino) {
+	public NetUploader(Activity act, String url, String emino) {
 		this.url = url;
 		this.mAct = act;
 		this.mobileEMI = emino;
@@ -41,7 +46,7 @@ public class NewUploader {
 			 * mimetypePropertiesFilename));
 			 */
 			mimeTypesProperties.load(Class.forName(
-					"com.cybern.test.NewUploader").getResourceAsStream(
+					"com.cybern.net.NetUploader").getResourceAsStream(
 					mimetypePropertiesFilename));
 
 		} catch (Exception e) {
@@ -49,7 +54,7 @@ public class NewUploader {
 		toastit("url=" + url);
 	}
 
-	public NewUploader(Activity act, String url) {
+	public NetUploader(Activity act, String url) {
 		this.url = url;
 		this.mAct = act;
 		mimeTypesProperties = new Properties();
@@ -60,7 +65,7 @@ public class NewUploader {
 			 * mimetypePropertiesFilename));
 			 */
 			mimeTypesProperties.load(Class.forName(
-					"com.cybern.test.NewUploader").getResourceAsStream(
+					"com.cybern.net.NetUploader").getResourceAsStream(
 					mimetypePropertiesFilename));
 
 		} catch (Exception e) {
@@ -158,8 +163,8 @@ public class NewUploader {
 	public String getPostData(String url, String emi) {
 		try {
 			return this.getData(url);
-			//NewUploader upload = new NewUploader(mAct, url, emi);
-			//return upload.publish(emi);
+			// NetUploader upload = new NetUploader(mAct, url, emi);
+			// return upload.publish(emi);
 		} catch (Exception e) {
 			e.printStackTrace();
 			return "ERROR_Failed_TO_GET_DATA";
@@ -182,8 +187,8 @@ public class NewUploader {
 			File fileList = new File(path);
 			mAct = act;
 			if (fileList.exists())
-				Log.i("NewUploader.UpLoadFile", fileList.getAbsolutePath());
-			NewUploader uploader = new NewUploader(act, url, emino);
+				Log.i("NetUploader.UpLoadFile", fileList.getAbsolutePath());
+			NetUploader uploader = new NetUploader(act, url, emino);
 			return uploader.publish(fileList, emino);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -288,7 +293,7 @@ public class NewUploader {
 			return "An Error Occured While Uploading Your file to Server.";
 		}
 	}
-	
+
 	public String getData(String strUrl) throws IOException {
 		URL url = new URL(strUrl);
 		URLConnection urlConn = url.openConnection();
@@ -296,7 +301,7 @@ public class NewUploader {
 			HttpURLConnection httpConn = (HttpURLConnection) urlConn;
 			httpConn.setRequestMethod("GET");
 		}
-		
+
 		urlConn.setDoInput(true);
 		urlConn.setDoOutput(true);
 		urlConn.setUseCaches(false);
@@ -311,17 +316,64 @@ public class NewUploader {
 		String res = "CMD=";
 		toastit("wow_getData");
 
-		try{
-		BufferedReader in = new BufferedReader(new InputStreamReader(
-				urlConn.getInputStream()));
-		while ((line = in.readLine()) != null) {
-			res = res + line;
-		}
-		in.close();
-		}catch(Exception e){
+		try {
+			BufferedReader in = new BufferedReader(new InputStreamReader(
+					urlConn.getInputStream()));
+			while ((line = in.readLine()) != null) {
+				res = res + line;
+			}
+			in.close();
+		} catch (Exception e) {
 			e.printStackTrace();
-			Log.e("ERROR", "in_error="+e.getMessage());
-			return res+"error";
+			Log.e("ERROR", "in_error=" + e.getMessage());
+			return res + "error";
+		}
+		return res;
+
+	}
+
+	public String postData(String strUrl, String filename) throws IOException {
+		URL url = new URL(strUrl);
+		URLConnection urlConn = url.openConnection();
+		if (urlConn instanceof HttpURLConnection) {
+			HttpURLConnection httpConn = (HttpURLConnection) urlConn;
+			httpConn.setRequestMethod("GET");
+		}
+
+		urlConn.setDoInput(true);
+		urlConn.setDoOutput(true);
+		urlConn.setUseCaches(false);
+		urlConn.setDefaultUseCaches(false);
+		urlConn.setRequestProperty("Accept", "*/*");
+		String boundary = MultiPartFormOutputStream.createBoundary();
+		urlConn.setRequestProperty("Content-Type",
+				MultiPartFormOutputStream.getContentType(boundary));
+		urlConn.setRequestProperty("Connection", "Keep-Alive");
+		urlConn.setRequestProperty("Cache-Control", "no-cache");
+		BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
+				urlConn.getOutputStream()));
+		FileReader read = new FileReader(filename);
+		char buffer[] = new char[265];
+		while (read.read(buffer) != -1) {
+			out.write(buffer);
+		}
+		read.close();
+		out.close();
+		String line = "";
+		String res = "upload=";
+		toastit("uploader");
+
+		try {
+			BufferedReader in = new BufferedReader(new InputStreamReader(
+					urlConn.getInputStream()));
+			while ((line = in.readLine()) != null) {
+				res = res + line;
+			}
+			in.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+			Log.e("ERROR", "in_error=" + e.getMessage());
+			return res + "error";
 		}
 		return res;
 

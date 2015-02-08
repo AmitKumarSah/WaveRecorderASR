@@ -4,6 +4,7 @@
 package com.aksharspeech.waverecorder.ui;
 
 import java.io.File;
+import java.io.IOException;
 
 import android.app.Activity;
 import android.media.AudioFormat;
@@ -11,10 +12,11 @@ import android.os.Environment;
 import android.os.Looper;
 import android.util.Log;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.aksharspeech.waverecorder.R;
-import com.cybern.test.NewUploader;
+import com.cybern.net.NetUploader;
 import com.cybern.waverecorder.WaveRecorder;
 
 /**
@@ -23,7 +25,7 @@ import com.cybern.waverecorder.WaveRecorder;
  */
 public class RemoteASR {
 	private Activity mAct = null;
-	private NewUploader mFileUpload = null;
+	private NetUploader mFileUpload = null;
 	private final String mUploadURL = "http://msg2voice.com/ASR/upload.php";
 	private final String mDecodeURL = "http://msg2voice.com/ASR/decode.php";
 	private boolean mIsRecording = false;
@@ -34,7 +36,7 @@ public class RemoteASR {
 	 */
 	public RemoteASR(Activity activity) {
 		this.mAct = activity;
-		this.mFileUpload = new NewUploader(activity, mUploadURL);
+		this.mFileUpload = new NetUploader(activity, mUploadURL);
 		initRecorder();
 	}
 
@@ -46,22 +48,31 @@ public class RemoteASR {
 
 	public void uploadFile(final String audiofilename) {
 		Thread th = new Thread(new Runnable() {
-
 			@Override
 			public void run() {
-				// TODO Auto-generated method stub
 				Looper.prepare();
-				String response = mFileUpload.upLoadFile(mAct, mUploadURL,
-						audiofilename, getEMINumber());
-				Log.i("THR", response);
+				// String response = mFileUpload.upLoadFile(mAct, mUploadURL,
+				//		audiofilename, getEMINumber());
+				String response="";
+				try {
+					response = mFileUpload.postData(mUploadURL, audiofilename);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+					doTost("Error=" + "onLoad"); return;
+					
+				}
+
 				if (response != null && response.contains("CMD_ERROR")) {
 
 					Log.e("UPLOADER", response);
+					doTost("Error=" + response);
 					Looper.myLooper().quit();
 
 				} else {
 
 					doPostUpload(response);
+					doOnUI("Uploading done, Got Response=" + response);
 					Looper.myLooper().quit();
 				}
 				Looper.loop();
@@ -74,18 +85,15 @@ public class RemoteASR {
 
 	private void doPostUpload(String response) {
 		Log.i("doPostUpload", response);
-		// TODO: do when the uploader had uploaded the file
 		Thread th = new Thread(new Runnable() {
-
 			@Override
 			public void run() {
-				// TODO Auto-generated method stub
 				Looper.prepare();
-
 				String response = mFileUpload.getPostData(mDecodeURL,
 						getEMINumber());
 				if (response != null && response.contains("CMD_ERROR")) {
 					Log.e("doPostUpload_error", response);
+					doTost("Error=" + response);
 					Looper.myLooper().quit();
 
 				} else {
@@ -103,12 +111,51 @@ public class RemoteASR {
 
 	private void doPostData(String response) {
 		Log.i("doPostData", response);
-		// TODO: implement what to do on this post you get data
+		doOnUI("Text=" + response);
+		resetText();
 
-		// TextView tv = (TextView) mAct.findViewById(R.id.asrTVTextData);
-		// tv.setText(response);
-		// Toast.makeText(mAct, "ASR got=" + response,
-		// Toast.LENGTH_LONG).show();
+	}
+
+	private void resetText() {
+		Thread th = new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				try {
+					Thread.sleep(120 * 1000);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+					return;
+				}
+				doOnUI("Kindly Press the record button");
+
+			}
+		}, "reset_thread");
+		th.start();
+	}
+
+	private void doOnUI(final String msg) {
+		mAct.runOnUiThread(new Runnable() {
+			@Override
+			public void run() {
+				TextView tv = (TextView) mAct.findViewById(R.id.asrTVTextData);
+				tv.setText(msg);
+				Toast.makeText(mAct, "MSG=" + msg, Toast.LENGTH_LONG).show();
+
+			}
+		});
+	}
+
+	private void doTost(final String msg) {
+		mAct.runOnUiThread(new Runnable() {
+			@Override
+			public void run() {
+				Toast.makeText(mAct, "MSG=" + msg, Toast.LENGTH_LONG).show();
+
+			}
+		});
+
 	}
 
 	public void onRecordClick() {
