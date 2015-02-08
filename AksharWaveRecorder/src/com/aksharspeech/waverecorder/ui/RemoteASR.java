@@ -5,11 +5,15 @@ package com.aksharspeech.waverecorder.ui;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 
 import android.app.Activity;
 import android.media.AudioFormat;
 import android.os.Environment;
 import android.os.Looper;
+import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -26,8 +30,10 @@ import com.cybern.waverecorder.WaveRecorder;
 public class RemoteASR {
 	private Activity mAct = null;
 	private NetUploader mFileUpload = null;
-	private final String mUploadURL = "http://msg2voice.com/ASR/upload.php";
-	private final String mDecodeURL = "http://msg2voice.com/ASR/decode.php";
+	// private final String mBaseURL="http://ravi.iiit.ac.in/ASR/";
+	private final String mBaseURL = "http://msg2voice.com/ASR/";
+	private final String mUploadURL = mBaseURL + "uploader.php";
+	private final String mDecodeURL = mBaseURL + "decode.php";
 	private boolean mIsRecording = false;
 	private WaveRecorder waveRecord = null;
 
@@ -42,6 +48,11 @@ public class RemoteASR {
 
 	public String getEMINumber() {
 		String emiNumber = "MOBILEEMINO";
+
+		TelephonyManager telephonyManager = (TelephonyManager) mAct
+				.getSystemService(mAct.TELEPHONY_SERVICE);
+		emiNumber = telephonyManager.getDeviceId();
+		Log.i("EMI_NO", emiNumber);
 		return emiNumber;
 
 	}
@@ -51,17 +62,8 @@ public class RemoteASR {
 			@Override
 			public void run() {
 				Looper.prepare();
-				// String response = mFileUpload.upLoadFile(mAct, mUploadURL,
-				//		audiofilename, getEMINumber());
-				String response="";
-				try {
-					response = mFileUpload.postData(mUploadURL, audiofilename);
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-					doTost("Error=" + "onLoad"); return;
-					
-				}
+				String response = mFileUpload.upLoadFile(mAct, mUploadURL,
+						audiofilename, getEMINumber());
 
 				if (response != null && response.contains("CMD_ERROR")) {
 
@@ -187,8 +189,9 @@ public class RemoteASR {
 					.getAbsolutePath();
 			filename = filename + RECORDER_FOLDER + "/ASR/";
 			new File(filename).mkdirs();
-			filename = filename + "lastes.wav";
-			// TODO:usefilename is current time
+			String currentDate = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss",
+					Locale.getDefault()).format(new Date());
+			filename = filename + currentDate+".wav";
 			WaveRecorder.setAudioFileName(filename);
 			waveRecord.stopRecord();
 			while (waveRecord.ismIsRecording()) {

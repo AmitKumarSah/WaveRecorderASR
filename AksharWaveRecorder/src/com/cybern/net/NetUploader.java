@@ -3,7 +3,6 @@ package com.cybern.net;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -15,7 +14,6 @@ import java.util.Locale;
 import java.util.Properties;
 
 import android.app.Activity;
-import android.app.backup.FileBackupHelper;
 import android.util.Log;
 
 public class NetUploader {
@@ -271,6 +269,7 @@ public class NetUploader {
 			if (mimeType == null) {
 				mimeType = "application/octet-stream";
 			}
+			toastit("FileLength="+f.length());
 			toastit("mimeType :: " + mimeType);
 			out.writeFile("file", mimeType, f);
 			out.close();
