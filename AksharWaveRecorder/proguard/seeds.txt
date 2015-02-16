@@ -18,14 +18,17 @@ com.aksharspeech.waverecorder.R$drawable: int change
 com.aksharspeech.waverecorder.R$drawable: int circle
 com.aksharspeech.waverecorder.R$drawable: int ic_action_pausebutton
 com.aksharspeech.waverecorder.R$drawable: int ic_action_playbutton
+com.aksharspeech.waverecorder.R$drawable: int ic_action_playnew
 com.aksharspeech.waverecorder.R$drawable: int ic_action_recordbutton
 com.aksharspeech.waverecorder.R$drawable: int ic_action_stopbutton
 com.aksharspeech.waverecorder.R$drawable: int ic_launcher
+com.aksharspeech.waverecorder.R$drawable: int plainborder
 com.aksharspeech.waverecorder.R$id: int RcdBtnNext
 com.aksharspeech.waverecorder.R$id: int RcdBtnPlay
 com.aksharspeech.waverecorder.R$id: int RcdBtnPrev
 com.aksharspeech.waverecorder.R$id: int RcdBtnRecord
 com.aksharspeech.waverecorder.R$id: int RcdTVfileArea
+com.aksharspeech.waverecorder.R$id: int RcdVisualizerView
 com.aksharspeech.waverecorder.R$id: int RcdchnoMeter
 com.aksharspeech.waverecorder.R$id: int SpbtnASR
 com.aksharspeech.waverecorder.R$id: int SpbtnSentence
@@ -53,6 +56,8 @@ com.aksharspeech.waverecorder.R$id: int infoBTNLastUser
 com.aksharspeech.waverecorder.R$id: int infoetFirstname
 com.aksharspeech.waverecorder.R$id: int infotvname
 com.aksharspeech.waverecorder.R$id: int layout_dialog
+com.aksharspeech.waverecorder.R$id: int lyButtonView
+com.aksharspeech.waverecorder.R$id: int lyTextView
 com.aksharspeech.waverecorder.R$id: int spEducation
 com.aksharspeech.waverecorder.R$id: int spEniv
 com.aksharspeech.waverecorder.R$id: int spGender
@@ -79,6 +84,7 @@ com.aksharspeech.waverecorder.R$layout: int lysetting_gain
 com.aksharspeech.waverecorder.R$layout: int lyuserinfo
 com.aksharspeech.waverecorder.R$layout: int lywordrecord
 com.aksharspeech.waverecorder.R$layout: int secondpage
+com.aksharspeech.waverecorder.R$layout: int specailui
 com.aksharspeech.waverecorder.R$layout: int splash
 com.aksharspeech.waverecorder.R$menu: int main
 com.aksharspeech.waverecorder.R$string: int action_alwaysplay
@@ -144,3 +150,8 @@ com.aksharspeech.waverecorder.WordRecordingActivity: WordRecordingActivity()
 com.aksharspeech.waverecorder.ui.RemoteASR: void startRecording()
 com.cybern.util.IncomingSms
 com.cybern.util.IncomingSms: IncomingSms()
+com.cybern.util.VisualizerView
+com.cybern.util.VisualizerView: VisualizerView(android.content.Context)
+com.cybern.util.VisualizerView: VisualizerView(android.content.Context,android.util.AttributeSet)
+old.ASRActivity: void onAsrClick(android.view.View)
+old.RemoteASR: void startRecording()

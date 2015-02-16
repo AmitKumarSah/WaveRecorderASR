@@ -39,9 +39,11 @@ public final class R {
         public static final int circle=0x7f020002;
         public static final int ic_action_pausebutton=0x7f020003;
         public static final int ic_action_playbutton=0x7f020004;
-        public static final int ic_action_recordbutton=0x7f020005;
-        public static final int ic_action_stopbutton=0x7f020006;
-        public static final int ic_launcher=0x7f020007;
+        public static final int ic_action_playnew=0x7f020005;
+        public static final int ic_action_recordbutton=0x7f020006;
+        public static final int ic_action_stopbutton=0x7f020007;
+        public static final int ic_launcher=0x7f020008;
+        public static final int plainborder=0x7f020009;
     }
     public static final class id {
         public static final int RcdBtnNext=0x7f0a000a;
@@ -49,15 +51,16 @@ public final class R {
         public static final int RcdBtnPrev=0x7f0a0009;
         public static final int RcdBtnRecord=0x7f0a0008;
         public static final int RcdTVfileArea=0x7f0a0006;
+        public static final int RcdVisualizerView=0x7f0a002f;
         public static final int RcdchnoMeter=0x7f0a000b;
         public static final int SpbtnASR=0x7f0a0003;
         public static final int SpbtnSentence=0x7f0a0002;
         public static final int SpbtnWord=0x7f0a0004;
-        public static final int action_alwaysplay=0x7f0a002e;
-        public static final int action_alwaysrecord=0x7f0a002f;
-        public static final int action_audioencoding=0x7f0a0031;
-        public static final int action_gain=0x7f0a0032;
-        public static final int action_samplerate=0x7f0a0030;
+        public static final int action_alwaysplay=0x7f0a0031;
+        public static final int action_alwaysrecord=0x7f0a0032;
+        public static final int action_audioencoding=0x7f0a0034;
+        public static final int action_gain=0x7f0a0035;
+        public static final int action_samplerate=0x7f0a0033;
         public static final int asrBTNRecord=0x7f0a0000;
         public static final int asrTVTextData=0x7f0a0001;
         public static final int button11=0x7f0a0025;
@@ -71,11 +74,13 @@ public final class R {
         public static final int etAge=0x7f0a0014;
         public static final int etPlace=0x7f0a001c;
         public static final int etUserName=0x7f0a0010;
-        public static final int imageView1=0x7f0a002d;
+        public static final int imageView1=0x7f0a0030;
         public static final int infoBTNLastUser=0x7f0a0023;
         public static final int infoetFirstname=0x7f0a0012;
         public static final int infotvname=0x7f0a0011;
         public static final int layout_dialog=0x7f0a000c;
+        public static final int lyButtonView=0x7f0a002e;
+        public static final int lyTextView=0x7f0a002d;
         public static final int spEducation=0x7f0a001e;
         public static final int spEniv=0x7f0a0016;
         public static final int spGender=0x7f0a0020;
@@ -104,7 +109,8 @@ public final class R {
         public static final int lyuserinfo=0x7f030004;
         public static final int lywordrecord=0x7f030005;
         public static final int secondpage=0x7f030006;
-        public static final int splash=0x7f030007;
+        public static final int specailui=0x7f030007;
+        public static final int splash=0x7f030008;
     }
     public static final class menu {
         public static final int main=0x7f090000;

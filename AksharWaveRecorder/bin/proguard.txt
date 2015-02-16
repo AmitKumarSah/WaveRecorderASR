@@ -19,6 +19,9 @@
 # view AndroidManifest.xml #generated:31
 -keep class com.cybern.util.IncomingSms { <init>(...); }
 
+# view res/layout/specailui.xml #generated:48
+-keep class com.cybern.util.VisualizerView { <init>(...); }
+
 # onClick res/layout/lyuserinfo.xml #generated:150
 -keepclassmembers class * { *** okClick(...); }
 
@@ -29,12 +32,15 @@
 -keepclassmembers class * { *** onClickASR(...); }
 
 # onClick res/layout/lysentrecording.xml #generated:46
+# onClick res/layout/specailui.xml #generated:74
 -keepclassmembers class * { *** onClickNext(...); }
 
 # onClick res/layout/lysentrecording.xml #generated:26
+# onClick res/layout/specailui.xml #generated:90
 -keepclassmembers class * { *** onClickPlay(...); }
 
 # onClick res/layout/lysentrecording.xml #generated:35
+# onClick res/layout/specailui.xml #generated:64
 -keepclassmembers class * { *** onClickPrev(...); }
 
 # onClick res/layout/lyselectionpage.xml #generated:10
@@ -49,5 +55,6 @@
 # onClick res/layout/lysentrecording.xml #generated:58
 # onClick res/layout/lywordrecord.xml #generated:14
 # onClick res/layout/lywordrecord.xml #generated:47
+# onClick res/layout/specailui.xml #generated:82
 -keepclassmembers class * { *** startRecording(...); }
 

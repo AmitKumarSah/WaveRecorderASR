@@ -106,8 +106,27 @@ com.cybern.net.NetUploader:
     295:328:public java.lang.String getData(java.lang.String)
     333:375:public java.lang.String postData(java.lang.String,java.lang.String)
 com.cybern.util.ListenToPhoneState
+com.cybern.util.ShowVisualizer
+com.cybern.util.ShowVisualizer$1
 com.cybern.util.UIManager
+com.cybern.util.VisualizerView:
+    39:41:public void updateVisualizer(byte[])
 com.cybern.waverecorder.WaveRecorder:
     private static final java.lang.String Tag
     70:76:public static void outParameters()
     276:277:public void setmIsRecording(boolean)
+old.ASRActivity
+old.RemoteASR
+old.RemoteASR$1
+old.RemoteASR$2
+old.RemoteASR$3
+old.RemoteASR$4
+old.RemoteASR$4$1
+old.RemoteASR$5
+old.RemoteASR$6
+old.RemoteASR$7
+old.RemoteASR$8
+old.RemoteASR$8$1
+old.RemoteASR$9
+old.WaveRecorder
+old.WaveRecorder$1
