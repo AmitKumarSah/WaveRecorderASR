@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/textview1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:keepScreenOn="true"
+	android:orientation="vertical"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="com.aksharspeech.waverecorder.SentenceRecordingActivity" >
+	<LinearLayout
+		android:id="@+id/lyTextView"
+		android:layout_alignParentTop="true"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="30dp"
+		android:layout_marginTop="15dp"
+		android:orientation="vertical" >
+		<TextView
+			android:id="@+id/RcdTVfileArea"
+			android:layout_width="fill_parent"
+			android:layout_height="150sp"
+			android:background="@drawable/border"
+			android:text="@string/filearea"
+			android:textSize="20sp" />
+	</LinearLayout>
+	<LinearLayout
+		
+		android:layout_marginTop="20sp"
+		android:layout_above="@+id/lyButtonView"
+		android:layout_below="@id/lyTextView"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" >
+		<Chronometer
+			android:id="@+id/RcdchnoMeter"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10sp"
+			android:layout_marginLeft="10sp"
+			android:layout_marginRight="20sp"
+			android:background="@drawable/border"
+			android:text="@string/chronometer" />
+		
+			<com.cybern.util.VisualizerView
+				android:background="@drawable/plainborder"
+				android:id="@+id/RcdVisualizerView"
+				android:layout_width="fill_parent"
+				android:layout_height="70sp" >
+			</com.cybern.util.VisualizerView>
+		
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/lyButtonView"
+		android:layout_alignParentBottom="true"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="20dp"
+		android:layout_marginTop="50sp"
+		android:orientation="horizontal" >
+		<Button
+			style="@android:style/Holo.SegmentedButton"
+			android:id="@+id/RcdBtnPrev"
+			android:paddingLeft="10sp"
+			android:paddingRight="10sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="8sp"
+			android:onClick="onClickPrev"
+			android:text="@string/button4" />
+		<Button
+			style="@android:style/Holo.SegmentedButton"
+			android:id="@+id/RcdBtnNext"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="8sp"
+			android:onClick="onClickNext"
+			android:text="@string/button6" />
+		<ImageView
+			android:id="@+id/RcdBtnRecord"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="8sp"
+			android:contentDescription="@string/button2"
+			android:onClick="startRecording"
+			android:src="@drawable/ic_action_recordbutton" />
+		<ImageView
+			android:id="@+id/RcdBtnPlay"
+			android:layout_marginRight="2sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:contentDescription="@string/button5"
+			android:onClick="onClickPlay"
+			android:src="@drawable/ic_action_playbutton" />
+	</LinearLayout>
+</RelativeLayout>
