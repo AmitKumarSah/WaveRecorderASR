@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="com.aksharspeech.waverecorder"
 	android:versionCode="1"
-	android:versionName="5.0" >
+	android:versionName="8.0" >
 	<uses-sdk
 		android:minSdkVersion="13"
 		android:targetSdkVersion="21" />
