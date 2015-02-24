@@ -62,7 +62,11 @@ public class SentenceRecord {
 	private int mIndex = 0;
 	private String mCurrentLine = null;
 	private String mCurrentLineNumber = null;
+	/**
+	 *  use gain to enable disable the use of gain
+	 */
 	public static boolean USE_GAIN=true;
+	
 	/**
 	 * UI Elements
 	 * 
