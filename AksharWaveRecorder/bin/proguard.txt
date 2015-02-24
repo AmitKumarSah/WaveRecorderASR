@@ -28,7 +28,7 @@
 # onClick res/layout/lyasr.xml #generated:8
 -keepclassmembers class * { *** onAsrClick(...); }
 
-# onClick res/layout/lysentrecording.xml #generated:77
+# onClick res/layout/lysentrecording.xml #generated:78
 # onClick res/layout/specailui.xml #generated:97
 -keepclassmembers class * { *** onCBClick(...); }
 
