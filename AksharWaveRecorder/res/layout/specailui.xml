@@ -13,9 +13,9 @@
 	tools:context="com.aksharspeech.waverecorder.SentenceRecordingActivity" >
 	<LinearLayout
 		android:id="@+id/lyTextView"
-		android:layout_alignParentTop="true"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
 		android:layout_marginBottom="30dp"
 		android:layout_marginTop="15dp"
 		android:orientation="vertical" >
@@ -28,12 +28,12 @@
 			android:textSize="20sp" />
 	</LinearLayout>
 	<LinearLayout
-		
-		android:layout_marginTop="20sp"
-		android:layout_above="@+id/lyButtonView"
-		android:layout_below="@id/lyTextView"
+		android:id="@+id/linearLayout1"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
+		android:layout_above="@+id/lyButtonView"
+		android:layout_below="@id/lyTextView"
+		android:layout_marginTop="20sp"
 		android:orientation="horizontal" >
 		<Chronometer
 			android:id="@+id/RcdchnoMeter"
@@ -44,36 +44,34 @@
 			android:layout_marginRight="20sp"
 			android:background="@drawable/border"
 			android:text="@string/chronometer" />
-		
-			<com.cybern.util.VisualizerView
-				android:background="@drawable/plainborder"
-				android:id="@+id/RcdVisualizerView"
-				android:layout_width="fill_parent"
-				android:layout_height="70sp" >
-			</com.cybern.util.VisualizerView>
-		
+		<com.cybern.util.VisualizerView
+			android:id="@+id/RcdVisualizerView"
+			android:layout_width="fill_parent"
+			android:layout_height="70sp"
+			android:background="@drawable/plainborder" >
+		</com.cybern.util.VisualizerView>
 	</LinearLayout>
 	<LinearLayout
 		android:id="@+id/lyButtonView"
-		android:layout_alignParentBottom="true"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
 		android:layout_marginBottom="20dp"
 		android:layout_marginTop="50sp"
 		android:orientation="horizontal" >
 		<Button
-			style="@android:style/Holo.SegmentedButton"
 			android:id="@+id/RcdBtnPrev"
-			android:paddingLeft="10sp"
-			android:paddingRight="10sp"
+			style="@android:style/Holo.SegmentedButton"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_marginRight="8sp"
 			android:onClick="onClickPrev"
+			android:paddingLeft="10sp"
+			android:paddingRight="10sp"
 			android:text="@string/button4" />
 		<Button
-			style="@android:style/Holo.SegmentedButton"
 			android:id="@+id/RcdBtnNext"
+			style="@android:style/Holo.SegmentedButton"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_marginRight="8sp"
@@ -89,11 +87,21 @@
 			android:src="@drawable/ic_action_recordbutton" />
 		<ImageView
 			android:id="@+id/RcdBtnPlay"
-			android:layout_marginRight="2sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
+			android:layout_marginRight="2sp"
 			android:contentDescription="@string/button5"
 			android:onClick="onClickPlay"
 			android:src="@drawable/ic_action_playbutton" />
 	</LinearLayout>
+	<CheckBox
+		android:onClick="onCBClick"
+		android:checked="true"
+		android:id="@+id/RcdCBuseGain"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/linearLayout1"
+		android:layout_below="@+id/linearLayout1"
+		android:layout_marginLeft="75dp"
+		android:text="Enable Gain" />
 </RelativeLayout>

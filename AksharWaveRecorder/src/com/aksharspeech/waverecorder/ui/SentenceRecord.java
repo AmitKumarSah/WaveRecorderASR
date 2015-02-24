@@ -38,6 +38,7 @@ import android.widget.Toast;
 import com.aksharspeech.waverecorder.R;
 import com.aksharspeech.waverecorder.config.Constants;
 import com.aksharspeech.waverecorder.util.UTIL;
+import com.cybern.util.ShowVisualizer;
 import com.cybern.waverecorder.WaveRecorder;
 
 /**
@@ -116,6 +117,7 @@ public class SentenceRecord {
 	public SentenceRecord(Activity act) {
 		BOF = true;
 		EOF = false;
+		USE_GAIN=true;
 		waveRecorder = new WaveRecorder();
 		WaveRecorder.setAudioFolder(BaseDir);
 		this.mAct = act;
@@ -140,7 +142,7 @@ public class SentenceRecord {
 	public SentenceRecord(Activity act, String filename) {
 		BOF = true;
 		EOF = false;
-
+		USE_GAIN=true;
 		waveRecorder = new WaveRecorder();
 		WaveRecorder.setAudioFolder(BaseDir);
 		this.mAct = act;
@@ -152,6 +154,7 @@ public class SentenceRecord {
 		record = (ImageView) mAct.findViewById(R.id.RcdBtnRecord);
 		cnMeter = (Chronometer) mAct.findViewById(R.id.RcdchnoMeter);
 		onInitSentenceRecording(filename);
+		showVis = new ShowVisualizer(mAct);
 
 	}
 
@@ -260,6 +263,15 @@ public class SentenceRecord {
 
 	}
 
+	ShowVisualizer showVis;
+
+	public void setupVisualizer(MediaPlayer mplayer) {
+		showVis = new ShowVisualizer(mAct);
+		showVis.setupVisualizerFxAndUI(R.id.RcdVisualizerView, mplayer);
+		showVis.enableVisualizer(true);
+
+	}
+
 	public void onInitSentenceRecording(String textfilename) {
 		WaveRecorder.setAudioFolder("/" + BaseDir);
 		loadRecordContextSetting();
@@ -326,6 +338,8 @@ public class SentenceRecord {
 
 	public void onPause() {
 		wasPaused = true;
+		if (showVis != null)
+			showVis.realseVisualizer();
 		if (mIsRecording) {
 			mIsRecording = false;
 			mRecordCheck = true;
@@ -464,7 +478,7 @@ public class SentenceRecord {
 		// TODO: implement onresume
 		if (wasPaused)
 			wasPaused = false;
-		
+
 		postNagivationClicked();
 	}
 
@@ -882,7 +896,10 @@ public class SentenceRecord {
 				try {
 					mPlayer.setDataSource(audioplayfile);
 					mPlayer.prepare();
+					showVis.setupVisualizerFxAndUI(R.id.RcdVisualizerView, mPlayer);
+					showVis.enableVisualizer(true);
 					mPlayer.start();
+					
 					resetTimer();
 					cnMeter.start();
 					mPlayButton
@@ -912,6 +929,11 @@ public class SentenceRecord {
 			mPlayer.stop();
 			mPlayer.release();
 			mPlayer = null;
+			
+		}
+		if(showVis!=null){
+			showVis.enableVisualizer(false);
+			showVis.realseVisualizer();
 		}
 		cnMeter.stop();
 		mPlayButton.setImageResource(R.drawable.ic_action_playbutton);

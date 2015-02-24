@@ -19,7 +19,7 @@
 # view AndroidManifest.xml #generated:31
 -keep class com.cybern.util.IncomingSms { <init>(...); }
 
-# view res/layout/specailui.xml #generated:48
+# view res/layout/specailui.xml #generated:47
 -keep class com.cybern.util.VisualizerView { <init>(...); }
 
 # onClick res/layout/lyuserinfo.xml #generated:150
@@ -28,22 +28,23 @@
 # onClick res/layout/lyasr.xml #generated:8
 -keepclassmembers class * { *** onAsrClick(...); }
 
-# onClick res/layout/lysentrecording.xml #generated:77
+# onClick res/layout/lysentrecording.xml #generated:78
+# onClick res/layout/specailui.xml #generated:97
 -keepclassmembers class * { *** onCBClick(...); }
 
 # onClick res/layout/lyselectionpage.xml #generated:19
 -keepclassmembers class * { *** onClickASR(...); }
 
 # onClick res/layout/lysentrecording.xml #generated:46
-# onClick res/layout/specailui.xml #generated:74
+# onClick res/layout/specailui.xml #generated:72
 -keepclassmembers class * { *** onClickNext(...); }
 
 # onClick res/layout/lysentrecording.xml #generated:26
-# onClick res/layout/specailui.xml #generated:90
+# onClick res/layout/specailui.xml #generated:88
 -keepclassmembers class * { *** onClickPlay(...); }
 
 # onClick res/layout/lysentrecording.xml #generated:35
-# onClick res/layout/specailui.xml #generated:64
+# onClick res/layout/specailui.xml #generated:62
 -keepclassmembers class * { *** onClickPrev(...); }
 
 # onClick res/layout/lyselectionpage.xml #generated:10
@@ -58,6 +59,6 @@
 # onClick res/layout/lysentrecording.xml #generated:58
 # onClick res/layout/lywordrecord.xml #generated:14
 # onClick res/layout/lywordrecord.xml #generated:47
-# onClick res/layout/specailui.xml #generated:82
+# onClick res/layout/specailui.xml #generated:80
 -keepclassmembers class * { *** startRecording(...); }
 

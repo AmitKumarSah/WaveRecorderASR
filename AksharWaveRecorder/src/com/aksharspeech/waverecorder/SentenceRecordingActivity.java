@@ -42,10 +42,11 @@ public class SentenceRecordingActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		setContentView(R.layout.lysentrecording);
+		setContentView(R.layout.specailui);
 		bundle = getIntent().getExtras();
 		mTextFileName = bundle.getString("textfilename");
 		senRecord = new SentenceRecord(this, mTextFileName);
+		
 		// UIManager userInterface = new UIManager();
 		// ListenToPhoneState listener = new ListenToPhoneState(userInterface);
 		// TelephonyManager tManager = (TelephonyManager)

@@ -13,11 +13,11 @@
 	<TextView
 		android:id="@+id/RcdTVfileArea"
 		android:layout_width="wrap_content"
-		android:layout_height="125dp"
+		android:layout_height="75dp"
 		android:layout_above="@+id/RcdBtnPlay"
 		android:layout_alignParentLeft="true"
-		android:layout_alignParentTop="true"
 		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
 		android:layout_marginBottom="50dp"
 		android:layout_marginTop="15dp"
 		android:background="@drawable/border"
@@ -74,6 +74,7 @@
 		android:layout_marginBottom="25dp"
 		android:layout_marginLeft="38dp"
 		android:text="@string/chronometer" />
+
 	<CheckBox
 		android:onClick="onCBClick"
 		android:checked="true"
@@ -83,4 +84,16 @@
 		android:layout_above="@+id/RcdBtnPlay"
 		android:layout_alignRight="@+id/RcdTVfileArea"
 		android:text="Gain Enable" />
+
+	<!-- <LinearLayout
+		android:layout_above="@+id/RcdBtnPrev"
+		android:layout_below="@+id/RcdTVfileArea"
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" >
+		<com.cybern.util.VisualizerView
+			android:id="@+id/visualizerView1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout> -->
 </RelativeLayout>
