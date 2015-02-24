@@ -57509,11 +57509,19 @@ Methods (count = 16):
         + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
       [6] tableswitch (5 offsets, default=86) (target=92)
 <<<<<<< HEAD
+<<<<<<< HEAD
         2131361841: offset = 45, target = 51
         2131361842: offset = 56, target = 62
         2131361843: offset = 34, target = 40
         2131361844: offset = 67, target = 73
         2131361845: offset = 78, target = 84
+=======
+        2131361842: offset = 45, target = 51
+        2131361843: offset = 56, target = 62
+        2131361844: offset = 34, target = 40
+        2131361845: offset = 67, target = 73
+        2131361846: offset = 78, target = 84
+>>>>>>> refs/heads/master
 =======
         2131361842: offset = 45, target = 51
         2131361843: offset = 56, target = 62
@@ -58876,7 +58884,11 @@ Constant Pool (count = 658):
   + Integer [2131361833]
   + Integer [2131361834]
 <<<<<<< HEAD
+<<<<<<< HEAD
   + Integer [2131361841]
+=======
+  + Integer [2131361835]
+>>>>>>> refs/heads/master
 =======
   + Integer [2131361835]
 >>>>>>> refs/heads/master
@@ -58885,6 +58897,10 @@ Constant Pool (count = 658):
   + Integer [2131361844]
   + Integer [2131361845]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  + Integer [2131361846]
+>>>>>>> refs/heads/master
 =======
   + Integer [2131361846]
 >>>>>>> refs/heads/master
@@ -61588,7 +61604,11 @@ Methods (count = 31):
       [7] iload_2 v2
       [8] ldc #19
 <<<<<<< HEAD
+<<<<<<< HEAD
         + Integer [2131361843]
+=======
+        + Integer [2131361844]
+>>>>>>> refs/heads/master
 =======
         + Integer [2131361844]
 >>>>>>> refs/heads/master
@@ -61666,7 +61686,11 @@ Methods (count = 31):
       [100] iload_2 v2
       [101] ldc #17
 <<<<<<< HEAD
+<<<<<<< HEAD
         + Integer [2131361841]
+=======
+        + Integer [2131361842]
+>>>>>>> refs/heads/master
 =======
         + Integer [2131361842]
 >>>>>>> refs/heads/master
@@ -61734,7 +61758,11 @@ Methods (count = 31):
       [183] iload_2 v2
       [184] ldc #18
 <<<<<<< HEAD
+<<<<<<< HEAD
         + Integer [2131361842]
+=======
+        + Integer [2131361843]
+>>>>>>> refs/heads/master
 =======
         + Integer [2131361843]
 >>>>>>> refs/heads/master
@@ -61802,7 +61830,11 @@ Methods (count = 31):
       [266] iload_2 v2
       [267] ldc #20
 <<<<<<< HEAD
+<<<<<<< HEAD
         + Integer [2131361844]
+=======
+        + Integer [2131361845]
+>>>>>>> refs/heads/master
 =======
         + Integer [2131361845]
 >>>>>>> refs/heads/master
@@ -61870,7 +61902,11 @@ Methods (count = 31):
       [349] iload_2 v2
       [350] ldc #21
 <<<<<<< HEAD
+<<<<<<< HEAD
         + Integer [2131361845]
+=======
+        + Integer [2131361846]
+>>>>>>> refs/heads/master
 =======
         + Integer [2131361846]
 >>>>>>> refs/heads/master
@@ -62275,8 +62311,13 @@ Interfaces (count = 1):
 Constant Pool (count = 166):
   + Integer [2130837507]
 <<<<<<< HEAD
+<<<<<<< HEAD
   + Integer [2130837510]
   + Integer [2131361830]
+=======
+  + Integer [2130837509]
+  + Integer [2131361831]
+>>>>>>> refs/heads/master
 =======
   + Integer [2130837509]
   + Integer [2131361831]
@@ -64695,7 +64736,10 @@ Interfaces (count = 0):
 
 Constant Pool (count = 252):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> refs/heads/master
   + Integer [2130837509]
 >>>>>>> refs/heads/master
   + Integer [2130837510]
@@ -65289,6 +65333,9 @@ Methods (count = 24):
         + Integer [2130837511]
 =======
         + Integer [2130837510]
+<<<<<<< HEAD
+>>>>>>> refs/heads/master
+=======
 >>>>>>> refs/heads/master
       [23] invokevirtual #59
         + Methodref [android/widget/ImageButton.setImageResource (I)V]
@@ -65323,6 +65370,9 @@ Methods (count = 24):
         + Integer [2130837510]
 =======
         + Integer [2130837509]
+<<<<<<< HEAD
+>>>>>>> refs/heads/master
+=======
 >>>>>>> refs/heads/master
       [63] invokevirtual #59
         + Methodref [android/widget/ImageButton.setImageResource (I)V]
@@ -66846,6 +66896,7 @@ Constant Pool (count = 747):
   + Class [java/util/StringTokenizer]
   + Long [144]
 <<<<<<< HEAD
+<<<<<<< HEAD
   + Fieldref [com/aksharspeech/waverecorder/a/i.A Landroid/media/MediaPlayer;]
   + Fieldref [com/aksharspeech/waverecorder/a/i.B Ljava/lang/String;]
   + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
@@ -66877,6 +66928,40 @@ Constant Pool (count = 747):
   + Fieldref [com/aksharspeech/waverecorder/a/i.x Landroid/widget/TextView;]
   + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/Chronometer;]
   + Fieldref [com/aksharspeech/waverecorder/a/i.z Ljava/lang/String;]
+=======
+  + Fieldref [com/aksharspeech/waverecorder/a/i.A Ljava/lang/String;]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.E Landroid/widget/ImageView;]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.a Ljava/io/InputStreamReader;]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.b Ljava/io/BufferedReader;]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.d Z]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.e Z]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.f Z]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.g Z]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.h Z]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.i Z]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.j Z]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.l Lcom/cybern/util/a;]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.m I]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.n I]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.o I]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.p I]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.r Z]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.t Z]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.w Ljava/lang/String;]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.x Landroid/widget/ImageView;]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/TextView;]
+  + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
+>>>>>>> refs/heads/master
 =======
   + Fieldref [com/aksharspeech/waverecorder/a/i.A Ljava/lang/String;]
   + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
@@ -67587,13 +67672,19 @@ Methods (count = 45):
     + Code attribute instructions (code length = 29, locals = 0, stack = 1):
       [0] bipush 16
 <<<<<<< HEAD
+<<<<<<< HEAD
       [2] putstatic #160
         + Fieldref [com/aksharspeech/waverecorder/a/i.l I]
 =======
       [2] putstatic #164
         + Fieldref [com/aksharspeech/waverecorder/a/i.m I]
 >>>>>>> refs/heads/master
+=======
+      [2] putstatic #164
+        + Fieldref [com/aksharspeech/waverecorder/a/i.m I]
+>>>>>>> refs/heads/master
       [5] bipush 16
+<<<<<<< HEAD
 <<<<<<< HEAD
       [7] putstatic #161
         + Fieldref [com/aksharspeech/waverecorder/a/i.m I]
@@ -67601,7 +67692,12 @@ Methods (count = 45):
       [7] putstatic #165
         + Fieldref [com/aksharspeech/waverecorder/a/i.n I]
 >>>>>>> refs/heads/master
+=======
+      [7] putstatic #165
+        + Fieldref [com/aksharspeech/waverecorder/a/i.n I]
+>>>>>>> refs/heads/master
       [10] iconst_2
+<<<<<<< HEAD
 <<<<<<< HEAD
       [11] putstatic #162
         + Fieldref [com/aksharspeech/waverecorder/a/i.n I]
@@ -67609,7 +67705,12 @@ Methods (count = 45):
       [11] putstatic #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.o I]
 >>>>>>> refs/heads/master
+=======
+      [11] putstatic #166
+        + Fieldref [com/aksharspeech/waverecorder/a/i.o I]
+>>>>>>> refs/heads/master
       [14] sipush 16000
+<<<<<<< HEAD
 <<<<<<< HEAD
       [17] putstatic #163
         + Fieldref [com/aksharspeech/waverecorder/a/i.o I]
@@ -67617,16 +67718,28 @@ Methods (count = 45):
       [17] putstatic #167
         + Fieldref [com/aksharspeech/waverecorder/a/i.p I]
 >>>>>>> refs/heads/master
+=======
+      [17] putstatic #167
+        + Fieldref [com/aksharspeech/waverecorder/a/i.p I]
+>>>>>>> refs/heads/master
       [20] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [21] putstatic #152
+=======
+      [21] putstatic #155
+>>>>>>> refs/heads/master
 =======
       [21] putstatic #155
 >>>>>>> refs/heads/master
         + Fieldref [com/aksharspeech/waverecorder/a/i.d Z]
       [24] iconst_1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [25] putstatic #153
+=======
+      [25] putstatic #156
+>>>>>>> refs/heads/master
 =======
       [25] putstatic #156
 >>>>>>> refs/heads/master
@@ -67645,8 +67758,13 @@ Methods (count = 45):
       [4] aload_0 v0
       [5] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [6] putfield #164
         + Fieldref [com/aksharspeech/waverecorder/a/i.p Z]
+=======
+      [6] putfield #168
+        + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
+>>>>>>> refs/heads/master
 =======
       [6] putfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
@@ -67654,8 +67772,13 @@ Methods (count = 45):
       [9] aload_0 v0
       [10] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [11] putfield #165
         + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
+=======
+      [11] putfield #169
+        + Fieldref [com/aksharspeech/waverecorder/a/i.r Z]
+>>>>>>> refs/heads/master
 =======
       [11] putfield #169
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Z]
@@ -67663,7 +67786,11 @@ Methods (count = 45):
       [14] aload_0 v0
       [15] aconst_null
 <<<<<<< HEAD
+<<<<<<< HEAD
       [16] putfield #149
+=======
+      [16] putfield #152
+>>>>>>> refs/heads/master
 =======
       [16] putfield #152
 >>>>>>> refs/heads/master
@@ -67671,7 +67798,11 @@ Methods (count = 45):
       [19] aload_0 v0
       [20] aconst_null
 <<<<<<< HEAD
+<<<<<<< HEAD
       [21] putfield #150
+=======
+      [21] putfield #153
+>>>>>>> refs/heads/master
 =======
       [21] putfield #153
 >>>>>>> refs/heads/master
@@ -67679,8 +67810,13 @@ Methods (count = 45):
       [24] aload_0 v0
       [25] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [26] putfield #167
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Z]
+=======
+      [26] putfield #171
+        + Fieldref [com/aksharspeech/waverecorder/a/i.t Z]
+>>>>>>> refs/heads/master
 =======
       [26] putfield #171
         + Fieldref [com/aksharspeech/waverecorder/a/i.t Z]
@@ -67688,8 +67824,13 @@ Methods (count = 45):
       [29] aload_0 v0
       [30] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [31] putfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.t I]
+=======
+      [31] putfield #172
+        + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+>>>>>>> refs/heads/master
 =======
       [31] putfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
@@ -67697,8 +67838,13 @@ Methods (count = 45):
       [34] aload_0 v0
       [35] aconst_null
 <<<<<<< HEAD
+<<<<<<< HEAD
       [36] putfield #169
         + Fieldref [com/aksharspeech/waverecorder/a/i.u Ljava/lang/String;]
+=======
+      [36] putfield #173
+        + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
+>>>>>>> refs/heads/master
 =======
       [36] putfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
@@ -67706,8 +67852,13 @@ Methods (count = 45):
       [39] aload_0 v0
       [40] aconst_null
 <<<<<<< HEAD
+<<<<<<< HEAD
       [41] putfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
+=======
+      [41] putfield #174
+        + Fieldref [com/aksharspeech/waverecorder/a/i.w Ljava/lang/String;]
+>>>>>>> refs/heads/master
 =======
       [41] putfield #174
         + Fieldref [com/aksharspeech/waverecorder/a/i.w Ljava/lang/String;]
@@ -67715,7 +67866,11 @@ Methods (count = 45):
       [44] aload_0 v0
       [45] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [46] putfield #154
+=======
+      [46] putfield #157
+>>>>>>> refs/heads/master
 =======
       [46] putfield #157
 >>>>>>> refs/heads/master
@@ -67723,7 +67878,11 @@ Methods (count = 45):
       [49] aload_0 v0
       [50] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [51] putfield #155
+=======
+      [51] putfield #158
+>>>>>>> refs/heads/master
 =======
       [51] putfield #158
 >>>>>>> refs/heads/master
@@ -67731,7 +67890,11 @@ Methods (count = 45):
       [54] aload_0 v0
       [55] iconst_1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [56] putfield #156
+=======
+      [56] putfield #159
+>>>>>>> refs/heads/master
 =======
       [56] putfield #159
 >>>>>>> refs/heads/master
@@ -67739,7 +67902,11 @@ Methods (count = 45):
       [59] aload_0 v0
       [60] iconst_1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [61] putfield #157
+=======
+      [61] putfield #160
+>>>>>>> refs/heads/master
 =======
       [61] putfield #160
 >>>>>>> refs/heads/master
@@ -67747,7 +67914,11 @@ Methods (count = 45):
       [64] aload_0 v0
       [65] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [66] putfield #158
+=======
+      [66] putfield #161
+>>>>>>> refs/heads/master
 =======
       [66] putfield #161
 >>>>>>> refs/heads/master
@@ -67756,7 +67927,11 @@ Methods (count = 45):
       [70] ldc #15
         + Float [80.0]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [72] putfield #159
+=======
+      [72] putfield #162
+>>>>>>> refs/heads/master
 =======
       [72] putfield #162
 >>>>>>> refs/heads/master
@@ -67765,8 +67940,13 @@ Methods (count = 45):
       [76] ldc #17
         + String []
 <<<<<<< HEAD
+<<<<<<< HEAD
       [78] putfield #174
         + Fieldref [com/aksharspeech/waverecorder/a/i.z Ljava/lang/String;]
+=======
+      [78] putfield #146
+        + Fieldref [com/aksharspeech/waverecorder/a/i.A Ljava/lang/String;]
+>>>>>>> refs/heads/master
 =======
       [78] putfield #146
         + Fieldref [com/aksharspeech/waverecorder/a/i.A Ljava/lang/String;]
@@ -67775,8 +67955,13 @@ Methods (count = 45):
       [82] ldc #89
         + String [sample.txt]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [84] putfield #145
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Ljava/lang/String;]
+=======
+      [84] putfield #148
+        + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
+>>>>>>> refs/heads/master
 =======
       [84] putfield #148
         + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
@@ -67785,22 +67970,35 @@ Methods (count = 45):
       [88] ldc #17
         + String []
 <<<<<<< HEAD
+<<<<<<< HEAD
       [90] putfield #146
         + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
 =======
       [90] putfield #149
         + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
 >>>>>>> refs/heads/master
+=======
+      [90] putfield #149
+        + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
+>>>>>>> refs/heads/master
       [93] iconst_1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [94] putstatic #153
+=======
+      [94] putstatic #156
+>>>>>>> refs/heads/master
 =======
       [94] putstatic #156
 >>>>>>> refs/heads/master
         + Fieldref [com/aksharspeech/waverecorder/a/i.e Z]
       [97] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [98] putstatic #152
+=======
+      [98] putstatic #155
+>>>>>>> refs/heads/master
 =======
       [98] putstatic #155
 >>>>>>> refs/heads/master
@@ -67812,9 +68010,15 @@ Methods (count = 45):
       [106] invokespecial #252
         + Methodref [com/cybern/c/a.<init> ()V]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [109] putfield #148
         + Fieldref [com/aksharspeech/waverecorder/a/i.E Lcom/cybern/c/a;]
       [112] ldc #26
+=======
+      [109] putfield #151
+        + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
+      [112] ldc #27
+>>>>>>> refs/heads/master
 =======
       [109] putfield #151
         + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
@@ -67826,14 +68030,20 @@ Methods (count = 45):
       [117] aload_0 v0
       [118] aload_1 v1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [119] putfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
 =======
       [119] putfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
 >>>>>>> refs/heads/master
+=======
+      [119] putfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
       [122] aload_0 v0
       [123] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [124] getfield #159
         + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
@@ -67843,10 +68053,19 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
       [127] ldc #16
 >>>>>>> refs/heads/master
+=======
+      [124] getfield #162
+        + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
+      [127] ldc #16
+>>>>>>> refs/heads/master
         + Float [100.0]
       [129] fdiv
 <<<<<<< HEAD
+<<<<<<< HEAD
       [130] putfield #159
+=======
+      [130] putfield #162
+>>>>>>> refs/heads/master
 =======
       [130] putfield #162
 >>>>>>> refs/heads/master
@@ -67858,12 +68077,17 @@ Methods (count = 45):
       [138] invokespecial #296
         + Methodref [java/util/ArrayList.<init> ()V]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [141] putfield #151
+=======
+      [141] putfield #154
+>>>>>>> refs/heads/master
 =======
       [141] putfield #154
 >>>>>>> refs/heads/master
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
       [144] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [145] getfield #148
         + Fieldref [com/aksharspeech/waverecorder/a/i.E Lcom/cybern/c/a;]
@@ -67873,12 +68097,22 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
       [148] invokevirtual #258
 >>>>>>> refs/heads/master
+=======
+      [145] getfield #151
+        + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
+      [148] invokevirtual #258
+>>>>>>> refs/heads/master
         + Methodref [com/cybern/c/a.d ()V]
       [151] aload_0 v0
       [152] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [153] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [153] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [153] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -67890,8 +68124,13 @@ Methods (count = 45):
       [161] checkcast #109
         + Class [android/widget/ImageView]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [164] putfield #147
         + Fieldref [com/aksharspeech/waverecorder/a/i.D Landroid/widget/ImageView;]
+=======
+      [164] putfield #150
+        + Fieldref [com/aksharspeech/waverecorder/a/i.E Landroid/widget/ImageView;]
+>>>>>>> refs/heads/master
 =======
       [164] putfield #150
         + Fieldref [com/aksharspeech/waverecorder/a/i.E Landroid/widget/ImageView;]
@@ -67899,8 +68138,13 @@ Methods (count = 45):
       [167] aload_0 v0
       [168] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [169] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [169] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [169] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -67912,8 +68156,13 @@ Methods (count = 45):
       [177] checkcast #108
         + Class [android/widget/Chronometer]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [180] putfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/Chronometer;]
+=======
+      [180] putfield #177
+        + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
+>>>>>>> refs/heads/master
 =======
       [180] putfield #177
         + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
@@ -67921,9 +68170,26 @@ Methods (count = 45):
       [183] aload_0 v0
       [184] aload_2 v2
 <<<<<<< HEAD
+<<<<<<< HEAD
       [185] invokevirtual #214
         + Methodref [com/aksharspeech/waverecorder/a/i.b (Ljava/lang/String;)V]
       [188] return
+=======
+      [185] invokevirtual #217
+        + Methodref [com/aksharspeech/waverecorder/a/i.b (Ljava/lang/String;)V]
+      [188] aload_0 v0
+      [189] new #128
+        + Class [com/cybern/util/a]
+      [192] dup
+      [193] aload_0 v0
+      [194] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [197] invokespecial #261
+        + Methodref [com/cybern/util/a.<init> (Landroid/app/Activity;)V]
+      [200] putfield #163
+        + Fieldref [com/aksharspeech/waverecorder/a/i.l Lcom/cybern/util/a;]
+      [203] return
+>>>>>>> refs/heads/master
 =======
       [185] invokevirtual #217
         + Methodref [com/aksharspeech/waverecorder/a/i.b (Ljava/lang/String;)V]
@@ -67949,13 +68215,18 @@ Methods (count = 45):
     + Code attribute instructions (code length = 18, locals = 1, stack = 1):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] invokevirtual #213
+=======
+      [1] invokevirtual #216
+>>>>>>> refs/heads/master
 =======
       [1] invokevirtual #216
 >>>>>>> refs/heads/master
         + Methodref [com/aksharspeech/waverecorder/a/i.b ()Z]
       [4] pop
       [5] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [6] getfield #148
         + Fieldref [com/aksharspeech/waverecorder/a/i.E Lcom/cybern/c/a;]
@@ -67965,11 +68236,20 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
       [9] invokevirtual #260
 >>>>>>> refs/heads/master
+=======
+      [6] getfield #151
+        + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
+      [9] invokevirtual #260
+>>>>>>> refs/heads/master
         + Methodref [com/cybern/c/a.h ()Z]
       [12] pop
       [13] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [14] invokevirtual #224
+=======
+      [14] invokevirtual #227
+>>>>>>> refs/heads/master
 =======
       [14] invokevirtual #227
 >>>>>>> refs/heads/master
@@ -67984,13 +68264,18 @@ Methods (count = 45):
     + Code attribute instructions (code length = 39, locals = 2, stack = 1):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #150
+=======
+      [1] getfield #153
+>>>>>>> refs/heads/master
 =======
       [1] getfield #153
 >>>>>>> refs/heads/master
         + Fieldref [com/aksharspeech/waverecorder/a/i.b Ljava/io/BufferedReader;]
       [4] ifnull +10 (target=14)
       [7] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [8] getfield #150
         + Fieldref [com/aksharspeech/waverecorder/a/i.b Ljava/io/BufferedReader;]
@@ -68000,10 +68285,19 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.b Ljava/io/BufferedReader;]
       [11] invokevirtual #266
 >>>>>>> refs/heads/master
+=======
+      [8] getfield #153
+        + Fieldref [com/aksharspeech/waverecorder/a/i.b Ljava/io/BufferedReader;]
+      [11] invokevirtual #266
+>>>>>>> refs/heads/master
         + Methodref [java/io/BufferedReader.close ()V]
       [14] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [15] getfield #149
+=======
+      [15] getfield #152
+>>>>>>> refs/heads/master
 =======
       [15] getfield #152
 >>>>>>> refs/heads/master
@@ -68011,9 +68305,15 @@ Methods (count = 45):
       [18] ifnull +12 (target=30)
       [21] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [22] getfield #149
         + Fieldref [com/aksharspeech/waverecorder/a/i.a Ljava/io/InputStreamReader;]
       [25] invokevirtual #271
+=======
+      [22] getfield #152
+        + Fieldref [com/aksharspeech/waverecorder/a/i.a Ljava/io/InputStreamReader;]
+      [25] invokevirtual #278
+>>>>>>> refs/heads/master
 =======
       [22] getfield #152
         + Fieldref [com/aksharspeech/waverecorder/a/i.a Ljava/io/InputStreamReader;]
@@ -68045,8 +68345,13 @@ Methods (count = 45):
     + Code attribute instructions (code length = 21, locals = 1, stack = 2):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #164
         + Fieldref [com/aksharspeech/waverecorder/a/i.p Z]
+=======
+      [1] getfield #168
+        + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
+>>>>>>> refs/heads/master
 =======
       [1] getfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
@@ -68054,8 +68359,13 @@ Methods (count = 45):
       [4] ifne +16 (target=20)
       [7] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [8] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [8] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [8] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -68082,9 +68392,15 @@ Methods (count = 45):
       [3] dup
       [4] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [5] getfield #174
         + Fieldref [com/aksharspeech/waverecorder/a/i.z Ljava/lang/String;]
       [8] invokestatic #281
+=======
+      [5] getfield #146
+        + Fieldref [com/aksharspeech/waverecorder/a/i.A Ljava/lang/String;]
+      [8] invokestatic #288
+>>>>>>> refs/heads/master
 =======
       [5] getfield #146
         + Fieldref [com/aksharspeech/waverecorder/a/i.A Ljava/lang/String;]
@@ -68118,9 +68434,15 @@ Methods (count = 45):
     + Code attribute instructions (code length = 107, locals = 2, stack = 4):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [4] invokevirtual #176
+=======
+      [1] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [4] invokevirtual #179
+>>>>>>> refs/heads/master
 =======
       [1] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -68142,7 +68464,11 @@ Methods (count = 45):
       [20] invokeinterface #305
         + InterfaceMethodref [android/content/SharedPreferences.getFloat (Ljava/lang/String;F)F]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [25] putfield #159
+=======
+      [25] putfield #162
+>>>>>>> refs/heads/master
 =======
       [25] putfield #162
 >>>>>>> refs/heads/master
@@ -68154,8 +68480,13 @@ Methods (count = 45):
       [33] invokeinterface #306
         + InterfaceMethodref [android/content/SharedPreferences.getInt (Ljava/lang/String;I)I]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [38] putstatic #160
         + Fieldref [com/aksharspeech/waverecorder/a/i.l I]
+=======
+      [38] putstatic #164
+        + Fieldref [com/aksharspeech/waverecorder/a/i.m I]
+>>>>>>> refs/heads/master
 =======
       [38] putstatic #164
         + Fieldref [com/aksharspeech/waverecorder/a/i.m I]
@@ -68167,8 +68498,13 @@ Methods (count = 45):
       [46] invokeinterface #306
         + InterfaceMethodref [android/content/SharedPreferences.getInt (Ljava/lang/String;I)I]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [51] putstatic #161
         + Fieldref [com/aksharspeech/waverecorder/a/i.m I]
+=======
+      [51] putstatic #165
+        + Fieldref [com/aksharspeech/waverecorder/a/i.n I]
+>>>>>>> refs/heads/master
 =======
       [51] putstatic #165
         + Fieldref [com/aksharspeech/waverecorder/a/i.n I]
@@ -68180,8 +68516,13 @@ Methods (count = 45):
       [60] invokeinterface #306
         + InterfaceMethodref [android/content/SharedPreferences.getInt (Ljava/lang/String;I)I]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [65] putstatic #163
         + Fieldref [com/aksharspeech/waverecorder/a/i.o I]
+=======
+      [65] putstatic #167
+        + Fieldref [com/aksharspeech/waverecorder/a/i.p I]
+>>>>>>> refs/heads/master
 =======
       [65] putstatic #167
         + Fieldref [com/aksharspeech/waverecorder/a/i.p I]
@@ -68193,8 +68534,13 @@ Methods (count = 45):
       [72] invokeinterface #306
         + InterfaceMethodref [android/content/SharedPreferences.getInt (Ljava/lang/String;I)I]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [77] putstatic #162
         + Fieldref [com/aksharspeech/waverecorder/a/i.n I]
+=======
+      [77] putstatic #166
+        + Fieldref [com/aksharspeech/waverecorder/a/i.o I]
+>>>>>>> refs/heads/master
 =======
       [77] putstatic #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.o I]
@@ -68207,7 +68553,11 @@ Methods (count = 45):
       [85] invokeinterface #304
         + InterfaceMethodref [android/content/SharedPreferences.getBoolean (Ljava/lang/String;Z)Z]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [90] putfield #158
+=======
+      [90] putfield #161
+>>>>>>> refs/heads/master
 =======
       [90] putfield #161
 >>>>>>> refs/heads/master
@@ -68220,7 +68570,11 @@ Methods (count = 45):
       [98] invokeinterface #304
         + InterfaceMethodref [android/content/SharedPreferences.getBoolean (Ljava/lang/String;Z)Z]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [103] putfield #157
+=======
+      [103] putfield #160
+>>>>>>> refs/heads/master
 =======
       [103] putfield #160
 >>>>>>> refs/heads/master
@@ -68236,14 +68590,22 @@ Methods (count = 45):
       [0] goto +8 (target=8)
       [3] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [4] invokespecial #229
+=======
+      [4] invokespecial #232
+>>>>>>> refs/heads/master
 =======
       [4] invokespecial #232
 >>>>>>> refs/heads/master
         + Methodref [com/aksharspeech/waverecorder/a/i.u ()Ljava/lang/String;]
       [7] pop
 <<<<<<< HEAD
+<<<<<<< HEAD
       [8] getstatic #152
+=======
+      [8] getstatic #155
+>>>>>>> refs/heads/master
 =======
       [8] getstatic #155
 >>>>>>> refs/heads/master
@@ -68251,9 +68613,15 @@ Methods (count = 45):
       [11] ifeq -8 (target=3)
       [14] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [15] getfield #151
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
       [18] invokevirtual #292
+=======
+      [15] getfield #154
+        + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
+      [18] invokevirtual #299
+>>>>>>> refs/heads/master
 =======
       [15] getfield #154
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
@@ -68278,16 +68646,26 @@ Methods (count = 45):
     + Code attribute instructions (code length = 12, locals = 1, stack = 1):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] invokevirtual #211
+=======
+      [1] invokevirtual #214
+>>>>>>> refs/heads/master
 =======
       [1] invokevirtual #214
 >>>>>>> refs/heads/master
         + Methodref [com/aksharspeech/waverecorder/a/i.a ()V]
       [4] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [5] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [8] invokevirtual #178
+=======
+      [5] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [8] invokevirtual #181
+>>>>>>> refs/heads/master
 =======
       [5] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -68307,6 +68685,7 @@ Methods (count = 45):
       [2] invokestatic #257
         + Methodref [com/cybern/c/a.b (Ljava/lang/String;)V]
       [5] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [6] invokevirtual #216
         + Methodref [com/aksharspeech/waverecorder/a/i.d ()V]
@@ -68332,19 +68711,40 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.m I]
       [21] invokestatic #255
 >>>>>>> refs/heads/master
+=======
+      [6] invokevirtual #219
+        + Methodref [com/aksharspeech/waverecorder/a/i.d ()V]
+      [9] getstatic #167
+        + Fieldref [com/aksharspeech/waverecorder/a/i.p I]
+      [12] getstatic #165
+        + Fieldref [com/aksharspeech/waverecorder/a/i.n I]
+      [15] getstatic #166
+        + Fieldref [com/aksharspeech/waverecorder/a/i.o I]
+      [18] getstatic #164
+        + Fieldref [com/aksharspeech/waverecorder/a/i.m I]
+      [21] invokestatic #255
+>>>>>>> refs/heads/master
         + Methodref [com/cybern/c/a.a (IIII)Z]
       [24] pop
       [25] aload_0 v0
       [26] aload_1 v1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [27] invokevirtual #217
+=======
+      [27] invokevirtual #220
+>>>>>>> refs/heads/master
 =======
       [27] invokevirtual #220
 >>>>>>> refs/heads/master
         + Methodref [com/aksharspeech/waverecorder/a/i.d (Ljava/lang/String;)V]
       [30] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [31] invokevirtual #225
+=======
+      [31] invokevirtual #228
+>>>>>>> refs/heads/master
 =======
       [31] invokevirtual #228
 >>>>>>> refs/heads/master
@@ -68352,8 +68752,13 @@ Methods (count = 45):
       [34] aload_0 v0
       [35] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [36] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [36] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [36] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -68365,8 +68770,13 @@ Methods (count = 45):
       [44] checkcast #109
         + Class [android/widget/ImageView]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [47] putfield #171
         + Fieldref [com/aksharspeech/waverecorder/a/i.w Landroid/widget/ImageView;]
+=======
+      [47] putfield #175
+        + Fieldref [com/aksharspeech/waverecorder/a/i.x Landroid/widget/ImageView;]
+>>>>>>> refs/heads/master
 =======
       [47] putfield #175
         + Fieldref [com/aksharspeech/waverecorder/a/i.x Landroid/widget/ImageView;]
@@ -68374,8 +68784,13 @@ Methods (count = 45):
       [50] aload_0 v0
       [51] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [52] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [52] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [52] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -68387,14 +68802,20 @@ Methods (count = 45):
       [60] checkcast #111
         + Class [android/widget/TextView]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [63] putfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.x Landroid/widget/TextView;]
 =======
       [63] putfield #176
         + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/TextView;]
 >>>>>>> refs/heads/master
+=======
+      [63] putfield #176
+        + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/TextView;]
+>>>>>>> refs/heads/master
       [66] aload_0 v0
       [67] dup
+<<<<<<< HEAD
 <<<<<<< HEAD
       [68] getfield #159
         + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
@@ -68404,10 +68825,19 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
       [71] ldc #16
 >>>>>>> refs/heads/master
+=======
+      [68] getfield #162
+        + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
+      [71] ldc #16
+>>>>>>> refs/heads/master
         + Float [100.0]
       [73] fdiv
 <<<<<<< HEAD
+<<<<<<< HEAD
       [74] putfield #159
+=======
+      [74] putfield #162
+>>>>>>> refs/heads/master
 =======
       [74] putfield #162
 >>>>>>> refs/heads/master
@@ -68418,9 +68848,15 @@ Methods (count = 45):
       [81] dup
       [82] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [83] getfield #146
         + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
       [86] invokestatic #281
+=======
+      [83] getfield #149
+        + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
+      [86] invokestatic #288
+>>>>>>> refs/heads/master
 =======
       [83] getfield #149
         + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
@@ -68431,9 +68867,15 @@ Methods (count = 45):
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [92] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [93] getfield #145
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Ljava/lang/String;]
       [96] invokevirtual #285
+=======
+      [93] getfield #148
+        + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
+      [96] invokevirtual #292
+>>>>>>> refs/heads/master
 =======
       [93] getfield #148
         + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
@@ -68443,7 +68885,11 @@ Methods (count = 45):
       [99] invokevirtual #293
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [102] invokevirtual #215
+=======
+      [102] invokevirtual #218
+>>>>>>> refs/heads/master
 =======
       [102] invokevirtual #218
 >>>>>>> refs/heads/master
@@ -68451,8 +68897,13 @@ Methods (count = 45):
       [105] pop
       [106] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [107] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [107] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [107] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -68466,8 +68917,13 @@ Methods (count = 45):
         + Methodref [android/view/View.setEnabled (Z)V]
       [119] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [120] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [120] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [120] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -68489,7 +68945,11 @@ Methods (count = 45):
     + Code attribute instructions (code length = 238, locals = 2, stack = 3):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #158
+=======
+      [1] getfield #161
+>>>>>>> refs/heads/master
 =======
       [1] getfield #161
 >>>>>>> refs/heads/master
@@ -68497,8 +68957,13 @@ Methods (count = 45):
       [4] ifeq +10 (target=14)
       [7] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [8] getfield #167
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Z]
+=======
+      [8] getfield #171
+        + Fieldref [com/aksharspeech/waverecorder/a/i.t Z]
+>>>>>>> refs/heads/master
 =======
       [8] getfield #171
         + Fieldref [com/aksharspeech/waverecorder/a/i.t Z]
@@ -68506,7 +68971,11 @@ Methods (count = 45):
       [11] ifne +220 (target=231)
       [14] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [15] getfield #157
+=======
+      [15] getfield #160
+>>>>>>> refs/heads/master
 =======
       [15] getfield #160
 >>>>>>> refs/heads/master
@@ -68514,7 +68983,11 @@ Methods (count = 45):
       [18] ifeq +10 (target=28)
       [21] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [22] getfield #156
+=======
+      [22] getfield #159
+>>>>>>> refs/heads/master
 =======
       [22] getfield #159
 >>>>>>> refs/heads/master
@@ -68522,7 +68995,11 @@ Methods (count = 45):
       [25] ifne +197 (target=222)
       [28] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [29] getfield #155
+=======
+      [29] getfield #158
+>>>>>>> refs/heads/master
 =======
       [29] getfield #158
 >>>>>>> refs/heads/master
@@ -68530,12 +69007,17 @@ Methods (count = 45):
       [32] ifeq +7 (target=39)
       [35] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [36] invokevirtual #224
+=======
+      [36] invokevirtual #227
+>>>>>>> refs/heads/master
 =======
       [36] invokevirtual #227
 >>>>>>> refs/heads/master
         + Methodref [com/aksharspeech/waverecorder/a/i.o ()V]
       [39] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [40] getfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.t I]
@@ -68543,11 +69025,21 @@ Methods (count = 45):
       [40] getfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
 >>>>>>> refs/heads/master
+=======
+      [40] getfield #172
+        + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+>>>>>>> refs/heads/master
       [43] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [44] getfield #151
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
       [47] invokevirtual #292
+=======
+      [44] getfield #154
+        + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
+      [47] invokevirtual #299
+>>>>>>> refs/heads/master
 =======
       [44] getfield #154
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
@@ -68560,8 +69052,13 @@ Methods (count = 45):
       [55] aload_0 v0
       [56] dup
 <<<<<<< HEAD
+<<<<<<< HEAD
       [57] getfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.t I]
+=======
+      [57] getfield #172
+        + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+>>>>>>> refs/heads/master
 =======
       [57] getfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
@@ -68569,16 +69066,26 @@ Methods (count = 45):
       [60] iconst_1
       [61] iadd
 <<<<<<< HEAD
+<<<<<<< HEAD
       [62] putfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.t I]
 =======
       [62] putfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
 >>>>>>> refs/heads/master
+=======
+      [62] putfield #172
+        + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+>>>>>>> refs/heads/master
       [65] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [66] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [66] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [66] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -68593,6 +69100,7 @@ Methods (count = 45):
       [78] aload_0 v0
       [79] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [80] invokespecial #230
         + Methodref [com/aksharspeech/waverecorder/a/i.v ()Ljava/lang/String;]
       [83] putfield #169
@@ -68603,11 +69111,23 @@ Methods (count = 45):
       [83] putfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
 >>>>>>> refs/heads/master
+=======
+      [80] invokespecial #233
+        + Methodref [com/aksharspeech/waverecorder/a/i.v ()Ljava/lang/String;]
+      [83] putfield #173
+        + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
+>>>>>>> refs/heads/master
       [86] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [87] getfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/Chronometer;]
       [90] ldc #21
+=======
+      [87] getfield #177
+        + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
+      [90] ldc #22
+>>>>>>> refs/heads/master
 =======
       [87] getfield #177
         + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
@@ -68618,8 +69138,13 @@ Methods (count = 45):
         + Methodref [android/widget/Chronometer.setText (Ljava/lang/CharSequence;)V]
       [95] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [96] getfield #169
         + Fieldref [com/aksharspeech/waverecorder/a/i.u Ljava/lang/String;]
+=======
+      [96] getfield #173
+        + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
+>>>>>>> refs/heads/master
 =======
       [96] getfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
@@ -68627,17 +69152,28 @@ Methods (count = 45):
       [99] ifnonnull +37 (target=136)
       [102] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [103] getfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.t I]
 =======
       [103] getfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
 >>>>>>> refs/heads/master
+=======
+      [103] getfield #172
+        + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+>>>>>>> refs/heads/master
       [106] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [107] getfield #151
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
       [110] invokevirtual #292
+=======
+      [107] getfield #154
+        + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
+      [110] invokevirtual #299
+>>>>>>> refs/heads/master
 =======
       [107] getfield #154
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
@@ -68649,7 +69185,11 @@ Methods (count = 45):
       [117] ldc #32
         + String [Fail to read line]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [119] invokevirtual #219
+=======
+      [119] invokevirtual #222
+>>>>>>> refs/heads/master
 =======
       [119] invokevirtual #222
 >>>>>>> refs/heads/master
@@ -68659,14 +69199,22 @@ Methods (count = 45):
       [126] ldc #57
         + String [Thanks for recording, return to Selection Menu Page. Don't forget to submit the recording]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [128] invokevirtual #219
+=======
+      [128] invokevirtual #222
+>>>>>>> refs/heads/master
 =======
       [128] invokevirtual #222
 >>>>>>> refs/heads/master
         + Methodref [com/aksharspeech/waverecorder/a/i.f (Ljava/lang/String;)V]
       [131] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [132] invokespecial #227
+=======
+      [132] invokespecial #230
+>>>>>>> refs/heads/master
 =======
       [132] invokespecial #230
 >>>>>>> refs/heads/master
@@ -68674,17 +69222,28 @@ Methods (count = 45):
       [135] return
       [136] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [137] getfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.x Landroid/widget/TextView;]
 =======
       [137] getfield #176
         + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/TextView;]
 >>>>>>> refs/heads/master
+=======
+      [137] getfield #176
+        + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/TextView;]
+>>>>>>> refs/heads/master
       [140] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [141] getfield #169
         + Fieldref [com/aksharspeech/waverecorder/a/i.u Ljava/lang/String;]
       [144] invokevirtual #208
+=======
+      [141] getfield #173
+        + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
+      [144] invokevirtual #211
+>>>>>>> refs/heads/master
 =======
       [141] getfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
@@ -68697,12 +69256,17 @@ Methods (count = 45):
       [151] aload_0 v0
       [152] iconst_1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [153] putfield #156
+=======
+      [153] putfield #159
+>>>>>>> refs/heads/master
 =======
       [153] putfield #159
 >>>>>>> refs/heads/master
         + Fieldref [com/aksharspeech/waverecorder/a/i.h Z]
       [156] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [157] getfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.t I]
@@ -68710,11 +69274,21 @@ Methods (count = 45):
       [157] getfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
 >>>>>>> refs/heads/master
+=======
+      [157] getfield #172
+        + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+>>>>>>> refs/heads/master
       [160] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [161] getfield #151
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
       [164] invokevirtual #292
+=======
+      [161] getfield #154
+        + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
+      [164] invokevirtual #299
+>>>>>>> refs/heads/master
 =======
       [161] getfield #154
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
@@ -68726,8 +69300,13 @@ Methods (count = 45):
       [169] ificmpne +33 (target=202)
       [172] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [173] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [173] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [173] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -68748,7 +69327,11 @@ Methods (count = 45):
       [192] ldc #59
         + String [You have reached the last line.]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [194] invokevirtual #220
+=======
+      [194] invokevirtual #223
+>>>>>>> refs/heads/master
 =======
       [194] invokevirtual #223
 >>>>>>> refs/heads/master
@@ -68756,15 +69339,24 @@ Methods (count = 45):
       [197] aload_0 v0
       [198] iconst_1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [199] putfield #165
         + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
 =======
       [199] putfield #169
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Z]
 >>>>>>> refs/heads/master
+=======
+      [199] putfield #169
+        + Fieldref [com/aksharspeech/waverecorder/a/i.r Z]
+>>>>>>> refs/heads/master
       [202] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [203] invokespecial #228
+=======
+      [203] invokespecial #231
+>>>>>>> refs/heads/master
 =======
       [203] invokespecial #231
 >>>>>>> refs/heads/master
@@ -68774,14 +69366,22 @@ Methods (count = 45):
       [210] ldc #46
         + String [Reached end of File, Kindly submit the recording]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [212] invokevirtual #219
+=======
+      [212] invokevirtual #222
+>>>>>>> refs/heads/master
 =======
       [212] invokevirtual #222
 >>>>>>> refs/heads/master
         + Methodref [com/aksharspeech/waverecorder/a/i.f (Ljava/lang/String;)V]
       [215] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [216] invokespecial #227
+=======
+      [216] invokespecial #230
+>>>>>>> refs/heads/master
 =======
       [216] invokespecial #230
 >>>>>>> refs/heads/master
@@ -68791,7 +69391,11 @@ Methods (count = 45):
       [223] ldc #34
         + String [First record the file]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [225] invokevirtual #220
+=======
+      [225] invokevirtual #223
+>>>>>>> refs/heads/master
 =======
       [225] invokevirtual #223
 >>>>>>> refs/heads/master
@@ -68801,7 +69405,11 @@ Methods (count = 45):
       [232] ldc #33
         + String [First Play the file]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [234] invokevirtual #220
+=======
+      [234] invokevirtual #223
+>>>>>>> refs/heads/master
 =======
       [234] invokevirtual #223
 >>>>>>> refs/heads/master
@@ -68831,13 +69439,19 @@ Methods (count = 45):
       [0] aload_0 v0
       [1] iconst_1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [2] putfield #164
         + Fieldref [com/aksharspeech/waverecorder/a/i.p Z]
 =======
       [2] putfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
 >>>>>>> refs/heads/master
+=======
+      [2] putfield #168
+        + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
+>>>>>>> refs/heads/master
       [5] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [6] getfield #154
         + Fieldref [com/aksharspeech/waverecorder/a/i.f Z]
@@ -68847,7 +69461,13 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.l Lcom/cybern/util/a;]
       [9] ifnull +10 (target=19)
 >>>>>>> refs/heads/master
+=======
+      [6] getfield #163
+        + Fieldref [com/aksharspeech/waverecorder/a/i.l Lcom/cybern/util/a;]
+      [9] ifnull +10 (target=19)
+>>>>>>> refs/heads/master
       [12] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [13] iconst_0
       [14] putfield #154
@@ -68882,7 +69502,30 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
       [40] invokevirtual #260
 >>>>>>> refs/heads/master
+=======
+      [13] getfield #163
+        + Fieldref [com/aksharspeech/waverecorder/a/i.l Lcom/cybern/util/a;]
+      [16] invokevirtual #262
+        + Methodref [com/cybern/util/a.a ()V]
+      [19] aload_0 v0
+      [20] getfield #157
+        + Fieldref [com/aksharspeech/waverecorder/a/i.f Z]
+      [23] ifeq +90 (target=113)
+      [26] aload_0 v0
+      [27] iconst_0
+      [28] putfield #157
+        + Fieldref [com/aksharspeech/waverecorder/a/i.f Z]
+      [31] aload_0 v0
+      [32] iconst_1
+      [33] putfield #159
+        + Fieldref [com/aksharspeech/waverecorder/a/i.h Z]
+      [36] aload_0 v0
+      [37] getfield #151
+        + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
+      [40] invokevirtual #260
+>>>>>>> refs/heads/master
         + Methodref [com/cybern/c/a.h ()Z]
+<<<<<<< HEAD
 <<<<<<< HEAD
       [29] pop
       [30] aload_0 v0
@@ -68900,7 +69543,17 @@ Methods (count = 45):
         + Integer [2130837509]
       [50] invokevirtual #208
 >>>>>>> refs/heads/master
+=======
+      [43] pop
+      [44] aload_0 v0
+      [45] getfield #150
+        + Fieldref [com/aksharspeech/waverecorder/a/i.E Landroid/widget/ImageView;]
+      [48] ldc #2
+        + Integer [2130837509]
+      [50] invokevirtual #208
+>>>>>>> refs/heads/master
         + Methodref [android/widget/ImageView.setImageResource (I)V]
+<<<<<<< HEAD
 <<<<<<< HEAD
       [39] aload_0 v0
       [40] getfield #173
@@ -68912,12 +69565,25 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
       [57] invokevirtual #207
 >>>>>>> refs/heads/master
+=======
+      [53] aload_0 v0
+      [54] getfield #177
+        + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
+      [57] invokevirtual #207
+>>>>>>> refs/heads/master
         + Methodref [android/widget/Chronometer.stop ()V]
+<<<<<<< HEAD
 <<<<<<< HEAD
       [46] aload_0 v0
       [47] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [50] ldc #9
+=======
+      [60] aload_0 v0
+      [61] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [64] ldc #9
+>>>>>>> refs/heads/master
 =======
       [60] aload_0 v0
       [61] getfield #170
@@ -68930,6 +69596,7 @@ Methods (count = 45):
       [69] iconst_1
       [70] invokevirtual #202
         + Methodref [android/view/View.setEnabled (Z)V]
+<<<<<<< HEAD
 <<<<<<< HEAD
       [59] aload_0 v0
       [60] getfield #168
@@ -68949,6 +69616,16 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
       [84] ldc #8
 >>>>>>> refs/heads/master
+=======
+      [73] aload_0 v0
+      [74] getfield #172
+        + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+      [77] ifgt +19 (target=96)
+      [80] aload_0 v0
+      [81] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [84] ldc #8
+>>>>>>> refs/heads/master
         + Integer [2131361801]
       [86] invokevirtual #178
         + Methodref [android/app/Activity.findViewById (I)Landroid/view/View;]
@@ -68956,11 +69633,19 @@ Methods (count = 45):
       [90] invokevirtual #202
         + Methodref [android/view/View.setEnabled (Z)V]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [79] goto +16 (target=95)
       [82] aload_0 v0
       [83] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [86] ldc #8
+=======
+      [93] goto +16 (target=109)
+      [96] aload_0 v0
+      [97] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [100] ldc #8
+>>>>>>> refs/heads/master
 =======
       [93] goto +16 (target=109)
       [96] aload_0 v0
@@ -68975,6 +69660,7 @@ Methods (count = 45):
       [106] invokevirtual #202
         + Methodref [android/view/View.setEnabled (Z)V]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [95] aload_0 v0
       [96] invokevirtual #224
         + Methodref [com/aksharspeech/waverecorder/a/i.o ()V]
@@ -68982,6 +69668,15 @@ Methods (count = 45):
       [100] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [103] invokevirtual #176
+=======
+      [109] aload_0 v0
+      [110] invokevirtual #227
+        + Methodref [com/aksharspeech/waverecorder/a/i.o ()V]
+      [113] aload_0 v0
+      [114] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [117] invokevirtual #179
+>>>>>>> refs/heads/master
 =======
       [109] aload_0 v0
       [110] invokevirtual #227
@@ -69006,10 +69701,17 @@ Methods (count = 45):
       [135] ldc #74
         + String [mAlwaysPlay]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [123] aload_0 v0
       [124] getfield #158
         + Fieldref [com/aksharspeech/waverecorder/a/i.j Z]
       [127] invokeinterface #302
+=======
+      [137] aload_0 v0
+      [138] getfield #161
+        + Fieldref [com/aksharspeech/waverecorder/a/i.j Z]
+      [141] invokeinterface #309
+>>>>>>> refs/heads/master
 =======
       [137] aload_0 v0
       [138] getfield #161
@@ -69022,10 +69724,17 @@ Methods (count = 45):
       [148] ldc #75
         + String [mAlwaysRecord]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [136] aload_0 v0
       [137] getfield #157
         + Fieldref [com/aksharspeech/waverecorder/a/i.i Z]
       [140] invokeinterface #302
+=======
+      [150] aload_0 v0
+      [151] getfield #160
+        + Fieldref [com/aksharspeech/waverecorder/a/i.i Z]
+      [154] invokeinterface #309
+>>>>>>> refs/heads/master
 =======
       [150] aload_0 v0
       [151] getfield #160
@@ -69038,10 +69747,17 @@ Methods (count = 45):
       [161] ldc #81
         + String [mRecordCheck]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [149] aload_0 v0
       [150] getfield #156
         + Fieldref [com/aksharspeech/waverecorder/a/i.h Z]
       [153] invokeinterface #302
+=======
+      [163] aload_0 v0
+      [164] getfield #159
+        + Fieldref [com/aksharspeech/waverecorder/a/i.h Z]
+      [167] invokeinterface #309
+>>>>>>> refs/heads/master
 =======
       [163] aload_0 v0
       [164] getfield #159
@@ -69054,10 +69770,17 @@ Methods (count = 45):
       [174] ldc #80
         + String [mPlayCheck]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [162] aload_0 v0
       [163] getfield #167
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Z]
       [166] invokeinterface #302
+=======
+      [176] aload_0 v0
+      [177] getfield #171
+        + Fieldref [com/aksharspeech/waverecorder/a/i.t Z]
+      [180] invokeinterface #309
+>>>>>>> refs/heads/master
 =======
       [176] aload_0 v0
       [177] getfield #171
@@ -69070,10 +69793,17 @@ Methods (count = 45):
       [187] ldc #85
         + String [misPlaying]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [175] aload_0 v0
       [176] getfield #155
         + Fieldref [com/aksharspeech/waverecorder/a/i.g Z]
       [179] invokeinterface #302
+=======
+      [189] aload_0 v0
+      [190] getfield #158
+        + Fieldref [com/aksharspeech/waverecorder/a/i.g Z]
+      [193] invokeinterface #309
+>>>>>>> refs/heads/master
 =======
       [189] aload_0 v0
       [190] getfield #158
@@ -69086,10 +69816,17 @@ Methods (count = 45):
       [200] ldc #86
         + String [misRecording]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [188] aload_0 v0
       [189] getfield #154
         + Fieldref [com/aksharspeech/waverecorder/a/i.f Z]
       [192] invokeinterface #302
+=======
+      [202] aload_0 v0
+      [203] getfield #157
+        + Fieldref [com/aksharspeech/waverecorder/a/i.f Z]
+      [206] invokeinterface #309
+>>>>>>> refs/heads/master
 =======
       [202] aload_0 v0
       [203] getfield #157
@@ -69102,10 +69839,17 @@ Methods (count = 45):
       [213] ldc #82
         + String [mSubmit]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [201] aload_0 v0
       [202] getfield #165
         + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
       [205] invokeinterface #302
+=======
+      [215] aload_0 v0
+      [216] getfield #169
+        + Fieldref [com/aksharspeech/waverecorder/a/i.r Z]
+      [219] invokeinterface #309
+>>>>>>> refs/heads/master
 =======
       [215] aload_0 v0
       [216] getfield #169
@@ -69118,9 +69862,15 @@ Methods (count = 45):
       [226] ldc #30
         + String [EOF]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [214] getstatic #152
         + Fieldref [com/aksharspeech/waverecorder/a/i.d Z]
       [217] invokeinterface #302
+=======
+      [228] getstatic #155
+        + Fieldref [com/aksharspeech/waverecorder/a/i.d Z]
+      [231] invokeinterface #309
+>>>>>>> refs/heads/master
 =======
       [228] getstatic #155
         + Fieldref [com/aksharspeech/waverecorder/a/i.d Z]
@@ -69132,9 +69882,15 @@ Methods (count = 45):
       [238] ldc #29
         + String [BOF]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [226] getstatic #153
         + Fieldref [com/aksharspeech/waverecorder/a/i.e Z]
       [229] invokeinterface #302
+=======
+      [240] getstatic #156
+        + Fieldref [com/aksharspeech/waverecorder/a/i.e Z]
+      [243] invokeinterface #309
+>>>>>>> refs/heads/master
 =======
       [240] getstatic #156
         + Fieldref [com/aksharspeech/waverecorder/a/i.e Z]
@@ -69146,10 +69902,17 @@ Methods (count = 45):
       [250] ldc #78
         + String [mIndex]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [238] aload_0 v0
       [239] getfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.t I]
       [242] invokeinterface #303
+=======
+      [252] aload_0 v0
+      [253] getfield #172
+        + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+      [256] invokeinterface #310
+>>>>>>> refs/heads/master
 =======
       [252] aload_0 v0
       [253] getfield #172
@@ -69162,10 +69925,17 @@ Methods (count = 45):
       [263] ldc #76
         + String [mCurrentLine]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [251] aload_0 v0
       [252] getfield #169
         + Fieldref [com/aksharspeech/waverecorder/a/i.u Ljava/lang/String;]
       [255] invokeinterface #304
+=======
+      [265] aload_0 v0
+      [266] getfield #173
+        + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
+      [269] invokeinterface #311
+>>>>>>> refs/heads/master
 =======
       [265] aload_0 v0
       [266] getfield #173
@@ -69178,10 +69948,17 @@ Methods (count = 45):
       [276] ldc #77
         + String [mCurrentLineNumber]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [264] aload_0 v0
       [265] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
       [268] invokeinterface #304
+=======
+      [278] aload_0 v0
+      [279] getfield #174
+        + Fieldref [com/aksharspeech/waverecorder/a/i.w Ljava/lang/String;]
+      [282] invokeinterface #311
+>>>>>>> refs/heads/master
 =======
       [278] aload_0 v0
       [279] getfield #174
@@ -69194,10 +69971,17 @@ Methods (count = 45):
       [289] ldc #79
         + String [mPath]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [277] aload_0 v0
       [278] getfield #174
         + Fieldref [com/aksharspeech/waverecorder/a/i.z Ljava/lang/String;]
       [281] invokeinterface #304
+=======
+      [291] aload_0 v0
+      [292] getfield #146
+        + Fieldref [com/aksharspeech/waverecorder/a/i.A Ljava/lang/String;]
+      [295] invokeinterface #311
+>>>>>>> refs/heads/master
 =======
       [291] aload_0 v0
       [292] getfield #146
@@ -69210,10 +69994,17 @@ Methods (count = 45):
       [302] ldc #83
         + String [mTextFile]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [290] aload_0 v0
       [291] getfield #145
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Ljava/lang/String;]
       [294] invokeinterface #304
+=======
+      [304] aload_0 v0
+      [305] getfield #148
+        + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
+      [308] invokeinterface #311
+>>>>>>> refs/heads/master
 =======
       [304] aload_0 v0
       [305] getfield #148
@@ -69226,10 +70017,17 @@ Methods (count = 45):
       [315] ldc #84
         + String [mTextPath]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [303] aload_0 v0
       [304] getfield #146
         + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
       [307] invokeinterface #304
+=======
+      [317] aload_0 v0
+      [318] getfield #149
+        + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
+      [321] invokeinterface #311
+>>>>>>> refs/heads/master
 =======
       [317] aload_0 v0
       [318] getfield #149
@@ -69242,10 +70040,17 @@ Methods (count = 45):
       [328] ldc #94
         + String [wasPaused]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [316] aload_0 v0
       [317] getfield #164
         + Fieldref [com/aksharspeech/waverecorder/a/i.p Z]
       [320] invokeinterface #302
+=======
+      [330] aload_0 v0
+      [331] getfield #168
+        + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
+      [334] invokeinterface #309
+>>>>>>> refs/heads/master
 =======
       [330] aload_0 v0
       [331] getfield #168
@@ -69273,7 +70078,11 @@ Methods (count = 45):
     + Code attribute instructions (code length = 60, locals = 3, stack = 3):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #154
+=======
+      [1] getfield #157
+>>>>>>> refs/heads/master
 =======
       [1] getfield #157
 >>>>>>> refs/heads/master
@@ -69283,7 +70092,11 @@ Methods (count = 45):
       [8] ldc #50
         + String [Recorder is on. Kindly stop  it before playing!]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [10] invokevirtual #220
+=======
+      [10] invokevirtual #223
+>>>>>>> refs/heads/master
 =======
       [10] invokevirtual #223
 >>>>>>> refs/heads/master
@@ -69298,7 +70111,11 @@ Methods (count = 45):
       [23] ldc #48
         + String [Record audio file, no audio file exists!!]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [25] invokevirtual #220
+=======
+      [25] invokevirtual #223
+>>>>>>> refs/heads/master
 =======
       [25] invokevirtual #223
 >>>>>>> refs/heads/master
@@ -69318,7 +70135,11 @@ Methods (count = 45):
       [45] aload_0 v0
       [46] aload_1 v1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [47] invokespecial #221
+=======
+      [47] invokespecial #224
+>>>>>>> refs/heads/master
 =======
       [47] invokespecial #224
 >>>>>>> refs/heads/master
@@ -69328,7 +70149,11 @@ Methods (count = 45):
       [54] ldc #41
         + String [No audio file to play!]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [56] invokevirtual #220
+=======
+      [56] invokevirtual #223
+>>>>>>> refs/heads/master
 =======
       [56] invokevirtual #223
 >>>>>>> refs/heads/master
@@ -69348,7 +70173,11 @@ Methods (count = 45):
     + Code attribute instructions (code length = 177, locals = 2, stack = 3):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #158
+=======
+      [1] getfield #161
+>>>>>>> refs/heads/master
 =======
       [1] getfield #161
 >>>>>>> refs/heads/master
@@ -69356,8 +70185,13 @@ Methods (count = 45):
       [4] ifeq +10 (target=14)
       [7] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [8] getfield #167
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Z]
+=======
+      [8] getfield #171
+        + Fieldref [com/aksharspeech/waverecorder/a/i.t Z]
+>>>>>>> refs/heads/master
 =======
       [8] getfield #171
         + Fieldref [com/aksharspeech/waverecorder/a/i.t Z]
@@ -69365,7 +70199,11 @@ Methods (count = 45):
       [11] ifne +159 (target=170)
       [14] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [15] getfield #155
+=======
+      [15] getfield #158
+>>>>>>> refs/heads/master
 =======
       [15] getfield #158
 >>>>>>> refs/heads/master
@@ -69373,15 +70211,24 @@ Methods (count = 45):
       [18] ifeq +7 (target=25)
       [21] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [22] invokevirtual #224
+=======
+      [22] invokevirtual #227
+>>>>>>> refs/heads/master
 =======
       [22] invokevirtual #227
 >>>>>>> refs/heads/master
         + Methodref [com/aksharspeech/waverecorder/a/i.o ()V]
       [25] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [26] getfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.t I]
+=======
+      [26] getfield #172
+        + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+>>>>>>> refs/heads/master
 =======
       [26] getfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
@@ -69390,8 +70237,13 @@ Methods (count = 45):
       [32] aload_0 v0
       [33] dup
 <<<<<<< HEAD
+<<<<<<< HEAD
       [34] getfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.t I]
+=======
+      [34] getfield #172
+        + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+>>>>>>> refs/heads/master
 =======
       [34] getfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
@@ -69399,14 +70251,20 @@ Methods (count = 45):
       [37] iconst_1
       [38] isub
 <<<<<<< HEAD
+<<<<<<< HEAD
       [39] putfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.t I]
 =======
       [39] putfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
 >>>>>>> refs/heads/master
+=======
+      [39] putfield #172
+        + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+>>>>>>> refs/heads/master
       [42] aload_0 v0
       [43] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [44] invokevirtual #223
         + Methodref [com/aksharspeech/waverecorder/a/i.n ()Ljava/lang/String;]
@@ -69418,7 +70276,14 @@ Methods (count = 45):
       [47] putfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
 >>>>>>> refs/heads/master
+=======
+      [44] invokevirtual #226
+        + Methodref [com/aksharspeech/waverecorder/a/i.n ()Ljava/lang/String;]
+      [47] putfield #173
+        + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
+>>>>>>> refs/heads/master
       [50] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [51] getfield #169
         + Fieldref [com/aksharspeech/waverecorder/a/i.u Ljava/lang/String;]
@@ -69426,8 +70291,13 @@ Methods (count = 45):
       [51] getfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
 >>>>>>> refs/heads/master
+=======
+      [51] getfield #173
+        + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
+>>>>>>> refs/heads/master
       [54] ifnull +85 (target=139)
       [57] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [58] getfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.x Landroid/widget/TextView;]
@@ -69435,11 +70305,21 @@ Methods (count = 45):
       [58] getfield #176
         + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/TextView;]
 >>>>>>> refs/heads/master
+=======
+      [58] getfield #176
+        + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/TextView;]
+>>>>>>> refs/heads/master
       [61] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [62] getfield #169
         + Fieldref [com/aksharspeech/waverecorder/a/i.u Ljava/lang/String;]
       [65] invokevirtual #208
+=======
+      [62] getfield #173
+        + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
+      [65] invokevirtual #211
+>>>>>>> refs/heads/master
 =======
       [62] getfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
@@ -69451,9 +70331,15 @@ Methods (count = 45):
         + Methodref [com/cybern/c/a.a (Ljava/lang/String;)V]
       [72] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [73] getfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/Chronometer;]
       [76] ldc #21
+=======
+      [73] getfield #177
+        + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
+      [76] ldc #22
+>>>>>>> refs/heads/master
 =======
       [73] getfield #177
         + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
@@ -69464,12 +70350,17 @@ Methods (count = 45):
         + Methodref [android/widget/Chronometer.setText (Ljava/lang/CharSequence;)V]
       [81] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [82] invokespecial #228
+=======
+      [82] invokespecial #231
+>>>>>>> refs/heads/master
 =======
       [82] invokespecial #231
 >>>>>>> refs/heads/master
         + Methodref [com/aksharspeech/waverecorder/a/i.t ()V]
       [85] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [86] getfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.t I]
@@ -69477,11 +70368,20 @@ Methods (count = 45):
       [86] getfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
 >>>>>>> refs/heads/master
+=======
+      [86] getfield #172
+        + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+>>>>>>> refs/heads/master
       [89] ifgt +16 (target=105)
       [92] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [93] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [93] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [93] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -69495,8 +70395,13 @@ Methods (count = 45):
         + Methodref [android/view/View.setEnabled (Z)V]
       [105] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [106] getfield #165
         + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
+=======
+      [106] getfield #169
+        + Fieldref [com/aksharspeech/waverecorder/a/i.r Z]
+>>>>>>> refs/heads/master
 =======
       [106] getfield #169
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Z]
@@ -69504,8 +70409,13 @@ Methods (count = 45):
       [109] ifeq +67 (target=176)
       [112] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [113] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [113] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [113] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -69525,8 +70435,13 @@ Methods (count = 45):
       [131] aload_0 v0
       [132] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [133] putfield #165
         + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
+=======
+      [133] putfield #169
+        + Fieldref [com/aksharspeech/waverecorder/a/i.r Z]
+>>>>>>> refs/heads/master
 =======
       [133] putfield #169
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Z]
@@ -69534,8 +70449,13 @@ Methods (count = 45):
       [136] goto +40 (target=176)
       [139] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [140] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [140] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [140] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -69551,7 +70471,11 @@ Methods (count = 45):
       [153] ldc #47
         + String [Reached stasting point of the file]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [155] invokevirtual #220
+=======
+      [155] invokevirtual #223
+>>>>>>> refs/heads/master
 =======
       [155] invokevirtual #223
 >>>>>>> refs/heads/master
@@ -69561,7 +70485,11 @@ Methods (count = 45):
       [162] ldc #47
         + String [Reached stasting point of the file]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [164] invokevirtual #220
+=======
+      [164] invokevirtual #223
+>>>>>>> refs/heads/master
 =======
       [164] invokevirtual #223
 >>>>>>> refs/heads/master
@@ -69571,7 +70499,11 @@ Methods (count = 45):
       [171] ldc #37
         + String [Kindly Play the recorder file before going back!]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [173] invokevirtual #220
+=======
+      [173] invokevirtual #223
+>>>>>>> refs/heads/master
 =======
       [173] invokevirtual #223
 >>>>>>> refs/heads/master
@@ -69597,7 +70529,11 @@ Methods (count = 45):
     + Code attribute instructions (code length = 178, locals = 2, stack = 4):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #154
+=======
+      [1] getfield #157
+>>>>>>> refs/heads/master
 =======
       [1] getfield #157
 >>>>>>> refs/heads/master
@@ -69605,7 +70541,11 @@ Methods (count = 45):
       [4] ifne +113 (target=117)
       [7] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [8] getfield #158
+=======
+      [8] getfield #161
+>>>>>>> refs/heads/master
 =======
       [8] getfield #161
 >>>>>>> refs/heads/master
@@ -69613,8 +70553,13 @@ Methods (count = 45):
       [11] ifeq +17 (target=28)
       [14] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [15] getfield #167
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Z]
+=======
+      [15] getfield #171
+        + Fieldref [com/aksharspeech/waverecorder/a/i.t Z]
+>>>>>>> refs/heads/master
 =======
       [15] getfield #171
         + Fieldref [com/aksharspeech/waverecorder/a/i.t Z]
@@ -69624,7 +70569,11 @@ Methods (count = 45):
       [22] ldc #36
         + String [Kindly Play the recorded audio file before re-recording!]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [24] invokevirtual #219
+=======
+      [24] invokevirtual #222
+>>>>>>> refs/heads/master
 =======
       [24] invokevirtual #222
 >>>>>>> refs/heads/master
@@ -69632,7 +70581,11 @@ Methods (count = 45):
       [27] return
       [28] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [29] getfield #155
+=======
+      [29] getfield #158
+>>>>>>> refs/heads/master
 =======
       [29] getfield #158
 >>>>>>> refs/heads/master
@@ -69642,7 +70595,11 @@ Methods (count = 45):
       [36] ldc #54
         + String [Stop playing before recording!]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [38] invokevirtual #220
+=======
+      [38] invokevirtual #223
+>>>>>>> refs/heads/master
 =======
       [38] invokevirtual #223
 >>>>>>> refs/heads/master
@@ -69650,8 +70607,13 @@ Methods (count = 45):
       [41] return
       [42] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [43] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [43] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [43] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -69665,8 +70627,13 @@ Methods (count = 45):
         + Methodref [android/view/View.setEnabled (Z)V]
       [55] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [56] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [56] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [56] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -69680,13 +70647,19 @@ Methods (count = 45):
         + Methodref [android/view/View.setEnabled (Z)V]
       [68] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [69] getfield #148
         + Fieldref [com/aksharspeech/waverecorder/a/i.E Lcom/cybern/c/a;]
 =======
       [69] getfield #151
         + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
 >>>>>>> refs/heads/master
+=======
+      [69] getfield #151
+        + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
+>>>>>>> refs/heads/master
       [72] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [73] getfield #159
         + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
@@ -69696,23 +70669,37 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
       [76] invokevirtual #254
 >>>>>>> refs/heads/master
+=======
+      [73] getfield #162
+        + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
+      [76] invokevirtual #254
+>>>>>>> refs/heads/master
         + Methodref [com/cybern/c/a.a (F)V]
       [79] aload_0 v0
       [80] iconst_1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [81] putfield #154
+=======
+      [81] putfield #157
+>>>>>>> refs/heads/master
 =======
       [81] putfield #157
 >>>>>>> refs/heads/master
         + Fieldref [com/aksharspeech/waverecorder/a/i.f Z]
       [84] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [85] invokespecial #231
+=======
+      [85] invokespecial #234
+>>>>>>> refs/heads/master
 =======
       [85] invokespecial #234
 >>>>>>> refs/heads/master
         + Methodref [com/aksharspeech/waverecorder/a/i.w ()V]
       [88] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [89] getfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/Chronometer;]
@@ -69722,8 +70709,14 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
       [92] invokevirtual #206
 >>>>>>> refs/heads/master
+=======
+      [89] getfield #177
+        + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
+      [92] invokevirtual #206
+>>>>>>> refs/heads/master
         + Methodref [android/widget/Chronometer.start ()V]
       [95] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [96] getfield #147
         + Fieldref [com/aksharspeech/waverecorder/a/i.D Landroid/widget/ImageView;]
@@ -69731,10 +70724,19 @@ Methods (count = 45):
       [96] getfield #150
         + Fieldref [com/aksharspeech/waverecorder/a/i.E Landroid/widget/ImageView;]
 >>>>>>> refs/heads/master
+=======
+      [96] getfield #150
+        + Fieldref [com/aksharspeech/waverecorder/a/i.E Landroid/widget/ImageView;]
+>>>>>>> refs/heads/master
       [99] ldc #3
+<<<<<<< HEAD
 <<<<<<< HEAD
         + Integer [2130837511]
       [101] invokevirtual #205
+=======
+        + Integer [2130837510]
+      [101] invokevirtual #208
+>>>>>>> refs/heads/master
 =======
         + Integer [2130837510]
       [101] invokevirtual #208
@@ -69743,7 +70745,11 @@ Methods (count = 45):
       [104] aload_0 v0
       [105] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [106] putfield #156
+=======
+      [106] putfield #159
+>>>>>>> refs/heads/master
 =======
       [106] putfield #159
 >>>>>>> refs/heads/master
@@ -69751,8 +70757,13 @@ Methods (count = 45):
       [109] aload_0 v0
       [110] iconst_1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [111] putfield #167
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Z]
+=======
+      [111] putfield #171
+        + Fieldref [com/aksharspeech/waverecorder/a/i.t Z]
+>>>>>>> refs/heads/master
 =======
       [111] putfield #171
         + Fieldref [com/aksharspeech/waverecorder/a/i.t Z]
@@ -69763,9 +70774,15 @@ Methods (count = 45):
       [120] dup
       [121] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [122] getfield #169
         + Fieldref [com/aksharspeech/waverecorder/a/i.u Ljava/lang/String;]
       [125] ldc #17
+=======
+      [122] getfield #173
+        + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
+      [125] ldc #18
+>>>>>>> refs/heads/master
 =======
       [122] getfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
@@ -69780,14 +70797,20 @@ Methods (count = 45):
       [133] invokevirtual #302
         + Methodref [java/util/StringTokenizer.nextToken ()Ljava/lang/String;]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [136] putfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
 =======
       [136] putfield #174
         + Fieldref [com/aksharspeech/waverecorder/a/i.w Ljava/lang/String;]
 >>>>>>> refs/heads/master
+=======
+      [136] putfield #174
+        + Fieldref [com/aksharspeech/waverecorder/a/i.w Ljava/lang/String;]
+>>>>>>> refs/heads/master
       [139] aload_0 v0
       [140] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [141] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
@@ -69797,11 +70820,20 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.w Ljava/lang/String;]
       [144] invokevirtual #221
 >>>>>>> refs/heads/master
+=======
+      [141] getfield #174
+        + Fieldref [com/aksharspeech/waverecorder/a/i.w Ljava/lang/String;]
+      [144] invokevirtual #221
+>>>>>>> refs/heads/master
         + Methodref [com/aksharspeech/waverecorder/a/i.e (Ljava/lang/String;)V]
       [147] aload_0 v0
       [148] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [149] putfield #156
+=======
+      [149] putfield #159
+>>>>>>> refs/heads/master
 =======
       [149] putfield #159
 >>>>>>> refs/heads/master
@@ -69809,12 +70841,17 @@ Methods (count = 45):
       [152] aload_0 v0
       [153] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [154] putfield #154
+=======
+      [154] putfield #157
+>>>>>>> refs/heads/master
 =======
       [154] putfield #157
 >>>>>>> refs/heads/master
         + Fieldref [com/aksharspeech/waverecorder/a/i.f Z]
       [157] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [158] getfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.t I]
@@ -69822,11 +70859,20 @@ Methods (count = 45):
       [158] getfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
 >>>>>>> refs/heads/master
+=======
+      [158] getfield #172
+        + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+>>>>>>> refs/heads/master
       [161] ifgt +16 (target=177)
       [164] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [165] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [165] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [165] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -69861,8 +70907,13 @@ Methods (count = 45):
     + Code attribute instructions (code length = 17, locals = 1, stack = 2):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #164
         + Fieldref [com/aksharspeech/waverecorder/a/i.p Z]
+=======
+      [1] getfield #168
+        + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
+>>>>>>> refs/heads/master
 =======
       [1] getfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
@@ -69871,15 +70922,24 @@ Methods (count = 45):
       [7] aload_0 v0
       [8] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [9] putfield #164
         + Fieldref [com/aksharspeech/waverecorder/a/i.p Z]
 =======
       [9] putfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
 >>>>>>> refs/heads/master
+=======
+      [9] putfield #168
+        + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
+>>>>>>> refs/heads/master
       [12] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [13] invokespecial #228
+=======
+      [13] invokespecial #231
+>>>>>>> refs/heads/master
 =======
       [13] invokespecial #231
 >>>>>>> refs/heads/master
@@ -69904,8 +70964,13 @@ Methods (count = 45):
     + Code attribute instructions (code length = 42, locals = 1, stack = 2):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #148
         + Fieldref [com/aksharspeech/waverecorder/a/i.E Lcom/cybern/c/a;]
+=======
+      [1] getfield #151
+        + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
+>>>>>>> refs/heads/master
 =======
       [1] getfield #151
         + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
@@ -69913,9 +70978,15 @@ Methods (count = 45):
       [4] ifnull +16 (target=20)
       [7] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [8] getfield #148
         + Fieldref [com/aksharspeech/waverecorder/a/i.E Lcom/cybern/c/a;]
       [11] invokevirtual #257
+=======
+      [8] getfield #151
+        + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
+      [11] invokevirtual #260
+>>>>>>> refs/heads/master
 =======
       [8] getfield #151
         + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
@@ -69926,13 +70997,19 @@ Methods (count = 45):
       [15] aload_0 v0
       [16] aconst_null
 <<<<<<< HEAD
+<<<<<<< HEAD
       [17] putfield #148
         + Fieldref [com/aksharspeech/waverecorder/a/i.E Lcom/cybern/c/a;]
 =======
       [17] putfield #151
         + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
 >>>>>>> refs/heads/master
+=======
+      [17] putfield #151
+        + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
+>>>>>>> refs/heads/master
       [20] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [21] getfield #144
         + Fieldref [com/aksharspeech/waverecorder/a/i.A Landroid/media/MediaPlayer;]
@@ -69940,10 +71017,18 @@ Methods (count = 45):
       [21] getfield #147
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
 >>>>>>> refs/heads/master
+=======
+      [21] getfield #147
+        + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
+>>>>>>> refs/heads/master
       [24] ifnull +12 (target=36)
       [27] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [28] invokevirtual #224
+=======
+      [28] invokevirtual #227
+>>>>>>> refs/heads/master
 =======
       [28] invokevirtual #227
 >>>>>>> refs/heads/master
@@ -69951,15 +71036,24 @@ Methods (count = 45):
       [31] aload_0 v0
       [32] aconst_null
 <<<<<<< HEAD
+<<<<<<< HEAD
       [33] putfield #144
         + Fieldref [com/aksharspeech/waverecorder/a/i.A Landroid/media/MediaPlayer;]
 =======
       [33] putfield #147
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
 >>>>>>> refs/heads/master
+=======
+      [33] putfield #147
+        + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
+>>>>>>> refs/heads/master
       [36] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [37] invokevirtual #213
+=======
+      [37] invokevirtual #216
+>>>>>>> refs/heads/master
 =======
       [37] invokevirtual #216
 >>>>>>> refs/heads/master
@@ -69989,7 +71083,11 @@ Methods (count = 45):
       [13] invokespecial #277
         + Methodref [java/io/InputStreamReader.<init> (Ljava/io/InputStream;)V]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [16] putfield #149
+=======
+      [16] putfield #152
+>>>>>>> refs/heads/master
 =======
       [16] putfield #152
 >>>>>>> refs/heads/master
@@ -70000,6 +71098,7 @@ Methods (count = 45):
       [23] dup
       [24] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [25] getfield #149
         + Fieldref [com/aksharspeech/waverecorder/a/i.a Ljava/io/InputStreamReader;]
       [28] invokespecial #258
@@ -70008,16 +71107,29 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.a Ljava/io/InputStreamReader;]
       [28] invokespecial #265
 >>>>>>> refs/heads/master
+=======
+      [25] getfield #152
+        + Fieldref [com/aksharspeech/waverecorder/a/i.a Ljava/io/InputStreamReader;]
+      [28] invokespecial #265
+>>>>>>> refs/heads/master
         + Methodref [java/io/BufferedReader.<init> (Ljava/io/Reader;)V]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [31] putfield #150
+=======
+      [31] putfield #153
+>>>>>>> refs/heads/master
 =======
       [31] putfield #153
 >>>>>>> refs/heads/master
         + Fieldref [com/aksharspeech/waverecorder/a/i.b Ljava/io/BufferedReader;]
       [34] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [35] getfield #149
+=======
+      [35] getfield #152
+>>>>>>> refs/heads/master
 =======
       [35] getfield #152
 >>>>>>> refs/heads/master
@@ -70025,7 +71137,11 @@ Methods (count = 45):
       [38] ifnull +12 (target=50)
       [41] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [42] getfield #150
+=======
+      [42] getfield #153
+>>>>>>> refs/heads/master
 =======
       [42] getfield #153
 >>>>>>> refs/heads/master
@@ -70058,9 +71174,15 @@ Methods (count = 45):
       [3] dup
       [4] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [5] getfield #169
         + Fieldref [com/aksharspeech/waverecorder/a/i.u Ljava/lang/String;]
       [8] ldc #17
+=======
+      [5] getfield #173
+        + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
+      [8] ldc #18
+>>>>>>> refs/heads/master
 =======
       [5] getfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
@@ -70075,14 +71197,20 @@ Methods (count = 45):
       [16] invokevirtual #302
         + Methodref [java/util/StringTokenizer.nextToken ()Ljava/lang/String;]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [19] putfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
 =======
       [19] putfield #174
         + Fieldref [com/aksharspeech/waverecorder/a/i.w Ljava/lang/String;]
 >>>>>>> refs/heads/master
+=======
+      [19] putfield #174
+        + Fieldref [com/aksharspeech/waverecorder/a/i.w Ljava/lang/String;]
+>>>>>>> refs/heads/master
       [22] aload_0 v0
       [23] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [24] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
@@ -70096,12 +71224,23 @@ Methods (count = 45):
         + Methodref [com/aksharspeech/waverecorder/a/i.a (Ljava/lang/String;)Ljava/lang/String;]
       [30] invokestatic #256
 >>>>>>> refs/heads/master
+=======
+      [24] getfield #174
+        + Fieldref [com/aksharspeech/waverecorder/a/i.w Ljava/lang/String;]
+      [27] invokevirtual #215
+        + Methodref [com/aksharspeech/waverecorder/a/i.a (Ljava/lang/String;)Ljava/lang/String;]
+      [30] invokestatic #256
+>>>>>>> refs/heads/master
         + Methodref [com/cybern/c/a.a (Ljava/lang/String;)V]
       [33] aload_0 v0
       [34] invokestatic #253
         + Methodref [com/cybern/c/a.a ()Ljava/lang/String;]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [37] invokespecial #222
+=======
+      [37] invokespecial #225
+>>>>>>> refs/heads/master
 =======
       [37] invokespecial #225
 >>>>>>> refs/heads/master
@@ -70110,7 +71249,11 @@ Methods (count = 45):
       [43] aload_0 v0
       [44] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [45] putfield #156
+=======
+      [45] putfield #159
+>>>>>>> refs/heads/master
 =======
       [45] putfield #159
 >>>>>>> refs/heads/master
@@ -70119,7 +71262,11 @@ Methods (count = 45):
       [51] aload_0 v0
       [52] iconst_1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [53] putfield #156
+=======
+      [53] putfield #159
+>>>>>>> refs/heads/master
 =======
       [53] putfield #159
 >>>>>>> refs/heads/master
@@ -70137,9 +71284,15 @@ Methods (count = 45):
     + Code attribute instructions (code length = 65, locals = 2, stack = 3):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #150
         + Fieldref [com/aksharspeech/waverecorder/a/i.b Ljava/io/BufferedReader;]
       [4] invokevirtual #260
+=======
+      [1] getfield #153
+        + Fieldref [com/aksharspeech/waverecorder/a/i.b Ljava/io/BufferedReader;]
+      [4] invokevirtual #267
+>>>>>>> refs/heads/master
 =======
       [1] getfield #153
         + Fieldref [com/aksharspeech/waverecorder/a/i.b Ljava/io/BufferedReader;]
@@ -70151,7 +71304,11 @@ Methods (count = 45):
       [9] ifnonnull +9 (target=18)
       [12] iconst_1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [13] putstatic #152
+=======
+      [13] putstatic #155
+>>>>>>> refs/heads/master
 =======
       [13] putstatic #155
 >>>>>>> refs/heads/master
@@ -70170,16 +71327,26 @@ Methods (count = 45):
       [30] ifle +18 (target=48)
       [33] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [34] getfield #151
+=======
+      [34] getfield #154
+>>>>>>> refs/heads/master
 =======
       [34] getfield #154
 >>>>>>> refs/heads/master
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
       [37] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [38] getfield #151
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
       [41] invokevirtual #292
+=======
+      [38] getfield #154
+        + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
+      [41] invokevirtual #299
+>>>>>>> refs/heads/master
 =======
       [38] getfield #154
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
@@ -70191,7 +71358,11 @@ Methods (count = 45):
         + Methodref [java/util/ArrayList.add (ILjava/lang/Object;)V]
       [48] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [49] putstatic #153
+=======
+      [49] putstatic #156
+>>>>>>> refs/heads/master
 =======
       [49] putstatic #156
 >>>>>>> refs/heads/master
@@ -70204,7 +71375,11 @@ Methods (count = 45):
         + Methodref [java/io/IOException.printStackTrace ()V]
       [59] iconst_1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [60] putstatic #152
+=======
+      [60] putstatic #155
+>>>>>>> refs/heads/master
 =======
       [60] putstatic #155
 >>>>>>> refs/heads/master
@@ -70228,13 +71403,19 @@ Methods (count = 45):
     + Code attribute instructions (code length = 31, locals = 1, stack = 2):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.t I]
 =======
       [1] getfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
 >>>>>>> refs/heads/master
+=======
+      [1] getfield #172
+        + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+>>>>>>> refs/heads/master
       [4] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [5] getfield #151
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
@@ -70244,20 +71425,35 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
       [8] invokevirtual #299
 >>>>>>> refs/heads/master
+=======
+      [5] getfield #154
+        + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
+      [8] invokevirtual #299
+>>>>>>> refs/heads/master
         + Methodref [java/util/ArrayList.size ()I]
       [11] ificmpge +18 (target=29)
       [14] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [15] getfield #151
+=======
+      [15] getfield #154
+>>>>>>> refs/heads/master
 =======
       [15] getfield #154
 >>>>>>> refs/heads/master
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
       [18] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [19] getfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.t I]
       [22] invokevirtual #291
+=======
+      [19] getfield #172
+        + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+      [22] invokevirtual #298
+>>>>>>> refs/heads/master
 =======
       [19] getfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
@@ -70280,14 +71476,20 @@ Methods (count = 45):
     + Code attribute instructions (code length = 34, locals = 1, stack = 2):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.t I]
 =======
       [1] getfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
 >>>>>>> refs/heads/master
+=======
+      [1] getfield #172
+        + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+>>>>>>> refs/heads/master
       [4] iflt +28 (target=32)
       [7] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [8] getfield #151
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
@@ -70297,20 +71499,35 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
       [11] invokevirtual #299
 >>>>>>> refs/heads/master
+=======
+      [8] getfield #154
+        + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
+      [11] invokevirtual #299
+>>>>>>> refs/heads/master
         + Methodref [java/util/ArrayList.size ()I]
       [14] ifle +18 (target=32)
       [17] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [18] getfield #151
+=======
+      [18] getfield #154
+>>>>>>> refs/heads/master
 =======
       [18] getfield #154
 >>>>>>> refs/heads/master
         + Fieldref [com/aksharspeech/waverecorder/a/i.c Ljava/util/ArrayList;]
       [21] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [22] getfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.t I]
       [25] invokevirtual #291
+=======
+      [22] getfield #172
+        + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
+      [25] invokevirtual #298
+>>>>>>> refs/heads/master
 =======
       [22] getfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.u I]
@@ -70333,14 +71550,20 @@ Methods (count = 45):
     + Code attribute instructions (code length = 76, locals = 2, stack = 2):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #144
         + Fieldref [com/aksharspeech/waverecorder/a/i.A Landroid/media/MediaPlayer;]
 =======
       [1] getfield #147
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
 >>>>>>> refs/heads/master
+=======
+      [1] getfield #147
+        + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
+>>>>>>> refs/heads/master
       [4] ifnull +58 (target=62)
       [7] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [8] getfield #144
         + Fieldref [com/aksharspeech/waverecorder/a/i.A Landroid/media/MediaPlayer;]
@@ -70350,9 +71573,15 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
       [11] invokevirtual #193
 >>>>>>> refs/heads/master
+=======
+      [8] getfield #147
+        + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
+      [11] invokevirtual #193
+>>>>>>> refs/heads/master
         + Methodref [android/media/MediaPlayer.release ()V]
       [14] aload_0 v0
       [15] aconst_null
+<<<<<<< HEAD
 <<<<<<< HEAD
       [16] putfield #144
         + Fieldref [com/aksharspeech/waverecorder/a/i.A Landroid/media/MediaPlayer;]
@@ -70360,10 +71589,19 @@ Methods (count = 45):
       [16] putfield #147
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
 >>>>>>> refs/heads/master
+=======
+      [16] putfield #147
+        + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
+>>>>>>> refs/heads/master
       [19] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [20] getfield #171
         + Fieldref [com/aksharspeech/waverecorder/a/i.w Landroid/widget/ImageView;]
+=======
+      [20] getfield #175
+        + Fieldref [com/aksharspeech/waverecorder/a/i.x Landroid/widget/ImageView;]
+>>>>>>> refs/heads/master
 =======
       [20] getfield #175
         + Fieldref [com/aksharspeech/waverecorder/a/i.x Landroid/widget/ImageView;]
@@ -70375,16 +71613,26 @@ Methods (count = 45):
       [28] aload_0 v0
       [29] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [30] putfield #155
+=======
+      [30] putfield #158
+>>>>>>> refs/heads/master
 =======
       [30] putfield #158
 >>>>>>> refs/heads/master
         + Fieldref [com/aksharspeech/waverecorder/a/i.g Z]
       [33] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [34] getfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/Chronometer;]
       [37] invokevirtual #204
+=======
+      [34] getfield #177
+        + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
+      [37] invokevirtual #207
+>>>>>>> refs/heads/master
 =======
       [34] getfield #177
         + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
@@ -70398,16 +71646,26 @@ Methods (count = 45):
         + Methodref [java/lang/Exception.printStackTrace ()V]
       [48] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [49] invokespecial #231
+=======
+      [49] invokespecial #234
+>>>>>>> refs/heads/master
 =======
       [49] invokespecial #234
 >>>>>>> refs/heads/master
         + Methodref [com/aksharspeech/waverecorder/a/i.w ()V]
       [52] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [53] getfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/Chronometer;]
       [56] ldc #21
+=======
+      [53] getfield #177
+        + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
+      [56] ldc #22
+>>>>>>> refs/heads/master
 =======
       [53] getfield #177
         + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
@@ -70419,16 +71677,26 @@ Methods (count = 45):
       [61] return
       [62] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [63] invokespecial #231
+=======
+      [63] invokespecial #234
+>>>>>>> refs/heads/master
 =======
       [63] invokespecial #234
 >>>>>>> refs/heads/master
         + Methodref [com/aksharspeech/waverecorder/a/i.w ()V]
       [66] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [67] getfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/Chronometer;]
       [70] ldc #21
+=======
+      [67] getfield #177
+        + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
+      [70] ldc #22
+>>>>>>> refs/heads/master
 =======
       [67] getfield #177
         + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
@@ -70452,9 +71720,15 @@ Methods (count = 45):
     + Code attribute instructions (code length = 11, locals = 1, stack = 3):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/Chronometer;]
       [4] invokestatic #196
+=======
+      [1] getfield #177
+        + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
+      [4] invokestatic #199
+>>>>>>> refs/heads/master
 =======
       [1] getfield #177
         + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
@@ -70499,9 +71773,15 @@ Methods (count = 45):
       [34] astore_1 v1
       [35] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [36] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [39] invokevirtual #176
+=======
+      [36] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [39] invokevirtual #179
+>>>>>>> refs/heads/master
 =======
       [36] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -70588,8 +71868,13 @@ Methods (count = 45):
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [150] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [151] getfield #145
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Ljava/lang/String;]
+=======
+      [151] getfield #148
+        + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
+>>>>>>> refs/heads/master
 =======
       [151] getfield #148
         + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
@@ -70597,8 +71882,13 @@ Methods (count = 45):
       [154] iconst_0
       [155] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [156] getfield #145
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Ljava/lang/String;]
+=======
+      [156] getfield #148
+        + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
+>>>>>>> refs/heads/master
 =======
       [156] getfield #148
         + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
@@ -70616,9 +71906,15 @@ Methods (count = 45):
       [174] aload_0 v0
       [175] aload_1 v1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [176] putfield #174
         + Fieldref [com/aksharspeech/waverecorder/a/i.z Ljava/lang/String;]
       [179] new #128
+=======
+      [176] putfield #146
+        + Fieldref [com/aksharspeech/waverecorder/a/i.A Ljava/lang/String;]
+      [179] new #130
+>>>>>>> refs/heads/master
 =======
       [176] putfield #146
         + Fieldref [com/aksharspeech/waverecorder/a/i.A Ljava/lang/String;]
@@ -70644,9 +71940,15 @@ Methods (count = 45):
       [1] ldc #17
         + String []
 <<<<<<< HEAD
+<<<<<<< HEAD
       [3] putfield #146
         + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
       [6] ldc #16
+=======
+      [3] putfield #149
+        + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
+      [6] ldc #17
+>>>>>>> refs/heads/master
 =======
       [3] putfield #149
         + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
@@ -70667,9 +71969,15 @@ Methods (count = 45):
       [23] aload_0 v0
       [24] dup
 <<<<<<< HEAD
+<<<<<<< HEAD
       [25] getfield #146
         + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
       [28] new #138
+=======
+      [25] getfield #149
+        + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
+      [28] new #140
+>>>>>>> refs/heads/master
 =======
       [25] getfield #149
         + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
@@ -70688,8 +71996,13 @@ Methods (count = 45):
       [43] invokevirtual #293
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [46] putfield #146
         + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
+=======
+      [46] putfield #149
+        + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
+>>>>>>> refs/heads/master
 =======
       [46] putfield #149
         + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
@@ -70701,9 +72014,15 @@ Methods (count = 45):
       [54] aload_0 v0
       [55] dup
 <<<<<<< HEAD
+<<<<<<< HEAD
       [56] getfield #146
         + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
       [59] new #138
+=======
+      [56] getfield #149
+        + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
+      [59] new #140
+>>>>>>> refs/heads/master
 =======
       [56] getfield #149
         + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
@@ -70723,8 +72042,13 @@ Methods (count = 45):
       [75] invokevirtual #293
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [78] putfield #146
         + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
+=======
+      [78] putfield #149
+        + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
+>>>>>>> refs/heads/master
 =======
       [78] putfield #149
         + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
@@ -70736,13 +72060,19 @@ Methods (count = 45):
       [88] aload_0 v0
       [89] aload_2 v2
 <<<<<<< HEAD
+<<<<<<< HEAD
       [90] putfield #145
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Ljava/lang/String;]
 =======
       [90] putfield #148
         + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
 >>>>>>> refs/heads/master
+=======
+      [90] putfield #148
+        + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
+>>>>>>> refs/heads/master
       [93] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [94] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
@@ -70752,12 +72082,23 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
       [97] ldc #91
 >>>>>>> refs/heads/master
+=======
+      [94] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [97] ldc #91
+>>>>>>> refs/heads/master
         + String [textfilepath]
       [99] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [100] getfield #146
         + Fieldref [com/aksharspeech/waverecorder/a/i.C Ljava/lang/String;]
       [103] invokestatic #246
+=======
+      [100] getfield #149
+        + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
+      [103] invokestatic #249
+>>>>>>> refs/heads/master
 =======
       [100] getfield #149
         + Fieldref [com/aksharspeech/waverecorder/a/i.D Ljava/lang/String;]
@@ -70792,9 +72133,15 @@ Methods (count = 45):
       [14] astore_2 v2
       [15] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [16] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [19] ldc #61
+=======
+      [16] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [19] ldc #62
+>>>>>>> refs/heads/master
 =======
       [16] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -70818,9 +72165,15 @@ Methods (count = 45):
       [43] dup
       [44] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [45] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [48] invokespecial #179
+=======
+      [45] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [48] invokespecial #182
+>>>>>>> refs/heads/master
 =======
       [45] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -70838,7 +72191,11 @@ Methods (count = 45):
       [63] ldc #42
         + String [OK]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [65] new #113
+=======
+      [65] new #114
+>>>>>>> refs/heads/master
 =======
       [65] new #114
 >>>>>>> refs/heads/master
@@ -70846,9 +72203,15 @@ Methods (count = 45):
       [68] dup
       [69] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [70] invokespecial #233
         + Methodref [com/aksharspeech/waverecorder/a/j.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
       [73] invokevirtual #181
+=======
+      [70] invokespecial #236
+        + Methodref [com/aksharspeech/waverecorder/a/j.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
+      [73] invokevirtual #184
+>>>>>>> refs/heads/master
 =======
       [70] invokespecial #236
         + Methodref [com/aksharspeech/waverecorder/a/j.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
@@ -70860,7 +72223,11 @@ Methods (count = 45):
       [79] aload_2 v2
       [80] iload_3 v3
 <<<<<<< HEAD
+<<<<<<< HEAD
       [81] new #117
+=======
+      [81] new #118
+>>>>>>> refs/heads/master
 =======
       [81] new #118
 >>>>>>> refs/heads/master
@@ -70869,9 +72236,15 @@ Methods (count = 45):
       [85] aload_0 v0
       [86] aload_2 v2
 <<<<<<< HEAD
+<<<<<<< HEAD
       [87] invokespecial #237
         + Methodref [com/aksharspeech/waverecorder/a/n.<init> (Lcom/aksharspeech/waverecorder/a/i;[Ljava/lang/CharSequence;)V]
       [90] invokevirtual #182
+=======
+      [87] invokespecial #240
+        + Methodref [com/aksharspeech/waverecorder/a/n.<init> (Lcom/aksharspeech/waverecorder/a/i;[Ljava/lang/CharSequence;)V]
+      [90] invokevirtual #185
+>>>>>>> refs/heads/master
 =======
       [87] invokespecial #240
         + Methodref [com/aksharspeech/waverecorder/a/n.<init> (Lcom/aksharspeech/waverecorder/a/i;[Ljava/lang/CharSequence;)V]
@@ -70910,9 +72283,15 @@ Methods (count = 45):
       [14] astore_2 v2
       [15] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [16] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [19] ldc #62
+=======
+      [16] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [19] ldc #63
+>>>>>>> refs/heads/master
 =======
       [16] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -70936,9 +72315,15 @@ Methods (count = 45):
       [43] dup
       [44] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [45] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [48] invokespecial #179
+=======
+      [45] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [48] invokespecial #182
+>>>>>>> refs/heads/master
 =======
       [45] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -70956,7 +72341,11 @@ Methods (count = 45):
       [63] ldc #42
         + String [OK]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [65] new #118
+=======
+      [65] new #119
+>>>>>>> refs/heads/master
 =======
       [65] new #119
 >>>>>>> refs/heads/master
@@ -70964,9 +72353,15 @@ Methods (count = 45):
       [68] dup
       [69] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [70] invokespecial #238
         + Methodref [com/aksharspeech/waverecorder/a/o.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
       [73] invokevirtual #181
+=======
+      [70] invokespecial #241
+        + Methodref [com/aksharspeech/waverecorder/a/o.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
+      [73] invokevirtual #184
+>>>>>>> refs/heads/master
 =======
       [70] invokespecial #241
         + Methodref [com/aksharspeech/waverecorder/a/o.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
@@ -70978,7 +72373,11 @@ Methods (count = 45):
       [79] aload_2 v2
       [80] iload_3 v3
 <<<<<<< HEAD
+<<<<<<< HEAD
       [81] new #119
+=======
+      [81] new #120
+>>>>>>> refs/heads/master
 =======
       [81] new #120
 >>>>>>> refs/heads/master
@@ -70987,9 +72386,15 @@ Methods (count = 45):
       [85] aload_0 v0
       [86] aload_2 v2
 <<<<<<< HEAD
+<<<<<<< HEAD
       [87] invokespecial #239
         + Methodref [com/aksharspeech/waverecorder/a/p.<init> (Lcom/aksharspeech/waverecorder/a/i;[Ljava/lang/CharSequence;)V]
       [90] invokevirtual #182
+=======
+      [87] invokespecial #242
+        + Methodref [com/aksharspeech/waverecorder/a/p.<init> (Lcom/aksharspeech/waverecorder/a/i;[Ljava/lang/CharSequence;)V]
+      [90] invokevirtual #185
+>>>>>>> refs/heads/master
 =======
       [87] invokespecial #242
         + Methodref [com/aksharspeech/waverecorder/a/p.<init> (Lcom/aksharspeech/waverecorder/a/i;[Ljava/lang/CharSequence;)V]
@@ -71028,9 +72433,15 @@ Methods (count = 45):
       [14] astore_2 v2
       [15] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [16] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [19] ldc #67
+=======
+      [16] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [19] ldc #68
+>>>>>>> refs/heads/master
 =======
       [16] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -71054,9 +72465,15 @@ Methods (count = 45):
       [41] dup
       [42] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [43] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [46] invokespecial #179
+=======
+      [43] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [46] invokespecial #182
+>>>>>>> refs/heads/master
 =======
       [43] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -71074,7 +72491,11 @@ Methods (count = 45):
       [61] ldc #42
         + String [OK]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [63] new #120
+=======
+      [63] new #121
+>>>>>>> refs/heads/master
 =======
       [63] new #121
 >>>>>>> refs/heads/master
@@ -71082,9 +72503,15 @@ Methods (count = 45):
       [66] dup
       [67] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [68] invokespecial #240
         + Methodref [com/aksharspeech/waverecorder/a/q.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
       [71] invokevirtual #181
+=======
+      [68] invokespecial #243
+        + Methodref [com/aksharspeech/waverecorder/a/q.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
+      [71] invokevirtual #184
+>>>>>>> refs/heads/master
 =======
       [68] invokespecial #243
         + Methodref [com/aksharspeech/waverecorder/a/q.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
@@ -71096,7 +72523,11 @@ Methods (count = 45):
       [77] aload_2 v2
       [78] iload_3 v3
 <<<<<<< HEAD
+<<<<<<< HEAD
       [79] new #121
+=======
+      [79] new #122
+>>>>>>> refs/heads/master
 =======
       [79] new #122
 >>>>>>> refs/heads/master
@@ -71105,9 +72536,15 @@ Methods (count = 45):
       [83] aload_0 v0
       [84] aload_2 v2
 <<<<<<< HEAD
+<<<<<<< HEAD
       [85] invokespecial #241
         + Methodref [com/aksharspeech/waverecorder/a/r.<init> (Lcom/aksharspeech/waverecorder/a/i;[Ljava/lang/CharSequence;)V]
       [88] invokevirtual #182
+=======
+      [85] invokespecial #244
+        + Methodref [com/aksharspeech/waverecorder/a/r.<init> (Lcom/aksharspeech/waverecorder/a/i;[Ljava/lang/CharSequence;)V]
+      [88] invokevirtual #185
+>>>>>>> refs/heads/master
 =======
       [85] invokespecial #244
         + Methodref [com/aksharspeech/waverecorder/a/r.<init> (Lcom/aksharspeech/waverecorder/a/i;[Ljava/lang/CharSequence;)V]
@@ -71132,8 +72569,13 @@ Methods (count = 45):
     + Code attribute instructions (code length = 71, locals = 2, stack = 5):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #164
         + Fieldref [com/aksharspeech/waverecorder/a/i.p Z]
+=======
+      [1] getfield #168
+        + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
+>>>>>>> refs/heads/master
 =======
       [1] getfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
@@ -71142,8 +72584,13 @@ Methods (count = 45):
       [7] aload_0 v0
       [8] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [9] putfield #164
         + Fieldref [com/aksharspeech/waverecorder/a/i.p Z]
+=======
+      [9] putfield #168
+        + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
+>>>>>>> refs/heads/master
 =======
       [9] putfield #168
         + Fieldref [com/aksharspeech/waverecorder/a/i.q Z]
@@ -71151,6 +72598,7 @@ Methods (count = 45):
       [12] return
       [13] aload_0 v0
       [14] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [15] invokespecial #229
         + Methodref [com/aksharspeech/waverecorder/a/i.u ()Ljava/lang/String;]
@@ -71162,7 +72610,14 @@ Methods (count = 45):
       [18] putfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
 >>>>>>> refs/heads/master
+=======
+      [15] invokespecial #232
+        + Methodref [com/aksharspeech/waverecorder/a/i.u ()Ljava/lang/String;]
+      [18] putfield #173
+        + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
+>>>>>>> refs/heads/master
       [21] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [22] getfield #169
         + Fieldref [com/aksharspeech/waverecorder/a/i.u Ljava/lang/String;]
@@ -71170,8 +72625,13 @@ Methods (count = 45):
       [22] getfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
 >>>>>>> refs/heads/master
+=======
+      [22] getfield #173
+        + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
+>>>>>>> refs/heads/master
       [25] ifnull +17 (target=42)
       [28] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [29] getfield #172
         + Fieldref [com/aksharspeech/waverecorder/a/i.x Landroid/widget/TextView;]
@@ -71179,11 +72639,21 @@ Methods (count = 45):
       [29] getfield #176
         + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/TextView;]
 >>>>>>> refs/heads/master
+=======
+      [29] getfield #176
+        + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/TextView;]
+>>>>>>> refs/heads/master
       [32] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [33] getfield #169
         + Fieldref [com/aksharspeech/waverecorder/a/i.u Ljava/lang/String;]
       [36] invokevirtual #208
+=======
+      [33] getfield #173
+        + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
+      [36] invokevirtual #211
+>>>>>>> refs/heads/master
 =======
       [33] getfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.v Ljava/lang/String;]
@@ -71195,6 +72665,7 @@ Methods (count = 45):
       [43] ldc #31
         + String [Error while reading file, Kindly go back and select file again]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [45] invokevirtual #219
         + Methodref [com/aksharspeech/waverecorder/a/i.f (Ljava/lang/String;)V]
       [48] new #139
@@ -71203,10 +72674,19 @@ Methods (count = 45):
         + Methodref [com/aksharspeech/waverecorder/a/i.f (Ljava/lang/String;)V]
       [48] new #141
 >>>>>>> refs/heads/master
+=======
+      [45] invokevirtual #222
+        + Methodref [com/aksharspeech/waverecorder/a/i.f (Ljava/lang/String;)V]
+      [48] new #141
+>>>>>>> refs/heads/master
         + Class [java/lang/Thread]
       [51] dup
 <<<<<<< HEAD
+<<<<<<< HEAD
       [52] new #122
+=======
+      [52] new #123
+>>>>>>> refs/heads/master
 =======
       [52] new #123
 >>>>>>> refs/heads/master
@@ -71214,9 +72694,15 @@ Methods (count = 45):
       [55] dup
       [56] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [57] invokespecial #242
         + Methodref [com/aksharspeech/waverecorder/a/s.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
       [60] ldc #55
+=======
+      [57] invokespecial #245
+        + Methodref [com/aksharspeech/waverecorder/a/s.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
+      [60] ldc #56
+>>>>>>> refs/heads/master
 =======
       [57] invokespecial #245
         + Methodref [com/aksharspeech/waverecorder/a/s.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
@@ -71244,9 +72730,15 @@ Methods (count = 45):
       [0] aload_0 v0
       [1] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [2] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [5] ldc #68
+=======
+      [2] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [5] ldc #69
+>>>>>>> refs/heads/master
 =======
       [2] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -71258,13 +72750,18 @@ Methods (count = 45):
       [9] invokestatic #250
         + Methodref [com/aksharspeech/waverecorder/b/a.b (Landroid/content/Context;Ljava/lang/String;F)F]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [12] putfield #159
+=======
+      [12] putfield #162
+>>>>>>> refs/heads/master
 =======
       [12] putfield #162
 >>>>>>> refs/heads/master
         + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
       [15] aload_0 v0
       [16] dup
+<<<<<<< HEAD
 <<<<<<< HEAD
       [17] getfield #159
         + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
@@ -71274,8 +72771,14 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
       [20] ldc #16
 >>>>>>> refs/heads/master
+=======
+      [17] getfield #162
+        + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
+      [20] ldc #16
+>>>>>>> refs/heads/master
         + Float [100.0]
       [22] fdiv
+<<<<<<< HEAD
 <<<<<<< HEAD
       [23] putfield #159
         + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
@@ -71285,9 +72788,15 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
       [26] new #97
 >>>>>>> refs/heads/master
+=======
+      [23] putfield #162
+        + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
+      [26] new #97
+>>>>>>> refs/heads/master
         + Class [android/app/AlertDialog$Builder]
       [29] dup
       [30] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [31] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
@@ -71297,13 +72806,24 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
       [34] invokespecial #182
 >>>>>>> refs/heads/master
+=======
+      [31] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [34] invokespecial #182
+>>>>>>> refs/heads/master
         + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
       [37] astore_2 v2
       [38] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [39] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [42] ldc #72
+=======
+      [39] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [42] ldc #73
+>>>>>>> refs/heads/master
 =======
       [39] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -71320,8 +72840,13 @@ Methods (count = 45):
         + Integer [2130903043]
       [54] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [55] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [55] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [55] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -71361,9 +72886,15 @@ Methods (count = 45):
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [106] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [107] getfield #159
         + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
       [110] ldc #15
+=======
+      [107] getfield #162
+        + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
+      [110] ldc #16
+>>>>>>> refs/heads/master
 =======
       [107] getfield #162
         + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
@@ -71380,9 +72911,15 @@ Methods (count = 45):
       [122] aload v6
       [124] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [125] getfield #159
         + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
       [128] ldc #15
+=======
+      [125] getfield #162
+        + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
+      [128] ldc #16
+>>>>>>> refs/heads/master
 =======
       [125] getfield #162
         + Fieldref [com/aksharspeech/waverecorder/a/i.k F]
@@ -71406,7 +72943,11 @@ Methods (count = 45):
       [148] pop
       [149] aload v6
 <<<<<<< HEAD
+<<<<<<< HEAD
       [151] new #123
+=======
+      [151] new #124
+>>>>>>> refs/heads/master
 =======
       [151] new #124
 >>>>>>> refs/heads/master
@@ -71416,9 +72957,15 @@ Methods (count = 45):
       [156] aload v5
       [158] aload v6
 <<<<<<< HEAD
+<<<<<<< HEAD
       [160] invokespecial #243
         + Methodref [com/aksharspeech/waverecorder/a/t.<init> (Lcom/aksharspeech/waverecorder/a/i;Landroid/widget/TextView;Landroid/widget/SeekBar;)V]
       [163] invokevirtual #206
+=======
+      [160] invokespecial #246
+        + Methodref [com/aksharspeech/waverecorder/a/t.<init> (Lcom/aksharspeech/waverecorder/a/i;Landroid/widget/TextView;Landroid/widget/SeekBar;)V]
+      [163] invokevirtual #209
+>>>>>>> refs/heads/master
 =======
       [160] invokespecial #246
         + Methodref [com/aksharspeech/waverecorder/a/t.<init> (Lcom/aksharspeech/waverecorder/a/i;Landroid/widget/TextView;Landroid/widget/SeekBar;)V]
@@ -71429,7 +72976,11 @@ Methods (count = 45):
       [167] ldc #42
         + String [OK]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [169] new #124
+=======
+      [169] new #125
+>>>>>>> refs/heads/master
 =======
       [169] new #125
 >>>>>>> refs/heads/master
@@ -71437,9 +72988,15 @@ Methods (count = 45):
       [172] dup
       [173] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [174] invokespecial #244
         + Methodref [com/aksharspeech/waverecorder/a/u.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
       [177] invokevirtual #181
+=======
+      [174] invokespecial #247
+        + Methodref [com/aksharspeech/waverecorder/a/u.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
+      [177] invokevirtual #184
+>>>>>>> refs/heads/master
 =======
       [174] invokespecial #247
         + Methodref [com/aksharspeech/waverecorder/a/u.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
@@ -71489,9 +73046,15 @@ Methods (count = 45):
       [24] astore_2 v2
       [25] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [26] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [29] ldc #89
+=======
+      [26] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [29] ldc #90
+>>>>>>> refs/heads/master
 =======
       [26] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -71528,9 +73091,15 @@ Methods (count = 45):
       [105] dup
       [106] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [107] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [110] invokespecial #179
+=======
+      [107] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [110] invokespecial #182
+>>>>>>> refs/heads/master
 =======
       [107] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -71548,7 +73117,11 @@ Methods (count = 45):
       [125] ldc #42
         + String [OK]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [127] new #114
+=======
+      [127] new #115
+>>>>>>> refs/heads/master
 =======
       [127] new #115
 >>>>>>> refs/heads/master
@@ -71556,9 +73129,15 @@ Methods (count = 45):
       [130] dup
       [131] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [132] invokespecial #234
         + Methodref [com/aksharspeech/waverecorder/a/k.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
       [135] invokevirtual #181
+=======
+      [132] invokespecial #237
+        + Methodref [com/aksharspeech/waverecorder/a/k.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
+      [135] invokevirtual #184
+>>>>>>> refs/heads/master
 =======
       [132] invokespecial #237
         + Methodref [com/aksharspeech/waverecorder/a/k.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
@@ -71570,7 +73149,11 @@ Methods (count = 45):
       [141] aload_2 v2
       [142] iload_3 v3
 <<<<<<< HEAD
+<<<<<<< HEAD
       [143] new #115
+=======
+      [143] new #116
+>>>>>>> refs/heads/master
 =======
       [143] new #116
 >>>>>>> refs/heads/master
@@ -71579,9 +73162,15 @@ Methods (count = 45):
       [147] aload_0 v0
       [148] aload_2 v2
 <<<<<<< HEAD
+<<<<<<< HEAD
       [149] invokespecial #235
         + Methodref [com/aksharspeech/waverecorder/a/l.<init> (Lcom/aksharspeech/waverecorder/a/i;[Ljava/lang/CharSequence;)V]
       [152] invokevirtual #182
+=======
+      [149] invokespecial #238
+        + Methodref [com/aksharspeech/waverecorder/a/l.<init> (Lcom/aksharspeech/waverecorder/a/i;[Ljava/lang/CharSequence;)V]
+      [152] invokevirtual #185
+>>>>>>> refs/heads/master
 =======
       [149] invokespecial #238
         + Methodref [com/aksharspeech/waverecorder/a/l.<init> (Lcom/aksharspeech/waverecorder/a/i;[Ljava/lang/CharSequence;)V]
@@ -71610,6 +73199,7 @@ Methods (count = 45):
     + Code attribute instructions (code length = 141, locals = 3, stack = 4):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #154
         + Fieldref [com/aksharspeech/waverecorder/a/i.f Z]
       [4] ifne +108 (target=112)
@@ -71618,7 +73208,13 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.f Z]
       [4] ifne +130 (target=134)
 >>>>>>> refs/heads/master
+=======
+      [1] getfield #157
+        + Fieldref [com/aksharspeech/waverecorder/a/i.f Z]
+      [4] ifne +130 (target=134)
+>>>>>>> refs/heads/master
       [7] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [8] getfield #155
         + Fieldref [com/aksharspeech/waverecorder/a/i.g Z]
@@ -71628,10 +73224,19 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.g Z]
       [11] ifne +116 (target=127)
 >>>>>>> refs/heads/master
+=======
+      [8] getfield #158
+        + Fieldref [com/aksharspeech/waverecorder/a/i.g Z]
+      [11] ifne +116 (target=127)
+>>>>>>> refs/heads/master
       [14] aload_0 v0
       [15] iconst_1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [16] putfield #155
+=======
+      [16] putfield #158
+>>>>>>> refs/heads/master
 =======
       [16] putfield #158
 >>>>>>> refs/heads/master
@@ -71643,16 +73248,26 @@ Methods (count = 45):
       [24] invokespecial #190
         + Methodref [android/media/MediaPlayer.<init> ()V]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [27] putfield #144
         + Fieldref [com/aksharspeech/waverecorder/a/i.A Landroid/media/MediaPlayer;]
 =======
       [27] putfield #147
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
 >>>>>>> refs/heads/master
+=======
+      [27] putfield #147
+        + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
+>>>>>>> refs/heads/master
       [30] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [31] getfield #144
         + Fieldref [com/aksharspeech/waverecorder/a/i.A Landroid/media/MediaPlayer;]
+=======
+      [31] getfield #147
+        + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
+>>>>>>> refs/heads/master
 =======
       [31] getfield #147
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
@@ -71662,6 +73277,7 @@ Methods (count = 45):
         + Methodref [android/media/MediaPlayer.setDataSource (Ljava/lang/String;)V]
       [38] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [39] getfield #144
         + Fieldref [com/aksharspeech/waverecorder/a/i.A Landroid/media/MediaPlayer;]
       [42] invokevirtual #189
@@ -71670,8 +73286,14 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
       [42] invokevirtual #192
 >>>>>>> refs/heads/master
+=======
+      [39] getfield #147
+        + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
+      [42] invokevirtual #192
+>>>>>>> refs/heads/master
         + Methodref [android/media/MediaPlayer.prepare ()V]
       [45] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [46] getfield #144
         + Fieldref [com/aksharspeech/waverecorder/a/i.A Landroid/media/MediaPlayer;]
@@ -71698,7 +73320,30 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
       [71] invokevirtual #196
 >>>>>>> refs/heads/master
+=======
+      [46] getfield #163
+        + Fieldref [com/aksharspeech/waverecorder/a/i.l Lcom/cybern/util/a;]
+      [49] ldc #14
+        + Integer [2131361840]
+      [51] aload_0 v0
+      [52] getfield #147
+        + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
+      [55] invokevirtual #263
+        + Methodref [com/cybern/util/a.a (ILandroid/media/MediaPlayer;)Landroid/media/audiofx/Visualizer;]
+      [58] pop
+      [59] aload_0 v0
+      [60] getfield #163
+        + Fieldref [com/aksharspeech/waverecorder/a/i.l Lcom/cybern/util/a;]
+      [63] iconst_1
+      [64] invokevirtual #264
+        + Methodref [com/cybern/util/a.a (Z)V]
+      [67] aload_0 v0
+      [68] getfield #147
+        + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
+      [71] invokevirtual #196
+>>>>>>> refs/heads/master
         + Methodref [android/media/MediaPlayer.start ()V]
+<<<<<<< HEAD
 <<<<<<< HEAD
       [52] aload_0 v0
       [53] invokespecial #231
@@ -71716,7 +73361,17 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
       [82] invokevirtual #206
 >>>>>>> refs/heads/master
+=======
+      [74] aload_0 v0
+      [75] invokespecial #234
+        + Methodref [com/aksharspeech/waverecorder/a/i.w ()V]
+      [78] aload_0 v0
+      [79] getfield #177
+        + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
+      [82] invokevirtual #206
+>>>>>>> refs/heads/master
         + Methodref [android/widget/Chronometer.start ()V]
+<<<<<<< HEAD
 <<<<<<< HEAD
       [63] aload_0 v0
       [64] getfield #171
@@ -71737,11 +73392,36 @@ Methods (count = 45):
       [84] dup
 =======
 >>>>>>> refs/heads/master
+=======
+>>>>>>> refs/heads/master
       [85] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [86] invokespecial #236
         + Methodref [com/aksharspeech/waverecorder/a/m.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
       [89] invokevirtual #192
+=======
+      [86] getfield #175
+        + Fieldref [com/aksharspeech/waverecorder/a/i.x Landroid/widget/ImageView;]
+      [89] ldc #3
+        + Integer [2130837510]
+      [91] invokevirtual #208
+        + Methodref [android/widget/ImageView.setImageResource (I)V]
+      [94] aload_0 v0
+      [95] iconst_0
+      [96] putfield #171
+        + Fieldref [com/aksharspeech/waverecorder/a/i.t Z]
+      [99] aload_0 v0
+      [100] getfield #147
+        + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
+      [103] new #117
+        + Class [com/aksharspeech/waverecorder/a/m]
+      [106] dup
+      [107] aload_0 v0
+      [108] invokespecial #239
+        + Methodref [com/aksharspeech/waverecorder/a/m.<init> (Lcom/aksharspeech/waverecorder/a/i;)V]
+      [111] invokevirtual #195
+>>>>>>> refs/heads/master
 =======
       [86] getfield #175
         + Fieldref [com/aksharspeech/waverecorder/a/i.x Landroid/widget/ImageView;]
@@ -71771,6 +73451,7 @@ Methods (count = 45):
       [119] ldc #88
         + String [prepare() failed]
 <<<<<<< HEAD
+<<<<<<< HEAD
       [99] invokevirtual #220
         + Methodref [com/aksharspeech/waverecorder/a/i.g (Ljava/lang/String;)V]
       [102] goto +16 (target=118)
@@ -71791,11 +73472,28 @@ Methods (count = 45):
       [134] aload_0 v0
       [135] ldc #51
 >>>>>>> refs/heads/master
+=======
+      [121] invokevirtual #223
+        + Methodref [com/aksharspeech/waverecorder/a/i.g (Ljava/lang/String;)V]
+      [124] goto +16 (target=140)
+      [127] aload_0 v0
+      [128] invokespecial #235
+        + Methodref [com/aksharspeech/waverecorder/a/i.x ()V]
+      [131] goto +9 (target=140)
+      [134] aload_0 v0
+      [135] ldc #51
+>>>>>>> refs/heads/master
         + String [Recording is still going on]
+<<<<<<< HEAD
 <<<<<<< HEAD
       [115] invokevirtual #220
         + Methodref [com/aksharspeech/waverecorder/a/i.g (Ljava/lang/String;)V]
       [118] return
+=======
+      [137] invokevirtual #223
+        + Methodref [com/aksharspeech/waverecorder/a/i.g (Ljava/lang/String;)V]
+      [140] return
+>>>>>>> refs/heads/master
 =======
       [137] invokevirtual #223
         + Methodref [com/aksharspeech/waverecorder/a/i.g (Ljava/lang/String;)V]
@@ -71819,14 +73517,20 @@ Methods (count = 45):
     + Code attribute instructions (code length = 80, locals = 1, stack = 2):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #144
         + Fieldref [com/aksharspeech/waverecorder/a/i.A Landroid/media/MediaPlayer;]
 =======
       [1] getfield #147
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
 >>>>>>> refs/heads/master
+=======
+      [1] getfield #147
+        + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
+>>>>>>> refs/heads/master
       [4] ifnull +32 (target=36)
       [7] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [8] getfield #144
         + Fieldref [com/aksharspeech/waverecorder/a/i.A Landroid/media/MediaPlayer;]
@@ -71836,9 +73540,15 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
       [11] invokevirtual #191
 >>>>>>> refs/heads/master
+=======
+      [8] getfield #147
+        + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
+      [11] invokevirtual #191
+>>>>>>> refs/heads/master
         + Methodref [android/media/MediaPlayer.isPlaying ()Z]
       [14] ifeq +22 (target=36)
       [17] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [18] getfield #144
         + Fieldref [com/aksharspeech/waverecorder/a/i.A Landroid/media/MediaPlayer;]
@@ -71848,8 +73558,14 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
       [21] invokevirtual #197
 >>>>>>> refs/heads/master
+=======
+      [18] getfield #147
+        + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
+      [21] invokevirtual #197
+>>>>>>> refs/heads/master
         + Methodref [android/media/MediaPlayer.stop ()V]
       [24] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [25] getfield #144
         + Fieldref [com/aksharspeech/waverecorder/a/i.A Landroid/media/MediaPlayer;]
@@ -71859,9 +73575,15 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
       [28] invokevirtual #193
 >>>>>>> refs/heads/master
+=======
+      [25] getfield #147
+        + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
+      [28] invokevirtual #193
+>>>>>>> refs/heads/master
         + Methodref [android/media/MediaPlayer.release ()V]
       [31] aload_0 v0
       [32] aconst_null
+<<<<<<< HEAD
 <<<<<<< HEAD
       [33] putfield #144
         + Fieldref [com/aksharspeech/waverecorder/a/i.A Landroid/media/MediaPlayer;]
@@ -71869,7 +73591,12 @@ Methods (count = 45):
       [33] putfield #147
         + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
 >>>>>>> refs/heads/master
+=======
+      [33] putfield #147
+        + Fieldref [com/aksharspeech/waverecorder/a/i.B Landroid/media/MediaPlayer;]
+>>>>>>> refs/heads/master
       [36] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [37] getfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/Chronometer;]
@@ -71880,7 +73607,13 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.l Lcom/cybern/util/a;]
       [40] ifnull +18 (target=58)
 >>>>>>> refs/heads/master
+=======
+      [37] getfield #163
+        + Fieldref [com/aksharspeech/waverecorder/a/i.l Lcom/cybern/util/a;]
+      [40] ifnull +18 (target=58)
+>>>>>>> refs/heads/master
       [43] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [44] getfield #171
         + Fieldref [com/aksharspeech/waverecorder/a/i.w Landroid/widget/ImageView;]
@@ -71906,15 +73639,44 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.x Landroid/widget/ImageView;]
       [69] ldc #1
 >>>>>>> refs/heads/master
+=======
+      [44] getfield #163
+        + Fieldref [com/aksharspeech/waverecorder/a/i.l Lcom/cybern/util/a;]
+      [47] iconst_0
+      [48] invokevirtual #264
+        + Methodref [com/cybern/util/a.a (Z)V]
+      [51] aload_0 v0
+      [52] getfield #163
+        + Fieldref [com/aksharspeech/waverecorder/a/i.l Lcom/cybern/util/a;]
+      [55] invokevirtual #262
+        + Methodref [com/cybern/util/a.a ()V]
+      [58] aload_0 v0
+      [59] getfield #177
+        + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
+      [62] invokevirtual #207
+        + Methodref [android/widget/Chronometer.stop ()V]
+      [65] aload_0 v0
+      [66] getfield #175
+        + Fieldref [com/aksharspeech/waverecorder/a/i.x Landroid/widget/ImageView;]
+      [69] ldc #1
+>>>>>>> refs/heads/master
         + Integer [2130837508]
       [71] invokevirtual #208
         + Methodref [android/widget/ImageView.setImageResource (I)V]
+<<<<<<< HEAD
 <<<<<<< HEAD
       [52] aload_0 v0
       [53] iconst_0
       [54] putfield #155
         + Fieldref [com/aksharspeech/waverecorder/a/i.g Z]
       [57] return
+=======
+      [74] aload_0 v0
+      [75] iconst_0
+      [76] putfield #158
+        + Fieldref [com/aksharspeech/waverecorder/a/i.g Z]
+      [79] return
+>>>>>>> refs/heads/master
 =======
       [74] aload_0 v0
       [75] iconst_0
@@ -71935,6 +73697,7 @@ Methods (count = 45):
       [0] aload_0 v0
       [1] aload_1 v1
 <<<<<<< HEAD
+<<<<<<< HEAD
       [2] invokevirtual #212
         + Methodref [com/aksharspeech/waverecorder/a/i.a (Ljava/lang/String;)Ljava/lang/String;]
       [5] invokestatic #253
@@ -71943,8 +73706,14 @@ Methods (count = 45):
         + Methodref [com/aksharspeech/waverecorder/a/i.a (Ljava/lang/String;)Ljava/lang/String;]
       [5] invokestatic #256
 >>>>>>> refs/heads/master
+=======
+      [2] invokevirtual #215
+        + Methodref [com/aksharspeech/waverecorder/a/i.a (Ljava/lang/String;)Ljava/lang/String;]
+      [5] invokestatic #256
+>>>>>>> refs/heads/master
         + Methodref [com/cybern/c/a.a (Ljava/lang/String;)V]
       [8] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [9] getfield #148
         + Fieldref [com/aksharspeech/waverecorder/a/i.E Lcom/cybern/c/a;]
@@ -71954,8 +73723,14 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
       [12] invokevirtual #259
 >>>>>>> refs/heads/master
+=======
+      [9] getfield #151
+        + Fieldref [com/aksharspeech/waverecorder/a/i.F Lcom/cybern/c/a;]
+      [12] invokevirtual #259
+>>>>>>> refs/heads/master
         + Methodref [com/cybern/c/a.f ()V]
       [15] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [16] getfield #147
         + Fieldref [com/aksharspeech/waverecorder/a/i.D Landroid/widget/ImageView;]
@@ -71963,7 +73738,12 @@ Methods (count = 45):
       [16] getfield #150
         + Fieldref [com/aksharspeech/waverecorder/a/i.E Landroid/widget/ImageView;]
 >>>>>>> refs/heads/master
+=======
+      [16] getfield #150
+        + Fieldref [com/aksharspeech/waverecorder/a/i.E Landroid/widget/ImageView;]
+>>>>>>> refs/heads/master
       [19] ldc #2
+<<<<<<< HEAD
 <<<<<<< HEAD
         + Integer [2130837510]
       [21] invokevirtual #205
@@ -71971,8 +73751,13 @@ Methods (count = 45):
         + Integer [2130837509]
       [21] invokevirtual #208
 >>>>>>> refs/heads/master
+=======
+        + Integer [2130837509]
+      [21] invokevirtual #208
+>>>>>>> refs/heads/master
         + Methodref [android/widget/ImageView.setImageResource (I)V]
       [24] aload_0 v0
+<<<<<<< HEAD
 <<<<<<< HEAD
       [25] getfield #173
         + Fieldref [com/aksharspeech/waverecorder/a/i.y Landroid/widget/Chronometer;]
@@ -71982,11 +73767,21 @@ Methods (count = 45):
         + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
       [28] invokevirtual #207
 >>>>>>> refs/heads/master
+=======
+      [25] getfield #177
+        + Fieldref [com/aksharspeech/waverecorder/a/i.z Landroid/widget/Chronometer;]
+      [28] invokevirtual #207
+>>>>>>> refs/heads/master
         + Methodref [android/widget/Chronometer.stop ()V]
       [31] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [32] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [32] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [32] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -72000,8 +73795,13 @@ Methods (count = 45):
         + Methodref [android/view/View.setEnabled (Z)V]
       [44] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [45] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [45] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [45] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -72016,7 +73816,11 @@ Methods (count = 45):
       [57] aload_0 v0
       [58] iconst_0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [59] putfield #154
+=======
+      [59] putfield #157
+>>>>>>> refs/heads/master
 =======
       [59] putfield #157
 >>>>>>> refs/heads/master
@@ -72031,9 +73835,15 @@ Methods (count = 45):
     + Code attribute instructions (code length = 16, locals = 2, stack = 3):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [4] invokevirtual #176
+=======
+      [1] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [4] invokevirtual #179
+>>>>>>> refs/heads/master
 =======
       [1] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -72056,9 +73866,15 @@ Methods (count = 45):
     + Code attribute instructions (code length = 16, locals = 2, stack = 3):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
       [4] invokevirtual #176
+=======
+      [1] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+      [4] invokevirtual #179
+>>>>>>> refs/heads/master
 =======
       [1] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -72122,8 +73938,13 @@ Methods (count = 45):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] getfield #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.r Landroid/app/Activity;]
+=======
+      [1] getfield #170
+        + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
+>>>>>>> refs/heads/master
 =======
       [1] getfield #170
         + Fieldref [com/aksharspeech/waverecorder/a/i.s Landroid/app/Activity;]
@@ -72138,8 +73959,13 @@ Methods (count = 45):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] iload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] putstatic #162
         + Fieldref [com/aksharspeech/waverecorder/a/i.n I]
+=======
+      [1] putstatic #166
+        + Fieldref [com/aksharspeech/waverecorder/a/i.o I]
+>>>>>>> refs/heads/master
 =======
       [1] putstatic #166
         + Fieldref [com/aksharspeech/waverecorder/a/i.o I]
@@ -72154,7 +73980,11 @@ Methods (count = 45):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] invokespecial #226
+=======
+      [1] invokespecial #229
+>>>>>>> refs/heads/master
 =======
       [1] invokespecial #229
 >>>>>>> refs/heads/master
@@ -72169,8 +73999,13 @@ Methods (count = 45):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] iload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] putstatic #163
         + Fieldref [com/aksharspeech/waverecorder/a/i.o I]
+=======
+      [1] putstatic #167
+        + Fieldref [com/aksharspeech/waverecorder/a/i.p I]
+>>>>>>> refs/heads/master
 =======
       [1] putstatic #167
         + Fieldref [com/aksharspeech/waverecorder/a/i.p I]
@@ -72185,7 +74020,11 @@ Methods (count = 45):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
 <<<<<<< HEAD
+<<<<<<< HEAD
       [1] invokespecial #232
+=======
+      [1] invokespecial #235
+>>>>>>> refs/heads/master
 =======
       [1] invokespecial #235
 >>>>>>> refs/heads/master
@@ -79127,6 +80966,7 @@ Class file attributes (count = 0):
 
 _____________________________________________________________________
 <<<<<<< HEAD
+<<<<<<< HEAD
 + Program class: com/cybern/util/VisualizerView
   Superclass:    android/view/View
   Major version: 0x32
@@ -79332,6 +81172,548 @@ Methods (count = 4):
       [35] invokevirtual #15
         + Methodref [android/graphics/Paint.setColor (I)V]
       [38] return
+=======
++ Program class: com/cybern/util/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.cybern.util.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 73):
+  + Class [android/app/Activity]
+  + Class [android/media/MediaPlayer]
+  + Class [android/media/audiofx/Visualizer]
+  + Class [com/cybern/util/VisualizerView]
+  + Class [com/cybern/util/a]
+  + Class [com/cybern/util/b]
+  + Class [java/lang/Object]
+  + Fieldref [com/cybern/util/a.a Landroid/app/Activity;]
+  + Fieldref [com/cybern/util/a.b Landroid/media/audiofx/Visualizer;]
+  + Fieldref [com/cybern/util/a.c Lcom/cybern/util/VisualizerView;]
+  + Methodref [android/app/Activity.findViewById (I)Landroid/view/View;]
+  + Methodref [android/media/MediaPlayer.getAudioSessionId ()I]
+  + Methodref [android/media/audiofx/Visualizer.<init> (I)V]
+  + Methodref [android/media/audiofx/Visualizer.getCaptureSizeRange ()[I]
+  + Methodref [android/media/audiofx/Visualizer.getMaxCaptureRate ()I]
+  + Methodref [android/media/audiofx/Visualizer.release ()V]
+  + Methodref [android/media/audiofx/Visualizer.setCaptureSize (I)I]
+  + Methodref [android/media/audiofx/Visualizer.setDataCaptureListener (Landroid/media/audiofx/Visualizer$OnDataCaptureListener;IZZ)I]
+  + Methodref [android/media/audiofx/Visualizer.setEnabled (Z)I]
+  + Methodref [com/cybern/util/b.<init> (Lcom/cybern/util/a;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (I)V]
+  + NameAndType [<init> (Lcom/cybern/util/a;)V]
+  + NameAndType [a Landroid/app/Activity;]
+  + NameAndType [b Landroid/media/audiofx/Visualizer;]
+  + NameAndType [c Lcom/cybern/util/VisualizerView;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getAudioSessionId ()I]
+  + NameAndType [getCaptureSizeRange ()[I]
+  + NameAndType [getMaxCaptureRate ()I]
+  + NameAndType [release ()V]
+  + NameAndType [setCaptureSize (I)I]
+  + NameAndType [setDataCaptureListener (Landroid/media/audiofx/Visualizer$OnDataCaptureListener;IZZ)I]
+  + NameAndType [setEnabled (Z)I]
+  + Utf8 [()I]
+  + Utf8 [()V]
+  + Utf8 [()[I]
+  + Utf8 [(I)I]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(ILandroid/media/MediaPlayer;)Landroid/media/audiofx/Visualizer;]
+  + Utf8 [(Landroid/app/Activity;)V]
+  + Utf8 [(Landroid/media/audiofx/Visualizer$OnDataCaptureListener;IZZ)I]
+  + Utf8 [(Lcom/cybern/util/a;)Lcom/cybern/util/VisualizerView;]
+  + Utf8 [(Lcom/cybern/util/a;)V]
+  + Utf8 [(Z)I]
+  + Utf8 [(Z)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/app/Activity;]
+  + Utf8 [Landroid/media/audiofx/Visualizer;]
+  + Utf8 [Lcom/cybern/util/VisualizerView;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/media/MediaPlayer]
+  + Utf8 [android/media/audiofx/Visualizer]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/cybern/util/VisualizerView]
+  + Utf8 [com/cybern/util/a]
+  + Utf8 [com/cybern/util/b]
+  + Utf8 [findViewById]
+  + Utf8 [getAudioSessionId]
+  + Utf8 [getCaptureSizeRange]
+  + Utf8 [getMaxCaptureRate]
+  + Utf8 [java/lang/Object]
+  + Utf8 [release]
+  + Utf8 [setCaptureSize]
+  + Utf8 [setDataCaptureListener]
+  + Utf8 [setEnabled]
+
+Fields (count = 3):
+  + Field:        a Landroid/app/Activity;
+    Access flags: 0x2
+      = private android.app.Activity a
+  + Field:        b Landroid/media/audiofx/Visualizer;
+    Access flags: 0x2
+      = private android.media.audiofx.Visualizer b
+  + Field:        c Lcom/cybern/util/VisualizerView;
+    Access flags: 0x2
+      = private com.cybern.util.VisualizerView c
+
+Methods (count = 5):
+  - Method:       <init>(Landroid/app/Activity;)V
+    Access flags: 0x1
+      = public a(android.app.Activity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #21
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_1 v1
+      [6] putfield #8
+        + Fieldref [com/cybern/util/a.a Landroid/app/Activity;]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x1
+      = public void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #9
+        + Fieldref [com/cybern/util/a.b Landroid/media/audiofx/Visualizer;]
+      [4] ifnull +10 (target=14)
+      [7] aload_0 v0
+      [8] getfield #9
+        + Fieldref [com/cybern/util/a.b Landroid/media/audiofx/Visualizer;]
+      [11] invokevirtual #16
+        + Methodref [android/media/audiofx/Visualizer.release ()V]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [14] Var: ..., Stack: (empty)
+  + Method:       a(ILandroid/media/MediaPlayer;)Landroid/media/audiofx/Visualizer;
+    Access flags: 0x1
+      = public android.media.audiofx.Visualizer a(int,android.media.MediaPlayer)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 77, locals = 3, stack = 5):
+      [0] aload_2 v2
+      [1] ifnonnull +5 (target=6)
+      [4] aconst_null
+      [5] areturn
+      [6] aload_0 v0
+      [7] aload_0 v0
+      [8] getfield #8
+        + Fieldref [com/cybern/util/a.a Landroid/app/Activity;]
+      [11] iload_1 v1
+      [12] invokevirtual #11
+        + Methodref [android/app/Activity.findViewById (I)Landroid/view/View;]
+      [15] checkcast #4
+        + Class [com/cybern/util/VisualizerView]
+      [18] putfield #10
+        + Fieldref [com/cybern/util/a.c Lcom/cybern/util/VisualizerView;]
+      [21] aload_0 v0
+      [22] new #3
+        + Class [android/media/audiofx/Visualizer]
+      [25] dup
+      [26] aload_2 v2
+      [27] invokevirtual #12
+        + Methodref [android/media/MediaPlayer.getAudioSessionId ()I]
+      [30] invokespecial #13
+        + Methodref [android/media/audiofx/Visualizer.<init> (I)V]
+      [33] putfield #9
+        + Fieldref [com/cybern/util/a.b Landroid/media/audiofx/Visualizer;]
+      [36] aload_0 v0
+      [37] getfield #9
+        + Fieldref [com/cybern/util/a.b Landroid/media/audiofx/Visualizer;]
+      [40] invokestatic #14
+        + Methodref [android/media/audiofx/Visualizer.getCaptureSizeRange ()[I]
+      [43] iconst_1
+      [44] iaload
+      [45] invokevirtual #17
+        + Methodref [android/media/audiofx/Visualizer.setCaptureSize (I)I]
+      [48] pop
+      [49] aload_0 v0
+      [50] getfield #9
+        + Fieldref [com/cybern/util/a.b Landroid/media/audiofx/Visualizer;]
+      [53] new #6
+        + Class [com/cybern/util/b]
+      [56] dup
+      [57] aload_0 v0
+      [58] invokespecial #20
+        + Methodref [com/cybern/util/b.<init> (Lcom/cybern/util/a;)V]
+      [61] invokestatic #15
+        + Methodref [android/media/audiofx/Visualizer.getMaxCaptureRate ()I]
+      [64] iconst_2
+      [65] idiv
+      [66] iconst_1
+      [67] iconst_0
+      [68] invokevirtual #18
+        + Methodref [android/media/audiofx/Visualizer.setDataCaptureListener (Landroid/media/audiofx/Visualizer$OnDataCaptureListener;IZZ)I]
+      [71] pop
+      [72] aload_0 v0
+      [73] getfield #9
+        + Fieldref [com/cybern/util/a.b Landroid/media/audiofx/Visualizer;]
+      [76] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [6] Var: ..., Stack: (empty)
+  + Method:       a(Z)V
+    Access flags: 0x1
+      = public void a(boolean)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #9
+        + Fieldref [com/cybern/util/a.b Landroid/media/audiofx/Visualizer;]
+      [4] iload_1 v1
+      [5] invokevirtual #19
+        + Methodref [android/media/audiofx/Visualizer.setEnabled (Z)I]
+      [8] pop
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lcom/cybern/util/a;)Lcom/cybern/util/VisualizerView;
+    Access flags: 0x1008
+      = static synthetic com.cybern.util.VisualizerView a(com.cybern.util.a)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #10
+        + Fieldref [com/cybern/util/a.c Lcom/cybern/util/VisualizerView;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/cybern/util/b
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.cybern.util.b extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/media/audiofx/Visualizer$OnDataCaptureListener]
+
+Constant Pool (count = 30):
+  + Class [android/media/audiofx/Visualizer$OnDataCaptureListener]
+  + Class [com/cybern/util/VisualizerView]
+  + Class [com/cybern/util/a]
+  + Class [com/cybern/util/b]
+  + Class [java/lang/Object]
+  + Fieldref [com/cybern/util/b.a Lcom/cybern/util/a;]
+  + Methodref [com/cybern/util/VisualizerView.a ([B)V]
+  + Methodref [com/cybern/util/a.a (Lcom/cybern/util/a;)Lcom/cybern/util/VisualizerView;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lcom/cybern/util/a;)Lcom/cybern/util/VisualizerView;]
+  + NameAndType [a ([B)V]
+  + NameAndType [a Lcom/cybern/util/a;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/media/audiofx/Visualizer;[BI)V]
+  + Utf8 [(Lcom/cybern/util/a;)Lcom/cybern/util/VisualizerView;]
+  + Utf8 [(Lcom/cybern/util/a;)V]
+  + Utf8 [([B)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/cybern/util/a;]
+  + Utf8 [a]
+  + Utf8 [android/media/audiofx/Visualizer$OnDataCaptureListener]
+  + Utf8 [com/cybern/util/VisualizerView]
+  + Utf8 [com/cybern/util/a]
+  + Utf8 [com/cybern/util/b]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onFftDataCapture]
+  + Utf8 [onWaveFormDataCapture]
+
+Fields (count = 1):
+  + Field:        a Lcom/cybern/util/a;
+    Access flags: 0x1010
+      = final synthetic com.cybern.util.a a
+
+Methods (count = 3):
+  - Method:       <init>(Lcom/cybern/util/a;)V
+    Access flags: 0x0
+      = b(com.cybern.util.a)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #6
+        + Fieldref [com/cybern/util/b.a Lcom/cybern/util/a;]
+      [5] aload_0 v0
+      [6] invokespecial #9
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onWaveFormDataCapture(Landroid/media/audiofx/Visualizer;[BI)V
+    Access flags: 0x1
+      = public void onWaveFormDataCapture(android.media.audiofx.Visualizer,byte[],int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 4, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #6
+        + Fieldref [com/cybern/util/b.a Lcom/cybern/util/a;]
+      [4] invokestatic #8
+        + Methodref [com/cybern/util/a.a (Lcom/cybern/util/a;)Lcom/cybern/util/VisualizerView;]
+      [7] aload_2 v2
+      [8] invokevirtual #7
+        + Methodref [com/cybern/util/VisualizerView.a ([B)V]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onFftDataCapture(Landroid/media/audiofx/Visualizer;[BI)V
+    Access flags: 0x1
+      = public void onFftDataCapture(android.media.audiofx.Visualizer,byte[],int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 4, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/cybern/util/VisualizerView
+  Superclass:    android/view/View
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.cybern.util.VisualizerView extends android.view.View
+
+Interfaces (count = 0):
+
+Constant Pool (count = 89):
+  + Class [android/graphics/Canvas]
+  + Class [android/graphics/Color]
+  + Class [android/graphics/Paint]
+  + Class [android/graphics/Rect]
+  + Class [android/view/View]
+  + Class [com/cybern/util/VisualizerView]
+  + Fieldref [com/cybern/util/VisualizerView.a [B]
+  + Fieldref [com/cybern/util/VisualizerView.b [F]
+  + Fieldref [com/cybern/util/VisualizerView.c Landroid/graphics/Rect;]
+  + Fieldref [com/cybern/util/VisualizerView.d Landroid/graphics/Paint;]
+  + Methodref [android/graphics/Canvas.drawLines ([FLandroid/graphics/Paint;)V]
+  + Methodref [android/graphics/Color.rgb (III)I]
+  + Methodref [android/graphics/Paint.<init> ()V]
+  + Methodref [android/graphics/Paint.setAntiAlias (Z)V]
+  + Methodref [android/graphics/Paint.setColor (I)V]
+  + Methodref [android/graphics/Paint.setStrokeWidth (F)V]
+  + Methodref [android/graphics/Rect.<init> ()V]
+  + Methodref [android/graphics/Rect.height ()I]
+  + Methodref [android/graphics/Rect.set (IIII)V]
+  + Methodref [android/graphics/Rect.width ()I]
+  + Methodref [android/view/View.<init> (Landroid/content/Context;)V]
+  + Methodref [android/view/View.<init> (Landroid/content/Context;Landroid/util/AttributeSet;)V]
+  + Methodref [android/view/View.onDraw (Landroid/graphics/Canvas;)V]
+  + Methodref [com/cybern/util/VisualizerView.a ()V]
+  + Methodref [com/cybern/util/VisualizerView.getHeight ()I]
+  + Methodref [com/cybern/util/VisualizerView.getWidth ()I]
+  + Methodref [com/cybern/util/VisualizerView.invalidate ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Landroid/content/Context;Landroid/util/AttributeSet;)V]
+  + NameAndType [a ()V]
+  + NameAndType [a [B]
+  + NameAndType [b [F]
+  + NameAndType [c Landroid/graphics/Rect;]
+  + NameAndType [d Landroid/graphics/Paint;]
+  + NameAndType [drawLines ([FLandroid/graphics/Paint;)V]
+  + NameAndType [getHeight ()I]
+  + NameAndType [getWidth ()I]
+  + NameAndType [height ()I]
+  + NameAndType [invalidate ()V]
+  + NameAndType [onDraw (Landroid/graphics/Canvas;)V]
+  + NameAndType [rgb (III)I]
+  + NameAndType [set (IIII)V]
+  + NameAndType [setAntiAlias (Z)V]
+  + NameAndType [setColor (I)V]
+  + NameAndType [setStrokeWidth (F)V]
+  + NameAndType [width ()I]
+  + Utf8 [()I]
+  + Utf8 [()V]
+  + Utf8 [(F)V]
+  + Utf8 [(I)V]
+  + Utf8 [(III)I]
+  + Utf8 [(IIII)V]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;Landroid/util/AttributeSet;)V]
+  + Utf8 [(Landroid/graphics/Canvas;)V]
+  + Utf8 [(Z)V]
+  + Utf8 [([B)V]
+  + Utf8 [([FLandroid/graphics/Paint;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/graphics/Paint;]
+  + Utf8 [Landroid/graphics/Rect;]
+  + Utf8 [StackMapTable]
+  + Utf8 [[B]
+  + Utf8 [[F]
+  + Utf8 [a]
+  + Utf8 [android/graphics/Canvas]
+  + Utf8 [android/graphics/Color]
+  + Utf8 [android/graphics/Paint]
+  + Utf8 [android/graphics/Rect]
+  + Utf8 [android/view/View]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/cybern/util/VisualizerView]
+  + Utf8 [d]
+  + Utf8 [drawLines]
+  + Utf8 [getHeight]
+  + Utf8 [getWidth]
+  + Utf8 [height]
+  + Utf8 [invalidate]
+  + Utf8 [onDraw]
+  + Utf8 [rgb]
+  + Utf8 [set]
+  + Utf8 [setAntiAlias]
+  + Utf8 [setColor]
+  + Utf8 [setStrokeWidth]
+  + Utf8 [width]
+
+Fields (count = 4):
+  + Field:        a [B
+    Access flags: 0x2
+      = private byte[] a
+  + Field:        b [F
+    Access flags: 0x2
+      = private float[] b
+  + Field:        c Landroid/graphics/Rect;
+    Access flags: 0x2
+      = private android.graphics.Rect c
+  + Field:        d Landroid/graphics/Paint;
+    Access flags: 0x2
+      = private android.graphics.Paint d
+
+Methods (count = 5):
+  - Method:       <init>(Landroid/content/Context;)V
+    Access flags: 0x1
+      = public VisualizerView(android.content.Context)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 32, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #21
+        + Methodref [android/view/View.<init> (Landroid/content/Context;)V]
+      [5] aload_0 v0
+      [6] new #4
+        + Class [android/graphics/Rect]
+      [9] dup
+      [10] invokespecial #17
+        + Methodref [android/graphics/Rect.<init> ()V]
+      [13] putfield #9
+        + Fieldref [com/cybern/util/VisualizerView.c Landroid/graphics/Rect;]
+      [16] aload_0 v0
+      [17] new #3
+        + Class [android/graphics/Paint]
+      [20] dup
+      [21] invokespecial #13
+        + Methodref [android/graphics/Paint.<init> ()V]
+      [24] putfield #10
+        + Fieldref [com/cybern/util/VisualizerView.d Landroid/graphics/Paint;]
+      [27] aload_0 v0
+      [28] invokespecial #24
+        + Methodref [com/cybern/util/VisualizerView.a ()V]
+      [31] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    Access flags: 0x1
+      = public VisualizerView(android.content.Context,android.util.AttributeSet)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 33, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] aload_2 v2
+      [3] invokespecial #22
+        + Methodref [android/view/View.<init> (Landroid/content/Context;Landroid/util/AttributeSet;)V]
+      [6] aload_0 v0
+      [7] new #4
+        + Class [android/graphics/Rect]
+      [10] dup
+      [11] invokespecial #17
+        + Methodref [android/graphics/Rect.<init> ()V]
+      [14] putfield #9
+        + Fieldref [com/cybern/util/VisualizerView.c Landroid/graphics/Rect;]
+      [17] aload_0 v0
+      [18] new #3
+        + Class [android/graphics/Paint]
+      [21] dup
+      [22] invokespecial #13
+        + Methodref [android/graphics/Paint.<init> ()V]
+      [25] putfield #10
+        + Fieldref [com/cybern/util/VisualizerView.d Landroid/graphics/Paint;]
+      [28] aload_0 v0
+      [29] invokespecial #24
+        + Methodref [com/cybern/util/VisualizerView.a ()V]
+      [32] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x2
+      = private void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 39, locals = 1, stack = 4):
+      [0] aload_0 v0
+      [1] aconst_null
+      [2] putfield #7
+        + Fieldref [com/cybern/util/VisualizerView.a [B]
+      [5] aload_0 v0
+      [6] getfield #10
+        + Fieldref [com/cybern/util/VisualizerView.d Landroid/graphics/Paint;]
+      [9] fconst_1
+      [10] invokevirtual #16
+        + Methodref [android/graphics/Paint.setStrokeWidth (F)V]
+      [13] aload_0 v0
+      [14] getfield #10
+        + Fieldref [com/cybern/util/VisualizerView.d Landroid/graphics/Paint;]
+      [17] iconst_1
+      [18] invokevirtual #14
+        + Methodref [android/graphics/Paint.setAntiAlias (Z)V]
+      [21] aload_0 v0
+      [22] getfield #10
+        + Fieldref [com/cybern/util/VisualizerView.d Landroid/graphics/Paint;]
+      [25] iconst_0
+      [26] sipush 128
+      [29] sipush 255
+      [32] invokestatic #12
+        + Methodref [android/graphics/Color.rgb (III)I]
+      [35] invokevirtual #15
+        + Methodref [android/graphics/Paint.setColor (I)V]
+      [38] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a([B)V
+    Access flags: 0x1
+      = public void a(byte[])
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #7
+        + Fieldref [com/cybern/util/VisualizerView.a [B]
+      [5] aload_0 v0
+      [6] invokevirtual #27
+        + Methodref [com/cybern/util/VisualizerView.invalidate ()V]
+      [9] return
+>>>>>>> refs/heads/master
 =======
 + Program class: com/cybern/util/a
   Superclass:    java/lang/Object

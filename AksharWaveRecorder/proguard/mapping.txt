@@ -1682,12 +1682,21 @@ com.aksharspeech.waverecorder.ui.RemoteASR$6 -> com.aksharspeech.waverecorder.a.
     void run() -> run
 com.aksharspeech.waverecorder.ui.SentenceRecord -> com.aksharspeech.waverecorder.a.i:
 <<<<<<< HEAD
+<<<<<<< HEAD
     int RECORDER_BPP -> l
     int RECORDER_CHANNELS -> m
     int RECORDER_AUDIO_ENCODING -> n
     int RECORDER_SAMPLERATE -> o
     boolean wasPaused -> p
     boolean mSumbit -> q
+=======
+    int RECORDER_BPP -> m
+    int RECORDER_CHANNELS -> n
+    int RECORDER_AUDIO_ENCODING -> o
+    int RECORDER_SAMPLERATE -> p
+    boolean wasPaused -> q
+    boolean mSumbit -> r
+>>>>>>> refs/heads/master
 =======
     int RECORDER_BPP -> m
     int RECORDER_CHANNELS -> n
@@ -1913,12 +1922,34 @@ com.cybern.util.IncomingSms -> com.cybern.util.IncomingSms:
     android.telephony.SmsManager sms -> a
     void onReceive(android.content.Context,android.content.Intent) -> onReceive
 <<<<<<< HEAD
+<<<<<<< HEAD
 com.cybern.util.VisualizerView -> com.cybern.util.VisualizerView:
     byte[] mBytes -> a
     float[] mPoints -> b
     android.graphics.Rect mRect -> c
     android.graphics.Paint mForePaint -> d
     void init() -> a
+=======
+com.cybern.util.ShowVisualizer -> com.cybern.util.a:
+    android.app.Activity mAct -> a
+    android.media.audiofx.Visualizer mVisualizer -> b
+    com.cybern.util.VisualizerView mVisualizerView -> c
+    void realseVisualizer() -> a
+    android.media.audiofx.Visualizer setupVisualizerFxAndUI(int,android.media.MediaPlayer) -> a
+    void enableVisualizer(boolean) -> a
+    com.cybern.util.VisualizerView access$0(com.cybern.util.ShowVisualizer) -> a
+com.cybern.util.ShowVisualizer$1 -> com.cybern.util.b:
+    com.cybern.util.ShowVisualizer this$0 -> a
+    void onWaveFormDataCapture(android.media.audiofx.Visualizer,byte[],int) -> onWaveFormDataCapture
+    void onFftDataCapture(android.media.audiofx.Visualizer,byte[],int) -> onFftDataCapture
+com.cybern.util.VisualizerView -> com.cybern.util.VisualizerView:
+    byte[] mBytes -> a
+    float[] mPoints -> b
+    android.graphics.Rect mRect -> c
+    android.graphics.Paint mForePaint -> d
+    void init() -> a
+    void updateVisualizer(byte[]) -> a
+>>>>>>> refs/heads/master
 =======
 com.cybern.util.ShowVisualizer -> com.cybern.util.a:
     android.app.Activity mAct -> a
