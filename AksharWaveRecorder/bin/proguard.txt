@@ -28,6 +28,9 @@
 # onClick res/layout/lyasr.xml #generated:8
 -keepclassmembers class * { *** onAsrClick(...); }
 
+# onClick res/layout/lysentrecording.xml #generated:77
+-keepclassmembers class * { *** onCBClick(...); }
+
 # onClick res/layout/lyselectionpage.xml #generated:19
 -keepclassmembers class * { *** onClickASR(...); }
 
@@ -46,7 +49,7 @@
 # onClick res/layout/lyselectionpage.xml #generated:10
 -keepclassmembers class * { *** onClickSentence(...); }
 
-# onClick res/layout/lyselectionpage.xml #generated:27
+# onClick res/layout/lyselectionpage.xml #generated:28
 -keepclassmembers class * { *** onClickWord(...); }
 
 # onClick res/layout/lyuserinfo.xml #generated:141

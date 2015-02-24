@@ -74,5 +74,13 @@
 		android:layout_marginBottom="25dp"
 		android:layout_marginLeft="38dp"
 		android:text="@string/chronometer" />
-	
+	<CheckBox
+		android:onClick="onCBClick"
+		android:checked="true"
+		android:id="@+id/RcdCBuseGain"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/RcdBtnPlay"
+		android:layout_alignRight="@+id/RcdTVfileArea"
+		android:text="Gain Enable" />
 </RelativeLayout>

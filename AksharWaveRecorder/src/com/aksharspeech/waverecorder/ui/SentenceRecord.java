@@ -28,6 +28,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.Chronometer;
 import android.widget.ImageView;
 import android.widget.SeekBar;
@@ -61,6 +62,7 @@ public class SentenceRecord {
 	private int mIndex = 0;
 	private String mCurrentLine = null;
 	private String mCurrentLineNumber = null;
+	public static boolean USE_GAIN=true;
 	/**
 	 * UI Elements
 	 * 
@@ -970,5 +972,10 @@ public class SentenceRecord {
 		} else
 			return false;
 
+	}
+	public void onCBClick(View v){
+		CheckBox cb=(CheckBox)v;
+		USE_GAIN=cb.isChecked();
+		
 	}
 }

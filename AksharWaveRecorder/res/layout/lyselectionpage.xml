@@ -17,6 +17,7 @@
 		android:text="@string/sentence" />
 	
 	<Button
+		android:visibility="gone"
 		style="@android:attr/buttonBarButtonStyle"
 		android:id="@+id/SpbtnASR"
 		android:layout_width="match_parent"

@@ -33,11 +33,14 @@ public class SentenceRecordingActivity extends Activity {
 		super.onBackPressed();
 		finish();
 	}
+	
+	public void onCBClick(View v){
+		senRecord.onCBClick(v);
+	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		Log.i("REMOVEME", "onCreate_Called");
 
 		setContentView(R.layout.lysentrecording);
 		bundle = getIntent().getExtras();

@@ -9,6 +9,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+import com.aksharspeech.waverecorder.ui.SentenceRecord;
+
 import android.media.AudioFormat;
 import android.media.AudioRecord;
 import android.media.MediaRecorder;
@@ -65,14 +67,13 @@ public class WaveRecorder {
 		RECORDER_BPP = bpp;
 		return true;
 	}
-	
+
 	public static void outParameters() {
-		Log.i("RECORDER_SAMPLERATE", ""+RECORDER_SAMPLERATE);
-		Log.i("RECORDER_CHANNELS", ""+RECORDER_CHANNELS);
-		Log.i("RECORDER_AUDIO_ENCODING", ""+RECORDER_AUDIO_ENCODING);
-		Log.i("RECORDER_BPP", ""+RECORDER_BPP);
-		
-		
+		Log.i("RECORDER_SAMPLERATE", "" + RECORDER_SAMPLERATE);
+		Log.i("RECORDER_CHANNELS", "" + RECORDER_CHANNELS);
+		Log.i("RECORDER_AUDIO_ENCODING", "" + RECORDER_AUDIO_ENCODING);
+		Log.i("RECORDER_BPP", "" + RECORDER_BPP);
+
 	}
 
 	/**
@@ -198,7 +199,7 @@ public class WaveRecorder {
 		File tempFile = new File(filepath, AUDIO_RECORDER_TEMP_FILE);
 
 		if (tempFile.exists())
-			tempFile.delete();  
+			tempFile.delete();
 		return (file.getAbsolutePath() + "/" + AUDIO_RECORDER_TEMP_FILE);
 
 	}
@@ -270,14 +271,21 @@ public class WaveRecorder {
 	}
 
 	/**
-	 * @param mIsRecording the mIsRecording to set
+	 * @param mIsRecording
+	 *            the mIsRecording to set
 	 */
 	public void setmIsRecording(boolean mIsRecording) {
 		this.mIsRecording = mIsRecording;
 	}
 
 	public void writeAudioDataToFileWithGain(float gain) {
-		short data[] = new short[bufferSize];
+		short data[] = null;
+		byte data_b[] = null;
+		if (SentenceRecord.USE_GAIN)
+			data = new short[bufferSize];
+		else
+			data_b = new byte[bufferSize];
+
 		String filename = getTempFilename();
 		LogI("writeAuidDataGain_temp file=" + filename);
 		FileOutputStream os = null;
@@ -286,20 +294,27 @@ public class WaveRecorder {
 			os = new FileOutputStream(filename);
 
 		} catch (FileNotFoundException e) {
-			//  
+			//
 			e.printStackTrace();
 		}
 		int read = 0;
 		if (null != os) {
 			while (mIsRecording) {
 
-				read = recorder.read(data, 0, bufferSize);
+				if (SentenceRecord.USE_GAIN)
+					read = recorder.read(data, 0, bufferSize);
+				else
+					read = recorder.read(data_b, 0, bufferSize);
 
 				if (AudioRecord.ERROR_INVALID_OPERATION != read) {
 					try {
 						// os.write(gainAudio(data, read, gain));
-						os.write(gainAudio(data, read, gain), 0, bufferSize
-								* BytesPerElement);
+						if (SentenceRecord.USE_GAIN)
+							os.write(gainAudio(data, read, gain), 0, bufferSize
+									* BytesPerElement);
+						else
+							os.write(data_b);
+
 					} catch (IOException e) {
 						e.printStackTrace();
 					}
@@ -379,6 +394,7 @@ public class WaveRecorder {
 
 		out.write(header, 0, 44);
 	}
+
 	public boolean cancelRecord() {
 		LogI("cancelRecord called");
 		if (null != recorder) {
