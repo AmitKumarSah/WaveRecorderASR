@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="com.aksharspeech.waverecorder"
 	android:versionCode="1"
-	android:versionName="8.0" >
+	android:versionName="8.1" >
 	<uses-sdk
 		android:minSdkVersion="13"
 		android:targetSdkVersion="21" />
@@ -45,11 +45,6 @@
 		</activity>
 		<activity
 			android:name=".UserActivity"
-			android:label="@string/app_name"
-			android:screenOrientation="portrait" >
-		</activity>
-		<activity
-			android:name=".ASRActivity"
 			android:label="@string/app_name"
 			android:screenOrientation="portrait" >
 		</activity>

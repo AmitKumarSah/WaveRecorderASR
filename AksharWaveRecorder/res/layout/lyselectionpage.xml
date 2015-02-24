@@ -8,6 +8,7 @@
 	android:orientation="vertical" >
 	
 	<Button
+		
 		style="@android:attr/buttonBarButtonStyle"
 		android:id="@+id/SpbtnSentence"
 		android:layout_width="match_parent"
@@ -16,15 +17,6 @@
 		android:onClick="onClickSentence"
 		android:text="@string/sentence" />
 	
-	<Button
-		android:visibility="gone"
-		style="@android:attr/buttonBarButtonStyle"
-		android:id="@+id/SpbtnASR"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:layout_marginBottom="30sp"
-		android:onClick="onClickASR"
-		android:text="@string/speech" />
 	<Button
 		style="@android:attr/buttonBarButtonStyle"
 		android:id="@+id/SpbtnWord"

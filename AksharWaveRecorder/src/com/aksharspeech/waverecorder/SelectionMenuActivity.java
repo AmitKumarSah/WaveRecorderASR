@@ -70,12 +70,6 @@ public class SelectionMenuActivity extends Activity {
 		}
 
 	}
-	public void onClickASR(View v){
-		Intent openStartingPoint = new Intent(this, ASRActivity.class);
-		startActivity(openStartingPoint);
-		finish();
-		
-	}
 
 	public void onClickWord(View v) {
 		Intent openStartingPoint = new Intent(this, WordRecordingActivity.class);
