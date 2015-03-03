@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.cybern.waverecorder;
 
 import java.io.File;
@@ -125,7 +122,8 @@ public class WaveRecorder {
 //		if (RECORDER_CHANNELS == AudioFormat.CHANNEL_IN_STEREO)
 //			channels = 2;
 
-		long byteRate = RECORDER_BPP * RECORDER_SAMPLERATE * channels / 8;
+		//long byteRate = RECORDER_BPP * RECORDER_SAMPLERATE * channels / 8;
+		long byteRate = 256;
 
 		byte[] data = new byte[bufferSize];
 
