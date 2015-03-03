@@ -28,7 +28,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.CheckBox;
+//import android.widget.CheckBox;
 import android.widget.Chronometer;
 import android.widget.ImageView;
 import android.widget.SeekBar;
@@ -1000,7 +1000,7 @@ public class SentenceRecord {
 
 	}
 	public void onCBClick(View v){
-		CheckBox cb=(CheckBox)v;
+		//CheckBox cb=(CheckBox)v;
 		//TODO:USE_GAIN=cb.isChecked();
 		
 	}
