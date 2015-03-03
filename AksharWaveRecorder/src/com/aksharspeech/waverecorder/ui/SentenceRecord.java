@@ -1001,7 +1001,7 @@ public class SentenceRecord {
 	}
 	public void onCBClick(View v){
 		CheckBox cb=(CheckBox)v;
-		USE_GAIN=cb.isChecked();
+		//TODO:USE_GAIN=cb.isChecked();
 		
 	}
 }

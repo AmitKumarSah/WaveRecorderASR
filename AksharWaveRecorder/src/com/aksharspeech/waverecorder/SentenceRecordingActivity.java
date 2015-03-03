@@ -35,7 +35,7 @@ public class SentenceRecordingActivity extends Activity {
 	}
 	
 	public void onCBClick(View v){
-		senRecord.onCBClick(v);
+		//TODO: senRecord.onCBClick(v);
 	}
 
 	@Override
@@ -63,6 +63,7 @@ public class SentenceRecordingActivity extends Activity {
 			senRecord.onDestory();
 	}
 
+	
 	@Override
 	public void onStart() {
 		super.onStart();

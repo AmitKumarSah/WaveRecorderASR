@@ -35,10 +35,10 @@ public class WaveRecorder {
 	/**
 	 * Recorder Setting
 	 */
-	private static int RECORDER_AUDIO_ENCODING = AudioFormat.ENCODING_PCM_16BIT;
-	private static int RECORDER_BPP = 16;
-	private static int RECORDER_CHANNELS = AudioFormat.CHANNEL_IN_MONO;
-	private static int RECORDER_SAMPLERATE = 16000;
+	private final  static int RECORDER_AUDIO_ENCODING = AudioFormat.ENCODING_PCM_16BIT;
+	private final static int RECORDER_BPP = 16;
+	private final static int RECORDER_CHANNELS = AudioFormat.CHANNEL_IN_MONO;
+	private final static int RECORDER_SAMPLERATE = 16000;
 	private static final String Tag = "WaveRecorder";
 
 	/**
@@ -61,10 +61,11 @@ public class WaveRecorder {
 
 	public static boolean setParameters(int samplerate, int channels,
 			int encoding, int bpp) {
-		RECORDER_SAMPLERATE = samplerate;
-		RECORDER_CHANNELS = channels;
-		RECORDER_AUDIO_ENCODING = encoding;
-		RECORDER_BPP = bpp;
+		//TODO: remove this comment to enbale setting option
+		//RECORDER_SAMPLERATE = samplerate;
+		//RECORDER_CHANNELS = channels;
+		//RECORDER_AUDIO_ENCODING = encoding;
+		//RECORDER_BPP = bpp;
 		return true;
 	}
 
@@ -117,9 +118,11 @@ public class WaveRecorder {
 		long totalAudioLen = 0;
 		long totalDataLen = totalAudioLen + 36;
 		long longSampleRate = RECORDER_SAMPLERATE;
-		int channels = 2;
-		if (RECORDER_CHANNELS == AudioFormat.CHANNEL_IN_MONO)
-			channels = 1;
+		int channels = 1;
+//		if (RECORDER_CHANNELS == AudioFormat.CHANNEL_IN_MONO)
+//			channels = 1;
+//		if (RECORDER_CHANNELS == AudioFormat.CHANNEL_IN_STEREO)
+//			channels = 2;
 
 		long byteRate = RECORDER_BPP * RECORDER_SAMPLERATE * channels / 8;
 
@@ -393,6 +396,7 @@ public class WaveRecorder {
 		header[43] = (byte) ((totalAudioLen >> 24) & 0xff);
 
 		out.write(header, 0, 44);
+		Log.i("RIF Header", header.toString());
 	}
 
 	public boolean cancelRecord() {
