@@ -17,6 +17,7 @@ import android.media.MediaRecorder;
 import android.os.Environment;
 import android.util.Log;
 
+
 /**
  * @author amitkumarsah
  * 
@@ -24,7 +25,7 @@ import android.util.Log;
 public class WaveRecorder {
 
 	/**
-	 * Files Settings
+	 * Files Settings for Wave Recorder
 	 */
 	private static String AUDIO_RECORDER_FOLDER = "AksharRecorder";
 	private static String AUDIO_RECORDER_TEMP_FILE = "record_temp.raw";
